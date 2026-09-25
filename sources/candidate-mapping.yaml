@@ -1,0 +1,2127 @@
+version: 1
+candidate_count: 177
+candidates:
+  - candidate_id: "SKILL-A01-PLAYER-FIRST"
+    source_file: "raw/A-work-attitude.md"
+    source_category: "A"
+    original_title: "遊びの仕事は遊びじゃない（プレイヤー第一の動機付け）"
+    status: canonical
+    canonical_principles: ["skill-a01-player-first"]
+    relationship: {type: canonicalized_as, target: "skill-a01-player-first"}
+    reason: "Retained as a separately addressable source candidate; raw wording and specificity remain available in provenance."
+    preserved_information: ["遊びの仕事は遊びじゃない（プレイヤー第一の動機付け）", "Full structured candidate content remains in the linked raw source."]
+    discarded_information: []
+    source_fidelity: {explicit_source: medium, generalization_strength: medium, agent_extension_strength: medium}
+    notes: "Intermediate AI Studio note; confirm exact quotation and timestamp against original video."
+  - candidate_id: "SKILL-A02-PRESENTATION-SPEED"
+    source_file: "raw/A-work-attitude.md"
+    source_category: "A"
+    original_title: "プレゼンはスピード（情報の高密度・高速伝達）"
+    status: canonical
+    canonical_principles: ["skill-a02-presentation-speed"]
+    relationship: {type: canonicalized_as, target: "skill-a02-presentation-speed"}
+    reason: "Retained as a separately addressable source candidate; raw wording and specificity remain available in provenance."
+    preserved_information: ["プレゼンはスピード（情報の高密度・高速伝達）", "Full structured candidate content remains in the linked raw source."]
+    discarded_information: []
+    source_fidelity: {explicit_source: medium, generalization_strength: medium, agent_extension_strength: medium}
+    notes: "Intermediate AI Studio note; confirm exact quotation and timestamp against original video."
+  - candidate_id: "SKILL-A03-PLAYER-PERSPECTIVE-DEFENSE"
+    source_file: "raw/A-work-attitude.md"
+    source_category: "A"
+    original_title: "お客さんに説明できるの？（開発都合の不親切排除）"
+    status: canonical
+    canonical_principles: ["skill-a03-player-perspective-defense"]
+    relationship: {type: canonicalized_as, target: "skill-a03-player-perspective-defense"}
+    reason: "Retained as a separately addressable source candidate; raw wording and specificity remain available in provenance."
+    preserved_information: ["お客さんに説明できるの？（開発都合の不親切排除）", "Full structured candidate content remains in the linked raw source."]
+    discarded_information: []
+    source_fidelity: {explicit_source: medium, generalization_strength: medium, agent_extension_strength: medium}
+    notes: "Intermediate AI Studio note; confirm exact quotation and timestamp against original video."
+  - candidate_id: "SKILL-A04-AGILE-SPEC-ADAPTATION"
+    source_file: "raw/A-work-attitude.md"
+    source_category: "A"
+    original_title: "仕様を変えること（集合知による迅速な最適解選択）"
+    status: canonical
+    canonical_principles: ["skill-a04-agile-spec-adaptation"]
+    relationship: {type: canonicalized_as, target: "skill-a04-agile-spec-adaptation"}
+    reason: "Retained as a separately addressable source candidate; raw wording and specificity remain available in provenance."
+    preserved_information: ["仕様を変えること（集合知による迅速な最適解選択）", "Full structured candidate content remains in the linked raw source."]
+    discarded_information: []
+    source_fidelity: {explicit_source: medium, generalization_strength: medium, agent_extension_strength: medium}
+    notes: "Intermediate AI Studio note; confirm exact quotation and timestamp against original video."
+  - candidate_id: "SKILL-A05-HIGH-DENSITY-SPEC-FORMAT"
+    source_file: "raw/A-work-attitude.md"
+    source_category: "A"
+    original_title: "企画書の書き方（1ページ1項目・図解主導フォーマット）"
+    status: canonical
+    canonical_principles: ["skill-a05-high-density-spec-format"]
+    relationship: {type: canonicalized_as, target: "skill-a05-high-density-spec-format"}
+    reason: "Retained as a separately addressable source candidate; raw wording and specificity remain available in provenance."
+    preserved_information: ["企画書の書き方（1ページ1項目・図解主導フォーマット）", "Full structured candidate content remains in the linked raw source."]
+    discarded_information: []
+    source_fidelity: {explicit_source: medium, generalization_strength: medium, agent_extension_strength: medium}
+    notes: "Intermediate AI Studio note; confirm exact quotation and timestamp against original video."
+  - candidate_id: "SKILL-A06-HIGH-HEAT-DRAFTING"
+    source_file: "raw/A-work-attitude.md"
+    source_category: "A"
+    original_title: "企画は強火でザッと仕上げる（初速最大化と鮮度維持）"
+    status: canonical
+    canonical_principles: ["skill-a06-high-heat-drafting"]
+    relationship: {type: canonicalized_as, target: "skill-a06-high-heat-drafting"}
+    reason: "Retained as a separately addressable source candidate; raw wording and specificity remain available in provenance."
+    preserved_information: ["企画は強火でザッと仕上げる（初速最大化と鮮度維持）", "Full structured candidate content remains in the linked raw source."]
+    discarded_information: []
+    source_fidelity: {explicit_source: medium, generalization_strength: medium, agent_extension_strength: medium}
+    notes: "Intermediate AI Studio note; confirm exact quotation and timestamp against original video."
+  - candidate_id: "SKILL-A07-WORK-PERSISTS-LABOR-FADES"
+    source_file: "raw/A-work-attitude.md"
+    source_category: "A"
+    original_title: "苦労は忘れる 作品は残る（長期品質への妥協なきコミット）"
+    status: canonical
+    canonical_principles: ["skill-a07-work-persists-labor-fades"]
+    relationship: {type: canonicalized_as, target: "skill-a07-work-persists-labor-fades"}
+    reason: "Retained as a separately addressable source candidate; raw wording and specificity remain available in provenance."
+    preserved_information: ["苦労は忘れる 作品は残る（長期品質への妥協なきコミット）", "Full structured candidate content remains in the linked raw source."]
+    discarded_information: []
+    source_fidelity: {explicit_source: medium, generalization_strength: medium, agent_extension_strength: medium}
+    notes: "Intermediate AI Studio note; confirm exact quotation and timestamp against original video."
+  - candidate_id: "SKILL-A08-DIRECTOR-INDIVIDUALITY"
+    source_file: "raw/A-work-attitude.md"
+    source_category: "A"
+    original_title: "ディレクターは”個”（特異な観点と自立的作家性）"
+    status: canonical
+    canonical_principles: ["skill-a08-director-individuality"]
+    relationship: {type: canonicalized_as, target: "skill-a08-director-individuality"}
+    reason: "Retained as a separately addressable source candidate; raw wording and specificity remain available in provenance."
+    preserved_information: ["ディレクターは”個”（特異な観点と自立的作家性）", "Full structured candidate content remains in the linked raw source."]
+    discarded_information: []
+    source_fidelity: {explicit_source: medium, generalization_strength: medium, agent_extension_strength: medium}
+    notes: "Intermediate AI Studio note; confirm exact quotation and timestamp against original video."
+  - candidate_id: "SKILL-A09-JUST-DO-IT-IMMEDIATELY"
+    source_file: "raw/A-work-attitude.md"
+    source_category: "A"
+    original_title: "とにかくやれ!!（初動遅延の打破と圧倒的手数）"
+    status: canonical
+    canonical_principles: ["skill-a09-just-do-it-immediately"]
+    relationship: {type: canonicalized_as, target: "skill-a09-just-do-it-immediately"}
+    reason: "Retained as a separately addressable source candidate; raw wording and specificity remain available in provenance."
+    preserved_information: ["とにかくやれ!!（初動遅延の打破と圧倒的手数）", "Full structured candidate content remains in the linked raw source."]
+    discarded_information: []
+    source_fidelity: {explicit_source: medium, generalization_strength: medium, agent_extension_strength: medium}
+    notes: "Intermediate AI Studio note; confirm exact quotation and timestamp against original video."
+  - candidate_id: "SKILL-A10-EFFORTLESS-CONTINUITY"
+    source_file: "raw/A-work-attitude.md"
+    source_category: "A"
+    original_title: "なぜコラムを続けられたのか（習慣化と脱・気負い）"
+    status: canonical
+    canonical_principles: ["skill-a10-effortless-continuity"]
+    relationship: {type: canonicalized_as, target: "skill-a10-effortless-continuity"}
+    reason: "Retained as a separately addressable source candidate; raw wording and specificity remain available in provenance."
+    preserved_information: ["なぜコラムを続けられたのか（習慣化と脱・気負い）", "Full structured candidate content remains in the linked raw source."]
+    discarded_information: []
+    source_fidelity: {explicit_source: medium, generalization_strength: medium, agent_extension_strength: medium}
+    notes: "Intermediate AI Studio note; confirm exact quotation and timestamp against original video."
+  - candidate_id: "SKILL-A11-NO-PLAN-B"
+    source_file: "raw/A-work-attitude.md"
+    source_category: "A"
+    original_title: "プランBに頼るな（必殺の一本勝負）"
+    status: canonical
+    canonical_principles: ["skill-a11-no-plan-b"]
+    relationship: {type: canonicalized_as, target: "skill-a11-no-plan-b"}
+    reason: "Retained as a separately addressable source candidate; raw wording and specificity remain available in provenance."
+    preserved_information: ["プランBに頼るな（必殺の一本勝負）", "Full structured candidate content remains in the linked raw source."]
+    discarded_information: []
+    source_fidelity: {explicit_source: medium, generalization_strength: medium, agent_extension_strength: medium}
+    notes: "Intermediate AI Studio note; confirm exact quotation and timestamp against original video."
+  - candidate_id: "SKILL-A12-TARGET-THE-TRUNK"
+    source_file: "raw/A-work-attitude.md"
+    source_category: "A"
+    original_title: "価値観の幹と枝先（若年層・普遍的コアの攻略）"
+    status: canonical
+    canonical_principles: ["skill-a12-target-the-trunk"]
+    relationship: {type: canonicalized_as, target: "skill-a12-target-the-trunk"}
+    reason: "Retained as a separately addressable source candidate; raw wording and specificity remain available in provenance."
+    preserved_information: ["価値観の幹と枝先（若年層・普遍的コアの攻略）", "Full structured candidate content remains in the linked raw source."]
+    discarded_information: []
+    source_fidelity: {explicit_source: medium, generalization_strength: medium, agent_extension_strength: medium}
+    notes: "Intermediate AI Studio note; confirm exact quotation and timestamp against original video."
+  - candidate_id: "SKILL-A13-BROAD-INPUT-OUTPUT"
+    source_file: "raw/A-work-attitude.md"
+    source_category: "A"
+    original_title: "インプットを太く、アウトプットも太く（クリエイターの代謝向上）"
+    status: canonical
+    canonical_principles: ["skill-a13-broad-input-output"]
+    relationship: {type: canonicalized_as, target: "skill-a13-broad-input-output"}
+    reason: "Retained as a separately addressable source candidate; raw wording and specificity remain available in provenance."
+    preserved_information: ["インプットを太く、アウトプットも太く（クリエイターの代謝向上）", "Full structured candidate content remains in the linked raw source."]
+    discarded_information: []
+    source_fidelity: {explicit_source: medium, generalization_strength: medium, agent_extension_strength: medium}
+    notes: "Intermediate AI Studio note; confirm exact quotation and timestamp against original video."
+  - candidate_id: "SKILL-A14-INTERNAL-PRESSURE-COMPRESSION"
+    source_file: "raw/A-work-attitude.md"
+    source_category: "A"
+    original_title: "内圧をカンカンに高める（アイデアの密閉熟成と一気放出）"
+    status: canonical
+    canonical_principles: ["skill-a14-internal-pressure-compression"]
+    relationship: {type: canonicalized_as, target: "skill-a14-internal-pressure-compression"}
+    reason: "Retained as a separately addressable source candidate; raw wording and specificity remain available in provenance."
+    preserved_information: ["内圧をカンカンに高める（アイデアの密閉熟成と一気放出）", "Full structured candidate content remains in the linked raw source."]
+    discarded_information: []
+    source_fidelity: {explicit_source: medium, generalization_strength: medium, agent_extension_strength: medium}
+    notes: "Intermediate AI Studio note; confirm exact quotation and timestamp against original video."
+  - candidate_id: "SKILL-A15-AVOID-POINTLESS-VOTING"
+    source_file: "raw/A-work-attitude.md"
+    source_category: "A"
+    original_title: "無意味な多数決（合議の凡庸化と責任者の独断）"
+    status: canonical
+    canonical_principles: ["skill-a15-avoid-pointless-voting"]
+    relationship: {type: canonicalized_as, target: "skill-a15-avoid-pointless-voting"}
+    reason: "Retained as a separately addressable source candidate; raw wording and specificity remain available in provenance."
+    preserved_information: ["無意味な多数決（合議の凡庸化と責任者の独断）", "Full structured candidate content remains in the linked raw source."]
+    discarded_information: []
+    source_fidelity: {explicit_source: medium, generalization_strength: medium, agent_extension_strength: medium}
+    notes: "Intermediate AI Studio note; confirm exact quotation and timestamp against original video."
+  - candidate_id: "SKILL-A16-HARNESS-NEGATIVE-SUGGESTION"
+    source_file: "raw/A-work-attitude.md"
+    source_category: "A"
+    original_title: "暗示の力（逃走本能を活用した締切突破）"
+    status: canonical
+    canonical_principles: ["skill-a16-harness-negative-suggestion"]
+    relationship: {type: canonicalized_as, target: "skill-a16-harness-negative-suggestion"}
+    reason: "Retained as a separately addressable source candidate; raw wording and specificity remain available in provenance."
+    preserved_information: ["暗示の力（逃走本能を活用した締切突破）", "Full structured candidate content remains in the linked raw source."]
+    discarded_information: []
+    source_fidelity: {explicit_source: medium, generalization_strength: medium, agent_extension_strength: medium}
+    notes: "Intermediate AI Studio note; confirm exact quotation and timestamp against original video."
+  - candidate_id: "SKILL-A17-UNWAVERING-CORE-CONCEPT"
+    source_file: "raw/A-work-attitude.md"
+    source_category: "A"
+    original_title: "コンセプトは貫くもの（灯台の灯火と迷走防止）"
+    status: canonical
+    canonical_principles: ["skill-a17-unwavering-core-concept"]
+    relationship: {type: canonicalized_as, target: "skill-a17-unwavering-core-concept"}
+    reason: "Retained as a separately addressable source candidate; raw wording and specificity remain available in provenance."
+    preserved_information: ["コンセプトは貫くもの（灯台の灯火と迷走防止）", "Full structured candidate content remains in the linked raw source."]
+    discarded_information: []
+    source_fidelity: {explicit_source: medium, generalization_strength: medium, agent_extension_strength: medium}
+    notes: "Intermediate AI Studio note; confirm exact quotation and timestamp against original video."
+  - candidate_id: "SKILL-A18-COMPETITION-AND-ABUNDANCE"
+    source_file: "raw/A-work-attitude.md"
+    source_category: "A"
+    original_title: "競争と豊穣（時間の奪い合いと他者への敬意）"
+    status: canonical
+    canonical_principles: ["skill-a18-competition-and-abundance"]
+    relationship: {type: canonicalized_as, target: "skill-a18-competition-and-abundance"}
+    reason: "Retained as a separately addressable source candidate; raw wording and specificity remain available in provenance."
+    preserved_information: ["競争と豊穣（時間の奪い合いと他者への敬意）", "Full structured candidate content remains in the linked raw source."]
+    discarded_information: []
+    source_fidelity: {explicit_source: medium, generalization_strength: medium, agent_extension_strength: medium}
+    notes: "Intermediate AI Studio note; confirm exact quotation and timestamp against original video."
+  - candidate_id: "SKILL-A19-WORDS-SHAPE-REALITY"
+    source_file: "raw/A-work-attitude.md"
+    source_category: "A"
+    original_title: "言ったことはそうなっていく（自己言及の規律と姿勢の構築）"
+    status: canonical
+    canonical_principles: ["skill-a19-words-shape-reality"]
+    relationship: {type: canonicalized_as, target: "skill-a19-words-shape-reality"}
+    reason: "Retained as a separately addressable source candidate; raw wording and specificity remain available in provenance."
+    preserved_information: ["言ったことはそうなっていく（自己言及の規律と姿勢の構築）", "Full structured candidate content remains in the linked raw source."]
+    discarded_information: []
+    source_fidelity: {explicit_source: medium, generalization_strength: medium, agent_extension_strength: medium}
+    notes: "Intermediate AI Studio note; confirm exact quotation and timestamp against original video."
+  - candidate_id: "SKILL-A20-OBJECTIVITY-AGAINST-ECHO-CHAMBERS"
+    source_file: "raw/A-work-attitude.md"
+    source_category: "A"
+    original_title: "エコーチェンバー（閉じた世界の偏見打破と客観視）"
+    status: canonical
+    canonical_principles: ["skill-a20-objectivity-against-echo-chambers"]
+    relationship: {type: canonicalized_as, target: "skill-a20-objectivity-against-echo-chambers"}
+    reason: "Retained as a separately addressable source candidate; raw wording and specificity remain available in provenance."
+    preserved_information: ["エコーチェンバー（閉じた世界の偏見打破と客観視）", "Full structured candidate content remains in the linked raw source."]
+    discarded_information: []
+    source_fidelity: {explicit_source: medium, generalization_strength: medium, agent_extension_strength: medium}
+    notes: "Intermediate AI Studio note; confirm exact quotation and timestamp against original video."
+  - candidate_id: "SKILL-A21-DIVERGENT-ASSOCIATION-FOR-IDEAS"
+    source_file: "raw/A-work-attitude.md"
+    source_category: "A"
+    original_title: "アイデアが出ないとき（連想を止めない手数勝負）"
+    status: canonical
+    canonical_principles: ["skill-a21-divergent-association-for-ideas"]
+    relationship: {type: canonicalized_as, target: "skill-a21-divergent-association-for-ideas"}
+    reason: "Retained as a separately addressable source candidate; raw wording and specificity remain available in provenance."
+    preserved_information: ["アイデアが出ないとき（連想を止めない手数勝負）", "Full structured candidate content remains in the linked raw source."]
+    discarded_information: []
+    source_fidelity: {explicit_source: medium, generalization_strength: medium, agent_extension_strength: medium}
+    notes: "Intermediate AI Studio note; confirm exact quotation and timestamp against original video."
+  - candidate_id: "SKILL-A22-NEVER-FIGHT-IN-INDUSTRY"
+    source_file: "raw/A-work-attitude.md"
+    source_category: "A"
+    original_title: "絶対にケンカするな（業界の狭さと敬意の保持）"
+    status: canonical
+    canonical_principles: ["skill-a22-never-fight-in-industry"]
+    relationship: {type: canonicalized_as, target: "skill-a22-never-fight-in-industry"}
+    reason: "Retained as a separately addressable source candidate; raw wording and specificity remain available in provenance."
+    preserved_information: ["絶対にケンカするな（業界の狭さと敬意の保持）", "Full structured candidate content remains in the linked raw source."]
+    discarded_information: []
+    source_fidelity: {explicit_source: medium, generalization_strength: medium, agent_extension_strength: medium}
+    notes: "Intermediate AI Studio note; confirm exact quotation and timestamp against original video."
+  - candidate_id: "SKILL-A23-LEADERS-SERVE-TEAMS"
+    source_file: "raw/A-work-attitude.md"
+    source_category: "A"
+    original_title: "上は下なり、下は上なり（指示とお願いの逆転構造）"
+    status: canonical
+    canonical_principles: ["skill-a23-leaders-serve-teams"]
+    relationship: {type: canonicalized_as, target: "skill-a23-leaders-serve-teams"}
+    reason: "Retained as a separately addressable source candidate; raw wording and specificity remain available in provenance."
+    preserved_information: ["上は下なり、下は上なり（指示とお願いの逆転構造）", "Full structured candidate content remains in the linked raw source."]
+    discarded_information: []
+    source_fidelity: {explicit_source: medium, generalization_strength: medium, agent_extension_strength: medium}
+    notes: "Intermediate AI Studio note; confirm exact quotation and timestamp against original video."
+  - candidate_id: "GAMEPLAY_CORE_001_RISK_AND_RETURN"
+    source_file: "raw/B-game-essence.md"
+    source_category: "B"
+    original_title: "リスクとリターンの対構造設計"
+    status: canonical
+    canonical_principles: ["gameplay-core-001-risk-and-return"]
+    relationship: {type: canonicalized_as, target: "gameplay-core-001-risk-and-return"}
+    reason: "Retained as a separately addressable source candidate; raw wording and specificity remain available in provenance."
+    preserved_information: ["リスクとリターンの対構造設計", "Full structured candidate content remains in the linked raw source."]
+    discarded_information: []
+    source_fidelity: {explicit_source: medium, generalization_strength: medium, agent_extension_strength: low}
+    notes: "Intermediate AI Studio note; confirm exact quotation and timestamp against original video."
+  - candidate_id: "GAMEPLAY_CORE_002_STRESS_AND_RELEASE"
+    source_file: "raw/B-game-essence.md"
+    source_category: "B"
+    original_title: "ストレス付与と急激な解消のサイクル"
+    status: canonical
+    canonical_principles: ["gameplay-core-002-stress-and-release"]
+    relationship: {type: canonicalized_as, target: "gameplay-core-002-stress-and-release"}
+    reason: "Retained as a separately addressable source candidate; raw wording and specificity remain available in provenance."
+    preserved_information: ["ストレス付与と急激な解消のサイクル", "Full structured candidate content remains in the linked raw source."]
+    discarded_information: []
+    source_fidelity: {explicit_source: medium, generalization_strength: medium, agent_extension_strength: low}
+    notes: "Intermediate AI Studio note; confirm exact quotation and timestamp against original video."
+  - candidate_id: "GAMEPLAY_NONCORE_003_SEVEN_ATTRACTIONS"
+    source_file: "raw/B-game-essence.md"
+    source_category: "B"
+    original_title: "ゲーム性（かけひき）以外の面白さの認識と尊重"
+    status: canonical
+    canonical_principles: ["gameplay-noncore-003-seven-attractions"]
+    relationship: {type: canonicalized_as, target: "gameplay-noncore-003-seven-attractions"}
+    reason: "Retained as a separately addressable source candidate; raw wording and specificity remain available in provenance."
+    preserved_information: ["ゲーム性（かけひき）以外の面白さの認識と尊重", "Full structured candidate content remains in the linked raw source."]
+    discarded_information: []
+    source_fidelity: {explicit_source: medium, generalization_strength: medium, agent_extension_strength: low}
+    notes: "Intermediate AI Studio note; confirm exact quotation and timestamp against original video."
+  - candidate_id: "GAMEPLAY_BALANCE_004_FIEND_CAULDRON_RISK_SETTING"
+    source_file: "raw/B-game-essence.md"
+    source_category: "B"
+    original_title: "プレイヤー主導の難易度・リスクリターン選択（悪魔の釜方式）"
+    status: canonical
+    canonical_principles: ["gameplay-balance-004-fiend-cauldron-risk-setting"]
+    relationship: {type: canonicalized_as, target: "gameplay-balance-004-fiend-cauldron-risk-setting"}
+    reason: "Retained as a separately addressable source candidate; raw wording and specificity remain available in provenance."
+    preserved_information: ["プレイヤー主導の難易度・リスクリターン選択（悪魔の釜方式）", "Full structured candidate content remains in the linked raw source."]
+    discarded_information: []
+    source_fidelity: {explicit_source: medium, generalization_strength: medium, agent_extension_strength: low}
+    notes: "Intermediate AI Studio note; confirm exact quotation and timestamp against original video."
+  - candidate_id: "GAMEPLAY_MECHANICS_005_ALLOW_CLEVER_EXPLOITS"
+    source_file: "raw/B-game-essence.md"
+    source_category: "B"
+    original_title: "プレイヤーの意図的な『ズル（一方的有利）』の許容"
+    status: canonical
+    canonical_principles: ["gameplay-mechanics-005-allow-clever-exploits"]
+    relationship: {type: canonicalized_as, target: "gameplay-mechanics-005-allow-clever-exploits"}
+    reason: "Retained as a separately addressable source candidate; raw wording and specificity remain available in provenance."
+    preserved_information: ["プレイヤーの意図的な『ズル（一方的有利）』の許容", "Full structured candidate content remains in the linked raw source."]
+    discarded_information: []
+    source_fidelity: {explicit_source: medium, generalization_strength: medium, agent_extension_strength: low}
+    notes: "Intermediate AI Studio note; confirm exact quotation and timestamp against original video."
+  - candidate_id: "GAMEPLAY_PHYSICS_006_CONTRASTING_ELEMENTS"
+    source_file: "raw/B-game-essence.md"
+    source_category: "B"
+    original_title: "快感を際立たせる相反要素（制約・対比）の導入"
+    status: canonical
+    canonical_principles: ["gameplay-physics-006-contrasting-elements"]
+    relationship: {type: canonicalized_as, target: "gameplay-physics-006-contrasting-elements"}
+    reason: "Retained as a separately addressable source candidate; raw wording and specificity remain available in provenance."
+    preserved_information: ["快感を際立たせる相反要素（制約・対比）の導入", "Full structured candidate content remains in the linked raw source."]
+    discarded_information: []
+    source_fidelity: {explicit_source: medium, generalization_strength: medium, agent_extension_strength: low}
+    notes: "Intermediate AI Studio note; confirm exact quotation and timestamp against original video."
+  - candidate_id: "GAMEPLAY_LOOP_007_OBSTACLE_PROGRESSION_CYCLE"
+    source_file: "raw/B-game-essence.md"
+    source_category: "B"
+    original_title: "障害・排除・成長・進展の基本サイクルの構築"
+    status: canonical
+    canonical_principles: ["gameplay-loop-007-obstacle-progression-cycle"]
+    relationship: {type: canonicalized_as, target: "gameplay-loop-007-obstacle-progression-cycle"}
+    reason: "Retained as a separately addressable source candidate; raw wording and specificity remain available in provenance."
+    preserved_information: ["障害・排除・成長・進展の基本サイクルの構築", "Full structured candidate content remains in the linked raw source."]
+    discarded_information: []
+    source_fidelity: {explicit_source: medium, generalization_strength: medium, agent_extension_strength: low}
+    notes: "Intermediate AI Studio note; confirm exact quotation and timestamp against original video."
+  - candidate_id: "GAMEPLAY_REWARD_008_DESIGN_REWARDS_FIRST"
+    source_file: "raw/B-game-essence.md"
+    source_category: "B"
+    original_title: "ご褒美・消費サイクルの最優先設計"
+    status: canonical
+    canonical_principles: ["gameplay-reward-008-design-rewards-first"]
+    relationship: {type: canonicalized_as, target: "gameplay-reward-008-design-rewards-first"}
+    reason: "Retained as a separately addressable source candidate; raw wording and specificity remain available in provenance."
+    preserved_information: ["ご褒美・消費サイクルの最優先設計", "Full structured candidate content remains in the linked raw source."]
+    discarded_information: []
+    source_fidelity: {explicit_source: medium, generalization_strength: medium, agent_extension_strength: low}
+    notes: "Intermediate AI Studio note; confirm exact quotation and timestamp against original video."
+  - candidate_id: "GAMEPLAY_UX_009_RAPID_RETRY_DESIGN"
+    source_file: "raw/B-game-essence.md"
+    source_category: "B"
+    original_title: "リトライまでの操作不能時間の極小化"
+    status: canonical
+    canonical_principles: ["gameplay-ux-009-rapid-retry-design"]
+    relationship: {type: canonicalized_as, target: "gameplay-ux-009-rapid-retry-design"}
+    reason: "Retained as a separately addressable source candidate; raw wording and specificity remain available in provenance."
+    preserved_information: ["リトライまでの操作不能時間の極小化", "Full structured candidate content remains in the linked raw source."]
+    discarded_information: []
+    source_fidelity: {explicit_source: medium, generalization_strength: medium, agent_extension_strength: low}
+    notes: "Intermediate AI Studio note; confirm exact quotation and timestamp against original video."
+  - candidate_id: "GAMEPLAY_BALANCE_010_GAMEPLAY_VS_ACCESSIBILITY"
+    source_file: "raw/B-game-essence.md"
+    source_category: "B"
+    original_title: "ゲーム性向上と一般性（アクセシビリティ）のトレードオフ認識"
+    status: canonical
+    canonical_principles: ["gameplay-balance-010-gameplay-vs-accessibility"]
+    relationship: {type: canonicalized_as, target: "gameplay-balance-010-gameplay-vs-accessibility"}
+    reason: "Retained as a separately addressable source candidate; raw wording and specificity remain available in provenance."
+    preserved_information: ["ゲーム性向上と一般性（アクセシビリティ）のトレードオフ認識", "Full structured candidate content remains in the linked raw source."]
+    discarded_information: []
+    source_fidelity: {explicit_source: medium, generalization_strength: medium, agent_extension_strength: low}
+    notes: "Intermediate AI Studio note; confirm exact quotation and timestamp against original video."
+  - candidate_id: "GAMEPLAY_BALANCE_011_DIFFICULTY_HILL_AND_VALLEY"
+    source_file: "raw/B-game-essence.md"
+    source_category: "B"
+    original_title: "進行曲線における『山あり谷あり』の波状設計"
+    status: canonical
+    canonical_principles: ["gameplay-balance-011-difficulty-hill-and-valley"]
+    relationship: {type: canonicalized_as, target: "gameplay-balance-011-difficulty-hill-and-valley"}
+    reason: "Retained as a separately addressable source candidate; raw wording and specificity remain available in provenance."
+    preserved_information: ["進行曲線における『山あり谷あり』の波状設計", "Full structured candidate content remains in the linked raw source."]
+    discarded_information: []
+    source_fidelity: {explicit_source: medium, generalization_strength: medium, agent_extension_strength: low}
+    notes: "Intermediate AI Studio note; confirm exact quotation and timestamp against original video."
+  - candidate_id: "GAMEPLAY_BALANCE_012_AMPLIFY_STRENGTHS_AND_WEAKNESSES"
+    source_file: "raw/B-game-essence.md"
+    source_category: "B"
+    original_title: "バランス調整における『長所伸長・短所拡大（尖らせる）』の原則"
+    status: canonical
+    canonical_principles: ["gameplay-balance-012-amplify-strengths-and-weaknesses"]
+    relationship: {type: canonicalized_as, target: "gameplay-balance-012-amplify-strengths-and-weaknesses"}
+    reason: "Retained as a separately addressable source candidate; raw wording and specificity remain available in provenance."
+    preserved_information: ["バランス調整における『長所伸長・短所拡大（尖らせる）』の原則", "Full structured candidate content remains in the linked raw source."]
+    discarded_information: []
+    source_fidelity: {explicit_source: medium, generalization_strength: medium, agent_extension_strength: low}
+    notes: "Intermediate AI Studio note; confirm exact quotation and timestamp against original video."
+  - candidate_id: "GAMEPLAY_ACCESSIBILITY_013_FAILSAFE_OVER_PERFECTION"
+    source_file: "raw/B-game-essence.md"
+    source_category: "B"
+    original_title: "進行不能を防ぐ救済策の優先配備（クリアできないよりマシ）"
+    status: canonical
+    canonical_principles: ["gameplay-accessibility-013-failsafe-over-perfection"]
+    relationship: {type: canonicalized_as, target: "gameplay-accessibility-013-failsafe-over-perfection"}
+    reason: "Retained as a separately addressable source candidate; raw wording and specificity remain available in provenance."
+    preserved_information: ["進行不能を防ぐ救済策の優先配備（クリアできないよりマシ）", "Full structured candidate content remains in the linked raw source."]
+    discarded_information: []
+    source_fidelity: {explicit_source: medium, generalization_strength: medium, agent_extension_strength: low}
+    notes: "Intermediate AI Studio note; confirm exact quotation and timestamp against original video."
+  - candidate_id: "GAMEPLAY_TESTING_014_DEVELOPER_BIAS_HANDICAP"
+    source_file: "raw/B-game-essence.md"
+    source_category: "B"
+    original_title: "開発者の『慣れ』を排除するハンデ検証法"
+    status: canonical
+    canonical_principles: ["gameplay-testing-014-developer-bias-handicap"]
+    relationship: {type: canonicalized_as, target: "gameplay-testing-014-developer-bias-handicap"}
+    reason: "Retained as a separately addressable source candidate; raw wording and specificity remain available in provenance."
+    preserved_information: ["開発者の『慣れ』を排除するハンデ検証法", "Full structured candidate content remains in the linked raw source."]
+    discarded_information: []
+    source_fidelity: {explicit_source: medium, generalization_strength: medium, agent_extension_strength: low}
+    notes: "Intermediate AI Studio note; confirm exact quotation and timestamp against original video."
+  - candidate_id: "SKILL-PLAN-001"
+    source_file: "raw/C-planning-design.md"
+    source_category: "C"
+    original_title: "フレーム単位の物理・入力時間基準設計"
+    status: canonical
+    canonical_principles: ["skill-plan-001"]
+    relationship: {type: canonicalized_as, target: "skill-plan-001"}
+    reason: "Retained as a separately addressable source candidate; raw wording and specificity remain available in provenance."
+    preserved_information: ["フレーム単位の物理・入力時間基準設計", "Full structured candidate content remains in the linked raw source."]
+    discarded_information: []
+    source_fidelity: {explicit_source: low, generalization_strength: medium, agent_extension_strength: medium}
+    notes: "Intermediate AI Studio note; confirm exact quotation and timestamp against original video."
+  - candidate_id: "SKILL-PLAN-002"
+    source_file: "raw/C-planning-design.md"
+    source_category: "C"
+    original_title: "ファーストプレイ3分以内のゲームプレイ直接導入"
+    status: canonical
+    canonical_principles: ["skill-plan-002"]
+    relationship: {type: canonicalized_as, target: "skill-plan-002"}
+    reason: "Retained as a separately addressable source candidate; raw wording and specificity remain available in provenance."
+    preserved_information: ["ファーストプレイ3分以内のゲームプレイ直接導入", "Full structured candidate content remains in the linked raw source."]
+    discarded_information: []
+    source_fidelity: {explicit_source: low, generalization_strength: medium, agent_extension_strength: medium}
+    notes: "Intermediate AI Studio note; confirm exact quotation and timestamp against original video."
+  - candidate_id: "SKILL-PLAN-003"
+    source_file: "raw/C-planning-design.md"
+    source_category: "C"
+    original_title: "可視化された短期目標とごほうびの配置"
+    status: canonical
+    canonical_principles: ["skill-plan-003"]
+    relationship: {type: canonicalized_as, target: "skill-plan-003"}
+    reason: "Retained as a separately addressable source candidate; raw wording and specificity remain available in provenance."
+    preserved_information: ["可視化された短期目標とごほうびの配置", "Full structured candidate content remains in the linked raw source."]
+    discarded_information: []
+    source_fidelity: {explicit_source: low, generalization_strength: medium, agent_extension_strength: medium}
+    notes: "Intermediate AI Studio note; confirm exact quotation and timestamp against original video."
+  - candidate_id: "SKILL-PLAN-004"
+    source_file: "raw/C-planning-design.md"
+    source_category: "C"
+    original_title: "スクリーンウィンドウ限界を考慮したレイアウト占有率設計"
+    status: canonical
+    canonical_principles: ["skill-plan-004"]
+    relationship: {type: canonicalized_as, target: "skill-plan-004"}
+    reason: "Retained as a separately addressable source candidate; raw wording and specificity remain available in provenance."
+    preserved_information: ["スクリーンウィンドウ限界を考慮したレイアウト占有率設計", "Full structured candidate content remains in the linked raw source."]
+    discarded_information: []
+    source_fidelity: {explicit_source: low, generalization_strength: medium, agent_extension_strength: medium}
+    notes: "Intermediate AI Studio note; confirm exact quotation and timestamp against original video."
+  - candidate_id: "SKILL-PLAN-005"
+    source_file: "raw/C-planning-design.md"
+    source_category: "C"
+    original_title: "1入力多目的化によるコアメカニクスの再構築"
+    status: canonical
+    canonical_principles: ["skill-plan-005"]
+    relationship: {type: canonicalized_as, target: "skill-plan-005"}
+    reason: "Retained as a separately addressable source candidate; raw wording and specificity remain available in provenance."
+    preserved_information: ["1入力多目的化によるコアメカニクスの再構築", "Full structured candidate content remains in the linked raw source."]
+    discarded_information: []
+    source_fidelity: {explicit_source: low, generalization_strength: medium, agent_extension_strength: medium}
+    notes: "Intermediate AI Studio note; confirm exact quotation and timestamp against original video."
+  - candidate_id: "SKILL-PLAN-006"
+    source_file: "raw/C-planning-design.md"
+    source_category: "C"
+    original_title: "良質なおつかいクエストの5条件設計"
+    status: canonical
+    canonical_principles: ["skill-plan-006"]
+    relationship: {type: canonicalized_as, target: "skill-plan-006"}
+    reason: "Retained as a separately addressable source candidate; raw wording and specificity remain available in provenance."
+    preserved_information: ["良質なおつかいクエストの5条件設計", "Full structured candidate content remains in the linked raw source."]
+    discarded_information: []
+    source_fidelity: {explicit_source: low, generalization_strength: medium, agent_extension_strength: medium}
+    notes: "Intermediate AI Studio note; confirm exact quotation and timestamp against original video."
+  - candidate_id: "SKILL-PLAN-007"
+    source_file: "raw/C-planning-design.md"
+    source_category: "C"
+    original_title: "実践同期型インライン・チュートリアル"
+    status: canonical
+    canonical_principles: ["skill-plan-007"]
+    relationship: {type: canonicalized_as, target: "skill-plan-007"}
+    reason: "Retained as a separately addressable source candidate; raw wording and specificity remain available in provenance."
+    preserved_information: ["実践同期型インライン・チュートリアル", "Full structured candidate content remains in the linked raw source."]
+    discarded_information: []
+    source_fidelity: {explicit_source: low, generalization_strength: medium, agent_extension_strength: medium}
+    notes: "Intermediate AI Studio note; confirm exact quotation and timestamp against original video."
+  - candidate_id: "SKILL-PLAN-008"
+    source_file: "raw/C-planning-design.md"
+    source_category: "C"
+    original_title: "プレイヤー行動への多層的賞賛・フィードバック設計"
+    status: canonical
+    canonical_principles: ["skill-plan-008"]
+    relationship: {type: canonicalized_as, target: "skill-plan-008"}
+    reason: "Retained as a separately addressable source candidate; raw wording and specificity remain available in provenance."
+    preserved_information: ["プレイヤー行動への多層的賞賛・フィードバック設計", "Full structured candidate content remains in the linked raw source."]
+    discarded_information: []
+    source_fidelity: {explicit_source: low, generalization_strength: medium, agent_extension_strength: medium}
+    notes: "Intermediate AI Studio note; confirm exact quotation and timestamp against original video."
+  - candidate_id: "SKILL-PLAN-009"
+    source_file: "raw/C-planning-design.md"
+    source_category: "C"
+    original_title: "入力無反応（ノーリアクション）の完全排除"
+    status: canonical
+    canonical_principles: ["skill-plan-009"]
+    relationship: {type: canonicalized_as, target: "skill-plan-009"}
+    reason: "Retained as a separately addressable source candidate; raw wording and specificity remain available in provenance."
+    preserved_information: ["入力無反応（ノーリアクション）の完全排除", "Full structured candidate content remains in the linked raw source."]
+    discarded_information: []
+    source_fidelity: {explicit_source: low, generalization_strength: medium, agent_extension_strength: medium}
+    notes: "Intermediate AI Studio note; confirm exact quotation and timestamp against original video."
+  - candidate_id: "SKILL-PLAN-010"
+    source_file: "raw/C-planning-design.md"
+    source_category: "C"
+    original_title: "ゲームシナリオのゲームプレイ従属性（特異性の克服）"
+    status: canonical
+    canonical_principles: ["skill-plan-010"]
+    relationship: {type: canonicalized_as, target: "skill-plan-010"}
+    reason: "Retained as a separately addressable source candidate; raw wording and specificity remain available in provenance."
+    preserved_information: ["ゲームシナリオのゲームプレイ従属性（特異性の克服）", "Full structured candidate content remains in the linked raw source."]
+    discarded_information: []
+    source_fidelity: {explicit_source: low, generalization_strength: medium, agent_extension_strength: medium}
+    notes: "Intermediate AI Studio note; confirm exact quotation and timestamp against original video."
+  - candidate_id: "SKILL-PLAN-011"
+    source_file: "raw/C-planning-design.md"
+    source_category: "C"
+    original_title: "観戦エンゲージメントのための肩入れ動機付け"
+    status: canonical
+    canonical_principles: ["skill-plan-011"]
+    relationship: {type: canonicalized_as, target: "skill-plan-011"}
+    reason: "Retained as a separately addressable source candidate; raw wording and specificity remain available in provenance."
+    preserved_information: ["観戦エンゲージメントのための肩入れ動機付け", "Full structured candidate content remains in the linked raw source."]
+    discarded_information: []
+    source_fidelity: {explicit_source: low, generalization_strength: medium, agent_extension_strength: medium}
+    notes: "Intermediate AI Studio note; confirm exact quotation and timestamp against original video."
+  - candidate_id: "SKILL-PLAN-012"
+    source_file: "raw/C-planning-design.md"
+    source_category: "C"
+    original_title: "3D酔い（映像不一致）の工学的低減設計"
+    status: canonical
+    canonical_principles: ["skill-plan-012"]
+    relationship: {type: canonicalized_as, target: "skill-plan-012"}
+    reason: "Retained as a separately addressable source candidate; raw wording and specificity remain available in provenance."
+    preserved_information: ["3D酔い（映像不一致）の工学的低減設計", "Full structured candidate content remains in the linked raw source."]
+    discarded_information: []
+    source_fidelity: {explicit_source: low, generalization_strength: medium, agent_extension_strength: medium}
+    notes: "Intermediate AI Studio note; confirm exact quotation and timestamp against original video."
+  - candidate_id: "SKILL-PLAN-013"
+    source_file: "raw/C-planning-design.md"
+    source_category: "C"
+    original_title: "階層アウトラインによる仕様とアイデアの構造化"
+    status: canonical
+    canonical_principles: ["skill-plan-013"]
+    relationship: {type: canonicalized_as, target: "skill-plan-013"}
+    reason: "Retained as a separately addressable source candidate; raw wording and specificity remain available in provenance."
+    preserved_information: ["階層アウトラインによる仕様とアイデアの構造化", "Full structured candidate content remains in the linked raw source."]
+    discarded_information: []
+    source_fidelity: {explicit_source: low, generalization_strength: medium, agent_extension_strength: medium}
+    notes: "Intermediate AI Studio note; confirm exact quotation and timestamp against original video."
+  - candidate_id: "SKILL-PLAN-014"
+    source_file: "raw/C-planning-design.md"
+    source_category: "C"
+    original_title: "対戦ゲームにおける非キャラ性能型見返り体系の構築"
+    status: canonical
+    canonical_principles: ["skill-plan-014"]
+    relationship: {type: canonicalized_as, target: "skill-plan-014"}
+    reason: "Retained as a separately addressable source candidate; raw wording and specificity remain available in provenance."
+    preserved_information: ["対戦ゲームにおける非キャラ性能型見返り体系の構築", "Full structured candidate content remains in the linked raw source."]
+    discarded_information: []
+    source_fidelity: {explicit_source: low, generalization_strength: medium, agent_extension_strength: medium}
+    notes: "Intermediate AI Studio note; confirm exact quotation and timestamp against original video."
+  - candidate_id: "SKILL-PLAN-015"
+    source_file: "raw/C-planning-design.md"
+    source_category: "C"
+    original_title: "企画プレゼンにおける「〜のような」既存作形容の自粛"
+    status: canonical
+    canonical_principles: ["skill-plan-015"]
+    relationship: {type: canonicalized_as, target: "skill-plan-015"}
+    reason: "Retained as a separately addressable source candidate; raw wording and specificity remain available in provenance."
+    preserved_information: ["企画プレゼンにおける「〜のような」既存作形容の自粛", "Full structured candidate content remains in the linked raw source."]
+    discarded_information: []
+    source_fidelity: {explicit_source: low, generalization_strength: medium, agent_extension_strength: medium}
+    notes: "Intermediate AI Studio note; confirm exact quotation and timestamp against original video."
+  - candidate_id: "SKILL-PLAN-016"
+    source_file: "raw/C-planning-design.md"
+    source_category: "C"
+    original_title: "続編開発におけるシステム基盤継承と上乗せ投資の原則"
+    status: canonical
+    canonical_principles: ["skill-plan-016"]
+    relationship: {type: canonicalized_as, target: "skill-plan-016"}
+    reason: "Retained as a separately addressable source candidate; raw wording and specificity remain available in provenance."
+    preserved_information: ["続編開発におけるシステム基盤継承と上乗せ投資の原則", "Full structured candidate content remains in the linked raw source."]
+    discarded_information: []
+    source_fidelity: {explicit_source: low, generalization_strength: medium, agent_extension_strength: medium}
+    notes: "Intermediate AI Studio note; confirm exact quotation and timestamp against original video."
+  - candidate_id: "SKILL-PLAN-017"
+    source_file: "raw/C-planning-design.md"
+    source_category: "C"
+    original_title: "デファクトスタンダード（標準的操作・仕様）の積極的利用"
+    status: canonical
+    canonical_principles: ["skill-plan-017"]
+    relationship: {type: canonicalized_as, target: "skill-plan-017"}
+    reason: "Retained as a separately addressable source candidate; raw wording and specificity remain available in provenance."
+    preserved_information: ["デファクトスタンダード（標準的操作・仕様）の積極的利用", "Full structured candidate content remains in the linked raw source."]
+    discarded_information: []
+    source_fidelity: {explicit_source: low, generalization_strength: medium, agent_extension_strength: medium}
+    notes: "Intermediate AI Studio note; confirm exact quotation and timestamp against original video."
+  - candidate_id: "SKILL-PLAN-018"
+    source_file: "raw/C-planning-design.md"
+    source_category: "C"
+    original_title: "カスタマイズ画面における「結果の事前想像」支援設計"
+    status: canonical
+    canonical_principles: ["skill-plan-018"]
+    relationship: {type: canonicalized_as, target: "skill-plan-018"}
+    reason: "Retained as a separately addressable source candidate; raw wording and specificity remain available in provenance."
+    preserved_information: ["カスタマイズ画面における「結果の事前想像」支援設計", "Full structured candidate content remains in the linked raw source."]
+    discarded_information: []
+    source_fidelity: {explicit_source: low, generalization_strength: medium, agent_extension_strength: medium}
+    notes: "Intermediate AI Studio note; confirm exact quotation and timestamp against original video."
+  - candidate_id: "SKILL-PLAN-019"
+    source_file: "raw/C-planning-design.md"
+    source_category: "C"
+    original_title: "オマージュ作品における「独自魅力の多重積載」義務"
+    status: canonical
+    canonical_principles: ["skill-plan-019"]
+    relationship: {type: canonicalized_as, target: "skill-plan-019"}
+    reason: "Retained as a separately addressable source candidate; raw wording and specificity remain available in provenance."
+    preserved_information: ["オマージュ作品における「独自魅力の多重積載」義務", "Full structured candidate content remains in the linked raw source."]
+    discarded_information: []
+    source_fidelity: {explicit_source: low, generalization_strength: medium, agent_extension_strength: medium}
+    notes: "Intermediate AI Studio note; confirm exact quotation and timestamp against original video."
+  - candidate_id: "SKILL-PLAN-020"
+    source_file: "raw/C-planning-design.md"
+    source_category: "C"
+    original_title: "共感尺度への変換によるスコア・リザルトの価値再定義"
+    status: canonical
+    canonical_principles: ["skill-plan-020"]
+    relationship: {type: canonicalized_as, target: "skill-plan-020"}
+    reason: "Retained as a separately addressable source candidate; raw wording and specificity remain available in provenance."
+    preserved_information: ["共感尺度への変換によるスコア・リザルトの価値再定義", "Full structured candidate content remains in the linked raw source."]
+    discarded_information: []
+    source_fidelity: {explicit_source: low, generalization_strength: medium, agent_extension_strength: medium}
+    notes: "Intermediate AI Studio note; confirm exact quotation and timestamp against original video."
+  - candidate_id: "SKILL-PLAN-021"
+    source_file: "raw/C-planning-design.md"
+    source_category: "C"
+    original_title: "極端なパラメータ尖鋭化と固有仕様によるキャラ立ち"
+    status: canonical
+    canonical_principles: ["skill-plan-021"]
+    relationship: {type: canonicalized_as, target: "skill-plan-021"}
+    reason: "Retained as a separately addressable source candidate; raw wording and specificity remain available in provenance."
+    preserved_information: ["極端なパラメータ尖鋭化と固有仕様によるキャラ立ち", "Full structured candidate content remains in the linked raw source."]
+    discarded_information: []
+    source_fidelity: {explicit_source: low, generalization_strength: medium, agent_extension_strength: medium}
+    notes: "Intermediate AI Studio note; confirm exact quotation and timestamp against original video."
+  - candidate_id: "SKILL-PLAN-022"
+    source_file: "raw/C-planning-design.md"
+    source_category: "C"
+    original_title: "色覚多様性対応と白黒明度コントラスト検証"
+    status: canonical
+    canonical_principles: ["skill-plan-022"]
+    relationship: {type: canonicalized_as, target: "skill-plan-022"}
+    reason: "Retained as a separately addressable source candidate; raw wording and specificity remain available in provenance."
+    preserved_information: ["色覚多様性対応と白黒明度コントラスト検証", "Full structured candidate content remains in the linked raw source."]
+    discarded_information: []
+    source_fidelity: {explicit_source: low, generalization_strength: medium, agent_extension_strength: medium}
+    notes: "Intermediate AI Studio note; confirm exact quotation and timestamp against original video."
+  - candidate_id: "SKILL-PLAN-023"
+    source_file: "raw/C-planning-design.md"
+    source_category: "C"
+    original_title: "人間らしい認知限界を模倣したCP（AI）思考ルーチン設計"
+    status: canonical
+    canonical_principles: ["skill-plan-023"]
+    relationship: {type: canonicalized_as, target: "skill-plan-023"}
+    reason: "Retained as a separately addressable source candidate; raw wording and specificity remain available in provenance."
+    preserved_information: ["人間らしい認知限界を模倣したCP（AI）思考ルーチン設計", "Full structured candidate content remains in the linked raw source."]
+    discarded_information: []
+    source_fidelity: {explicit_source: low, generalization_strength: medium, agent_extension_strength: medium}
+    notes: "Intermediate AI Studio note; confirm exact quotation and timestamp against original video."
+  - candidate_id: "SKILL-PLAN-024"
+    source_file: "raw/C-planning-design.md"
+    source_category: "C"
+    original_title: "ゲーム内ムービーのスキップ保証とタイパ（時間対効果）最適化"
+    status: canonical
+    canonical_principles: ["skill-plan-024"]
+    relationship: {type: canonicalized_as, target: "skill-plan-024"}
+    reason: "Retained as a separately addressable source candidate; raw wording and specificity remain available in provenance."
+    preserved_information: ["ゲーム内ムービーのスキップ保証とタイパ（時間対効果）最適化", "Full structured candidate content remains in the linked raw source."]
+    discarded_information: []
+    source_fidelity: {explicit_source: low, generalization_strength: medium, agent_extension_strength: medium}
+    notes: "Intermediate AI Studio note; confirm exact quotation and timestamp against original video."
+  - candidate_id: "SKILL-PLAN-025"
+    source_file: "raw/C-planning-design.md"
+    source_category: "C"
+    original_title: "初心者導入における「手加減」の礼儀と敷居低減"
+    status: canonical
+    canonical_principles: ["skill-plan-025"]
+    relationship: {type: canonicalized_as, target: "skill-plan-025"}
+    reason: "Retained as a separately addressable source candidate; raw wording and specificity remain available in provenance."
+    preserved_information: ["初心者導入における「手加減」の礼儀と敷居低減", "Full structured candidate content remains in the linked raw source."]
+    discarded_information: []
+    source_fidelity: {explicit_source: low, generalization_strength: medium, agent_extension_strength: medium}
+    notes: "Intermediate AI Studio note; confirm exact quotation and timestamp against original video."
+  - candidate_id: "SPEC-001"
+    source_file: "raw/D-specification.md"
+    source_category: "D"
+    original_title: "ヒットストップとイベント停止による手応えの付与"
+    status: canonical
+    canonical_principles: ["spec-001"]
+    relationship: {type: canonicalized_as, target: "spec-001"}
+    reason: "Retained as a separately addressable source candidate; raw wording and specificity remain available in provenance."
+    preserved_information: ["ヒットストップとイベント停止による手応えの付与", "Full structured candidate content remains in the linked raw source."]
+    discarded_information: []
+    source_fidelity: {explicit_source: medium, generalization_strength: low, agent_extension_strength: low}
+    notes: "Intermediate AI Studio note; confirm exact quotation and timestamp against original video."
+  - candidate_id: "SPEC-002"
+    source_file: "raw/D-specification.md"
+    source_category: "D"
+    original_title: "物理ボタンへの『重さ・手触り』の錯視的付与"
+    status: canonical
+    canonical_principles: ["spec-002"]
+    relationship: {type: canonicalized_as, target: "spec-002"}
+    reason: "Retained as a separately addressable source candidate; raw wording and specificity remain available in provenance."
+    preserved_information: ["物理ボタンへの『重さ・手触り』の錯視的付与", "Full structured candidate content remains in the linked raw source."]
+    discarded_information: []
+    source_fidelity: {explicit_source: medium, generalization_strength: low, agent_extension_strength: low}
+    notes: "Intermediate AI Studio note; confirm exact quotation and timestamp against original video."
+  - candidate_id: "SPEC-003"
+    source_file: "raw/D-specification.md"
+    source_category: "D"
+    original_title: "非対称なジャンプ加速度と初速による操作性の最適化"
+    status: canonical
+    canonical_principles: ["spec-003"]
+    relationship: {type: canonicalized_as, target: "spec-003"}
+    reason: "Retained as a separately addressable source candidate; raw wording and specificity remain available in provenance."
+    preserved_information: ["非対称なジャンプ加速度と初速による操作性の最適化", "Full structured candidate content remains in the linked raw source."]
+    discarded_information: []
+    source_fidelity: {explicit_source: medium, generalization_strength: low, agent_extension_strength: low}
+    notes: "Intermediate AI Studio note; confirm exact quotation and timestamp against original video."
+  - candidate_id: "SPEC-004"
+    source_file: "raw/D-specification.md"
+    source_category: "D"
+    original_title: "多層的ヒットストップ制御（微振動・判定保護・非対称性）"
+    status: canonical
+    canonical_principles: ["spec-004"]
+    relationship: {type: canonicalized_as, target: "spec-004"}
+    reason: "Retained as a separately addressable source candidate; raw wording and specificity remain available in provenance."
+    preserved_information: ["多層的ヒットストップ制御（微振動・判定保護・非対称性）", "Full structured candidate content remains in the linked raw source."]
+    discarded_information: []
+    source_fidelity: {explicit_source: medium, generalization_strength: low, agent_extension_strength: low}
+    notes: "Intermediate AI Studio note; confirm exact quotation and timestamp against original video."
+  - candidate_id: "SPEC-005"
+    source_file: "raw/D-specification.md"
+    source_category: "D"
+    original_title: "注視点の動的オフセット（カメラ注視点をキャラに完全追従させない）"
+    status: canonical
+    canonical_principles: ["spec-005"]
+    relationship: {type: canonicalized_as, target: "spec-005"}
+    reason: "Retained as a separately addressable source candidate; raw wording and specificity remain available in provenance."
+    preserved_information: ["注視点の動的オフセット（カメラ注視点をキャラに完全追従させない）", "Full structured candidate content remains in the linked raw source."]
+    discarded_information: []
+    source_fidelity: {explicit_source: medium, generalization_strength: low, agent_extension_strength: low}
+    notes: "Intermediate AI Studio note; confirm exact quotation and timestamp against original video."
+  - candidate_id: "SPEC-006"
+    source_file: "raw/D-specification.md"
+    source_category: "D"
+    original_title: "遅さの徹底排除（待ち時間・硬直の最小化）"
+    status: canonical
+    canonical_principles: ["spec-006"]
+    relationship: {type: canonicalized_as, target: "spec-006"}
+    reason: "Retained as a separately addressable source candidate; raw wording and specificity remain available in provenance."
+    preserved_information: ["遅さの徹底排除（待ち時間・硬直の最小化）", "Full structured candidate content remains in the linked raw source."]
+    discarded_information: []
+    source_fidelity: {explicit_source: medium, generalization_strength: low, agent_extension_strength: low}
+    notes: "Intermediate AI Studio note; confirm exact quotation and timestamp against original video."
+  - candidate_id: "SPEC-007"
+    source_file: "raw/D-specification.md"
+    source_category: "D"
+    original_title: "空間スケールと速度単位の統一"
+    status: canonical
+    canonical_principles: ["spec-007"]
+    relationship: {type: canonicalized_as, target: "spec-007"}
+    reason: "Retained as a separately addressable source candidate; raw wording and specificity remain available in provenance."
+    preserved_information: ["空間スケールと速度単位の統一", "Full structured candidate content remains in the linked raw source."]
+    discarded_information: []
+    source_fidelity: {explicit_source: medium, generalization_strength: low, agent_extension_strength: low}
+    notes: "Intermediate AI Studio note; confirm exact quotation and timestamp against original video."
+  - candidate_id: "SPEC-008"
+    source_file: "raw/D-specification.md"
+    source_category: "D"
+    original_title: "状況適応型のガケぎわ（エッジ）挙動設計"
+    status: canonical
+    canonical_principles: ["spec-008"]
+    relationship: {type: canonicalized_as, target: "spec-008"}
+    reason: "Retained as a separately addressable source candidate; raw wording and specificity remain available in provenance."
+    preserved_information: ["状況適応型のガケぎわ（エッジ）挙動設計", "Full structured candidate content remains in the linked raw source."]
+    discarded_information: []
+    source_fidelity: {explicit_source: medium, generalization_strength: low, agent_extension_strength: low}
+    notes: "Intermediate AI Studio note; confirm exact quotation and timestamp against original video."
+  - candidate_id: "SPEC-009"
+    source_file: "raw/D-specification.md"
+    source_category: "D"
+    original_title: "メイン画面への情報統合（ミニマップ注視問題の回避）"
+    status: canonical
+    canonical_principles: ["spec-009"]
+    relationship: {type: canonicalized_as, target: "spec-009"}
+    reason: "Retained as a separately addressable source candidate; raw wording and specificity remain available in provenance."
+    preserved_information: ["メイン画面への情報統合（ミニマップ注視問題の回避）", "Full structured candidate content remains in the linked raw source."]
+    discarded_information: []
+    source_fidelity: {explicit_source: medium, generalization_strength: low, agent_extension_strength: low}
+    notes: "Intermediate AI Studio note; confirm exact quotation and timestamp against original video."
+  - candidate_id: "SPEC-010"
+    source_file: "raw/D-specification.md"
+    source_category: "D"
+    original_title: "処理速度向上に伴う仕様・ゲームバランス変動の警戒"
+    status: canonical
+    canonical_principles: ["spec-010"]
+    relationship: {type: canonicalized_as, target: "spec-010"}
+    reason: "Retained as a separately addressable source candidate; raw wording and specificity remain available in provenance."
+    preserved_information: ["処理速度向上に伴う仕様・ゲームバランス変動の警戒", "Full structured candidate content remains in the linked raw source."]
+    discarded_information: []
+    source_fidelity: {explicit_source: medium, generalization_strength: low, agent_extension_strength: low}
+    notes: "Intermediate AI Studio note; confirm exact quotation and timestamp against original video."
+  - candidate_id: "SPEC-011"
+    source_file: "raw/D-specification.md"
+    source_category: "D"
+    original_title: "『はじき入力』による感情と速度の実体化"
+    status: canonical
+    canonical_principles: ["spec-011"]
+    relationship: {type: canonicalized_as, target: "spec-011"}
+    reason: "Retained as a separately addressable source candidate; raw wording and specificity remain available in provenance."
+    preserved_information: ["『はじき入力』による感情と速度の実体化", "Full structured candidate content remains in the linked raw source."]
+    discarded_information: []
+    source_fidelity: {explicit_source: medium, generalization_strength: low, agent_extension_strength: low}
+    notes: "Intermediate AI Studio note; confirm exact quotation and timestamp against original video."
+  - candidate_id: "SPEC-012"
+    source_file: "raw/D-specification.md"
+    source_category: "D"
+    original_title: "能動的実践型チュートリアル（How to Playの短縮と体得）"
+    status: canonical
+    canonical_principles: ["spec-012"]
+    relationship: {type: canonicalized_as, target: "spec-012"}
+    reason: "Retained as a separately addressable source candidate; raw wording and specificity remain available in provenance."
+    preserved_information: ["能動的実践型チュートリアル（How to Playの短縮と体得）", "Full structured candidate content remains in the linked raw source."]
+    discarded_information: []
+    source_fidelity: {explicit_source: medium, generalization_strength: low, agent_extension_strength: low}
+    notes: "Intermediate AI Studio note; confirm exact quotation and timestamp against original video."
+  - candidate_id: "SPEC-013"
+    source_file: "raw/D-specification.md"
+    source_category: "D"
+    original_title: "彩りと逆転を生むランダム性の制御"
+    status: canonical
+    canonical_principles: ["spec-013"]
+    relationship: {type: canonicalized_as, target: "spec-013"}
+    reason: "Retained as a separately addressable source candidate; raw wording and specificity remain available in provenance."
+    preserved_information: ["彩りと逆転を生むランダム性の制御", "Full structured candidate content remains in the linked raw source."]
+    discarded_information: []
+    source_fidelity: {explicit_source: medium, generalization_strength: low, agent_extension_strength: low}
+    notes: "Intermediate AI Studio note; confirm exact quotation and timestamp against original video."
+  - candidate_id: "SPEC-014"
+    source_file: "raw/D-specification.md"
+    source_category: "D"
+    original_title: "実力差を埋める動的ハンディキャップ（ハンデブースト）"
+    status: canonical
+    canonical_principles: ["spec-014"]
+    relationship: {type: canonicalized_as, target: "spec-014"}
+    reason: "Retained as a separately addressable source candidate; raw wording and specificity remain available in provenance."
+    preserved_information: ["実力差を埋める動的ハンディキャップ（ハンデブースト）", "Full structured candidate content remains in the linked raw source."]
+    discarded_information: []
+    source_fidelity: {explicit_source: medium, generalization_strength: low, agent_extension_strength: low}
+    notes: "Intermediate AI Studio note; confirm exact quotation and timestamp against original video."
+  - candidate_id: "SPEC-015"
+    source_file: "raw/D-specification.md"
+    source_category: "D"
+    original_title: "『平均と平凡は同じ』：尖った個性の維持と対称性の打破"
+    status: canonical
+    canonical_principles: ["spec-015"]
+    relationship: {type: canonicalized_as, target: "spec-015"}
+    reason: "Retained as a separately addressable source candidate; raw wording and specificity remain available in provenance."
+    preserved_information: ["『平均と平凡は同じ』：尖った個性の維持と対称性の打破", "Full structured candidate content remains in the linked raw source."]
+    discarded_information: []
+    source_fidelity: {explicit_source: medium, generalization_strength: low, agent_extension_strength: low}
+    notes: "Intermediate AI Studio note; confirm exact quotation and timestamp against original video."
+  - candidate_id: "SPEC-016"
+    source_file: "raw/D-specification.md"
+    source_category: "D"
+    original_title: "発売後アップデートへの健全な距離感と初頭完成度の追求"
+    status: canonical
+    canonical_principles: ["spec-016"]
+    relationship: {type: canonicalized_as, target: "spec-016"}
+    reason: "Retained as a separately addressable source candidate; raw wording and specificity remain available in provenance."
+    preserved_information: ["発売後アップデートへの健全な距離感と初頭完成度の追求", "Full structured candidate content remains in the linked raw source."]
+    discarded_information: []
+    source_fidelity: {explicit_source: medium, generalization_strength: low, agent_extension_strength: low}
+    notes: "Intermediate AI Studio note; confirm exact quotation and timestamp against original video."
+  - candidate_id: "SPEC-017"
+    source_file: "raw/D-specification.md"
+    source_category: "D"
+    original_title: "素早い画面遷移と演出ワイプの最適化"
+    status: canonical
+    canonical_principles: ["spec-017"]
+    relationship: {type: canonicalized_as, target: "spec-017"}
+    reason: "Retained as a separately addressable source candidate; raw wording and specificity remain available in provenance."
+    preserved_information: ["素早い画面遷移と演出ワイプの最適化", "Full structured candidate content remains in the linked raw source."]
+    discarded_information: []
+    source_fidelity: {explicit_source: medium, generalization_strength: low, agent_extension_strength: low}
+    notes: "Intermediate AI Studio note; confirm exact quotation and timestamp against original video."
+  - candidate_id: "SPEC-018"
+    source_file: "raw/D-specification.md"
+    source_category: "D"
+    original_title: "回転軸・重心のズラしによる『生きた手応え』の創出"
+    status: canonical
+    canonical_principles: ["spec-018"]
+    relationship: {type: canonicalized_as, target: "spec-018"}
+    reason: "Retained as a separately addressable source candidate; raw wording and specificity remain available in provenance."
+    preserved_information: ["回転軸・重心のズラしによる『生きた手応え』の創出", "Full structured candidate content remains in the linked raw source."]
+    discarded_information: []
+    source_fidelity: {explicit_source: medium, generalization_strength: low, agent_extension_strength: low}
+    notes: "Intermediate AI Studio note; confirm exact quotation and timestamp against original video."
+  - candidate_id: "TM-001"
+    source_file: "raw/E-team-management.md"
+    source_category: "E"
+    original_title: "日報と『きょうの一枚』による日常的・視覚的な情報共有"
+    status: canonical
+    canonical_principles: ["tm-001"]
+    relationship: {type: canonicalized_as, target: "tm-001"}
+    reason: "Retained as a separately addressable source candidate; raw wording and specificity remain available in provenance."
+    preserved_information: ["日報と『きょうの一枚』による日常的・視覚的な情報共有", "Full structured candidate content remains in the linked raw source."]
+    discarded_information: []
+    source_fidelity: {explicit_source: medium, generalization_strength: medium, agent_extension_strength: medium}
+    notes: "Intermediate AI Studio note; confirm exact quotation and timestamp against original video."
+  - candidate_id: "TM-002"
+    source_file: "raw/E-team-management.md"
+    source_category: "E"
+    original_title: "不満・違和感の即時表明と『ダメ出し＋改善案』のセット提示"
+    status: canonical
+    canonical_principles: ["tm-002"]
+    relationship: {type: canonicalized_as, target: "tm-002"}
+    reason: "Retained as a separately addressable source candidate; raw wording and specificity remain available in provenance."
+    preserved_information: ["不満・違和感の即時表明と『ダメ出し＋改善案』のセット提示", "Full structured candidate content remains in the linked raw source."]
+    discarded_information: []
+    source_fidelity: {explicit_source: medium, generalization_strength: medium, agent_extension_strength: medium}
+    notes: "Intermediate AI Studio note; confirm exact quotation and timestamp against original video."
+  - candidate_id: "TM-003"
+    source_file: "raw/E-team-management.md"
+    source_category: "E"
+    original_title: "10人チームは7人分：組織拡大に伴う管理コストの織り込みと視座の引き上げ"
+    status: canonical
+    canonical_principles: ["tm-003"]
+    relationship: {type: canonicalized_as, target: "tm-003"}
+    reason: "Retained as a separately addressable source candidate; raw wording and specificity remain available in provenance."
+    preserved_information: ["10人チームは7人分：組織拡大に伴う管理コストの織り込みと視座の引き上げ", "Full structured candidate content remains in the linked raw source."]
+    discarded_information: []
+    source_fidelity: {explicit_source: medium, generalization_strength: medium, agent_extension_strength: medium}
+    notes: "Intermediate AI Studio note; confirm exact quotation and timestamp against original video."
+  - candidate_id: "TM-004"
+    source_file: "raw/E-team-management.md"
+    source_category: "E"
+    original_title: "関係職種全員同席による監修と意図の全体共有"
+    status: canonical
+    canonical_principles: ["tm-004"]
+    relationship: {type: canonicalized_as, target: "tm-004"}
+    reason: "Retained as a separately addressable source candidate; raw wording and specificity remain available in provenance."
+    preserved_information: ["関係職種全員同席による監修と意図の全体共有", "Full structured candidate content remains in the linked raw source."]
+    discarded_information: []
+    source_fidelity: {explicit_source: medium, generalization_strength: medium, agent_extension_strength: medium}
+    notes: "Intermediate AI Studio note; confirm exact quotation and timestamp against original video."
+  - candidate_id: "TM-005"
+    source_file: "raw/E-team-management.md"
+    source_category: "E"
+    original_title: "天文学的組み合わせを前提としたチケット駆動・ランク別デバッグ体制"
+    status: canonical
+    canonical_principles: ["tm-005"]
+    relationship: {type: canonicalized_as, target: "tm-005"}
+    reason: "Retained as a separately addressable source candidate; raw wording and specificity remain available in provenance."
+    preserved_information: ["天文学的組み合わせを前提としたチケット駆動・ランク別デバッグ体制", "Full structured candidate content remains in the linked raw source."]
+    discarded_information: []
+    source_fidelity: {explicit_source: medium, generalization_strength: medium, agent_extension_strength: medium}
+    notes: "Intermediate AI Studio note; confirm exact quotation and timestamp against original video."
+  - candidate_id: "TM-006"
+    source_file: "raw/E-team-management.md"
+    source_category: "E"
+    original_title: "監修依頼の即日返答とディレクターの『ノー監修集中タイム』確保"
+    status: canonical
+    canonical_principles: ["tm-006"]
+    relationship: {type: canonicalized_as, target: "tm-006"}
+    reason: "Retained as a separately addressable source candidate; raw wording and specificity remain available in provenance."
+    preserved_information: ["監修依頼の即日返答とディレクターの『ノー監修集中タイム』確保", "Full structured candidate content remains in the linked raw source."]
+    discarded_information: []
+    source_fidelity: {explicit_source: medium, generalization_strength: medium, agent_extension_strength: medium}
+    notes: "Intermediate AI Studio note; confirm exact quotation and timestamp against original video."
+  - candidate_id: "TM-007"
+    source_file: "raw/E-team-management.md"
+    source_category: "E"
+    original_title: "議論を持ち帰らずその場で即決・即答する決断主義"
+    status: canonical
+    canonical_principles: ["tm-007"]
+    relationship: {type: canonicalized_as, target: "tm-007"}
+    reason: "Retained as a separately addressable source candidate; raw wording and specificity remain available in provenance."
+    preserved_information: ["議論を持ち帰らずその場で即決・即答する決断主義", "Full structured candidate content remains in the linked raw source."]
+    discarded_information: []
+    source_fidelity: {explicit_source: medium, generalization_strength: medium, agent_extension_strength: medium}
+    notes: "Intermediate AI Studio note; confirm exact quotation and timestamp against original video."
+  - candidate_id: "TM-008"
+    source_file: "raw/E-team-management.md"
+    source_category: "E"
+    original_title: "対戦バランス調整における専任モニター制と個性の維持"
+    status: canonical
+    canonical_principles: ["tm-008"]
+    relationship: {type: canonicalized_as, target: "tm-008"}
+    reason: "Retained as a separately addressable source candidate; raw wording and specificity remain available in provenance."
+    preserved_information: ["対戦バランス調整における専任モニター制と個性の維持", "Full structured candidate content remains in the linked raw source."]
+    discarded_information: []
+    source_fidelity: {explicit_source: medium, generalization_strength: medium, agent_extension_strength: medium}
+    notes: "Intermediate AI Studio note; confirm exact quotation and timestamp against original video."
+  - candidate_id: "TM-009"
+    source_file: "raw/E-team-management.md"
+    source_category: "E"
+    original_title: "ディレクターとプロデューサーの責務分離（品質と経営の牽制関係）"
+    status: canonical
+    canonical_principles: ["tm-009"]
+    relationship: {type: canonicalized_as, target: "tm-009"}
+    reason: "Retained as a separately addressable source candidate; raw wording and specificity remain available in provenance."
+    preserved_information: ["ディレクターとプロデューサーの責務分離（品質と経営の牽制関係）", "Full structured candidate content remains in the linked raw source."]
+    discarded_information: []
+    source_fidelity: {explicit_source: medium, generalization_strength: medium, agent_extension_strength: medium}
+    notes: "Intermediate AI Studio note; confirm exact quotation and timestamp against original video."
+  - candidate_id: "TM-010"
+    source_file: "raw/E-team-management.md"
+    source_category: "E"
+    original_title: "ディレクターの本質は『切る仕事』：無駄の早期切除と軌道修正"
+    status: canonical
+    canonical_principles: ["tm-010"]
+    relationship: {type: canonicalized_as, target: "tm-010"}
+    reason: "Retained as a separately addressable source candidate; raw wording and specificity remain available in provenance."
+    preserved_information: ["ディレクターの本質は『切る仕事』：無駄の早期切除と軌道修正", "Full structured candidate content remains in the linked raw source."]
+    discarded_information: []
+    source_fidelity: {explicit_source: medium, generalization_strength: medium, agent_extension_strength: medium}
+    notes: "Intermediate AI Studio note; confirm exact quotation and timestamp against original video."
+  - candidate_id: "TM-011"
+    source_file: "raw/E-team-management.md"
+    source_category: "E"
+    original_title: "ターゲット層（子ども等）による先入観ゼロのモニター観察"
+    status: canonical
+    canonical_principles: ["tm-011"]
+    relationship: {type: canonicalized_as, target: "tm-011"}
+    reason: "Retained as a separately addressable source candidate; raw wording and specificity remain available in provenance."
+    preserved_information: ["ターゲット層（子ども等）による先入観ゼロのモニター観察", "Full structured candidate content remains in the linked raw source."]
+    discarded_information: []
+    source_fidelity: {explicit_source: medium, generalization_strength: medium, agent_extension_strength: medium}
+    notes: "Intermediate AI Studio note; confirm exact quotation and timestamp against original video."
+  - candidate_id: "SKILL-GFX-001"
+    source_file: "raw/F-graphics.md"
+    source_category: "F"
+    original_title: "環境光・光の反射による絵作り（素材ではなく光を描く）"
+    status: canonical
+    canonical_principles: ["skill-gfx-001"]
+    relationship: {type: canonicalized_as, target: "skill-gfx-001"}
+    reason: "Retained as a separately addressable source candidate; raw wording and specificity remain available in provenance."
+    preserved_information: ["環境光・光の反射による絵作り（素材ではなく光を描く）", "Full structured candidate content remains in the linked raw source."]
+    discarded_information: []
+    source_fidelity: {explicit_source: medium, generalization_strength: medium, agent_extension_strength: medium}
+    notes: "Intermediate AI Studio note; confirm exact quotation and timestamp against original video."
+  - candidate_id: "SKILL-GFX-002"
+    source_file: "raw/F-graphics.md"
+    source_category: "F"
+    original_title: "接触判定領域の明示的強調と非判定領域の抑止"
+    status: canonical
+    canonical_principles: ["skill-gfx-002"]
+    relationship: {type: canonicalized_as, target: "skill-gfx-002"}
+    reason: "Retained as a separately addressable source candidate; raw wording and specificity remain available in provenance."
+    preserved_information: ["接触判定領域の明示的強調と非判定領域の抑止", "Full structured candidate content remains in the linked raw source."]
+    discarded_information: []
+    source_fidelity: {explicit_source: medium, generalization_strength: medium, agent_extension_strength: medium}
+    notes: "Intermediate AI Studio note; confirm exact quotation and timestamp against original video."
+  - candidate_id: "SKILL-GFX-003"
+    source_file: "raw/F-graphics.md"
+    source_category: "F"
+    original_title: "大事と小事の見分け（画面占有率と注視頻度によるリソース配分）"
+    status: canonical
+    canonical_principles: ["skill-gfx-003"]
+    relationship: {type: canonicalized_as, target: "skill-gfx-003"}
+    reason: "Retained as a separately addressable source candidate; raw wording and specificity remain available in provenance."
+    preserved_information: ["大事と小事の見分け（画面占有率と注視頻度によるリソース配分）", "Full structured candidate content remains in the linked raw source."]
+    discarded_information: []
+    source_fidelity: {explicit_source: medium, generalization_strength: medium, agent_extension_strength: medium}
+    notes: "Intermediate AI Studio note; confirm exact quotation and timestamp against original video."
+  - candidate_id: "SKILL-GFX-004"
+    source_file: "raw/F-graphics.md"
+    source_category: "F"
+    original_title: "スケール感の整合性管理（ミニチュア化の防止）"
+    status: canonical
+    canonical_principles: ["skill-gfx-004"]
+    relationship: {type: canonicalized_as, target: "skill-gfx-004"}
+    reason: "Retained as a separately addressable source candidate; raw wording and specificity remain available in provenance."
+    preserved_information: ["スケール感の整合性管理（ミニチュア化の防止）", "Full structured candidate content remains in the linked raw source."]
+    discarded_information: []
+    source_fidelity: {explicit_source: medium, generalization_strength: medium, agent_extension_strength: medium}
+    notes: "Intermediate AI Studio note; confirm exact quotation and timestamp against original video."
+  - candidate_id: "SKILL-GFX-005"
+    source_file: "raw/F-graphics.md"
+    source_category: "F"
+    original_title: "視覚的レタッチによる具体的ディレクション"
+    status: canonical
+    canonical_principles: ["skill-gfx-005"]
+    relationship: {type: canonicalized_as, target: "skill-gfx-005"}
+    reason: "Retained as a separately addressable source candidate; raw wording and specificity remain available in provenance."
+    preserved_information: ["視覚的レタッチによる具体的ディレクション", "Full structured candidate content remains in the linked raw source."]
+    discarded_information: []
+    source_fidelity: {explicit_source: medium, generalization_strength: medium, agent_extension_strength: medium}
+    notes: "Intermediate AI Studio note; confirm exact quotation and timestamp against original video."
+  - candidate_id: "SKILL-GFX-006"
+    source_file: "raw/F-graphics.md"
+    source_category: "F"
+    original_title: "奇数ドット幅による正中線確保とドット絵の質感表現"
+    status: canonical
+    canonical_principles: ["skill-gfx-006"]
+    relationship: {type: canonicalized_as, target: "skill-gfx-006"}
+    reason: "Retained as a separately addressable source candidate; raw wording and specificity remain available in provenance."
+    preserved_information: ["奇数ドット幅による正中線確保とドット絵の質感表現", "Full structured candidate content remains in the linked raw source."]
+    discarded_information: []
+    source_fidelity: {explicit_source: medium, generalization_strength: medium, agent_extension_strength: medium}
+    notes: "Intermediate AI Studio note; confirm exact quotation and timestamp against original video."
+  - candidate_id: "SKILL-GFX-007"
+    source_file: "raw/F-graphics.md"
+    source_category: "F"
+    original_title: "異種世界観キャラクターのタッチ統合（リファインの5原則）"
+    status: canonical
+    canonical_principles: ["skill-gfx-007"]
+    relationship: {type: canonicalized_as, target: "skill-gfx-007"}
+    reason: "Retained as a separately addressable source candidate; raw wording and specificity remain available in provenance."
+    preserved_information: ["異種世界観キャラクターのタッチ統合（リファインの5原則）", "Full structured candidate content remains in the linked raw source."]
+    discarded_information: []
+    source_fidelity: {explicit_source: medium, generalization_strength: medium, agent_extension_strength: medium}
+    notes: "Intermediate AI Studio note; confirm exact quotation and timestamp against original video."
+  - candidate_id: "SKILL-GFX-008"
+    source_file: "raw/F-graphics.md"
+    source_category: "F"
+    original_title: "存在感の創出（絵とゲーム性の相互作用）"
+    status: canonical
+    canonical_principles: ["skill-gfx-008"]
+    relationship: {type: canonicalized_as, target: "skill-gfx-008"}
+    reason: "Retained as a separately addressable source candidate; raw wording and specificity remain available in provenance."
+    preserved_information: ["存在感の創出（絵とゲーム性の相互作用）", "Full structured candidate content remains in the linked raw source."]
+    discarded_information: []
+    source_fidelity: {explicit_source: medium, generalization_strength: medium, agent_extension_strength: medium}
+    notes: "Intermediate AI Studio note; confirm exact quotation and timestamp against original video."
+  - candidate_id: "SKILL-GFX-009"
+    source_file: "raw/F-graphics.md"
+    source_category: "F"
+    original_title: "モーションブラーの適切な制御（可読性とダイナミズムの両立）"
+    status: canonical
+    canonical_principles: ["skill-gfx-009"]
+    relationship: {type: canonicalized_as, target: "skill-gfx-009"}
+    reason: "Retained as a separately addressable source candidate; raw wording and specificity remain available in provenance."
+    preserved_information: ["モーションブラーの適切な制御（可読性とダイナミズムの両立）", "Full structured candidate content remains in the linked raw source."]
+    discarded_information: []
+    source_fidelity: {explicit_source: medium, generalization_strength: medium, agent_extension_strength: medium}
+    notes: "Intermediate AI Studio note; confirm exact quotation and timestamp against original video."
+  - candidate_id: "SKILL-GFX-010"
+    source_file: "raw/F-graphics.md"
+    source_category: "F"
+    original_title: "最終出力（ポストプロセス・フレームバッファ統合）による絵作り"
+    status: canonical
+    canonical_principles: ["skill-gfx-010"]
+    relationship: {type: canonicalized_as, target: "skill-gfx-010"}
+    reason: "Retained as a separately addressable source candidate; raw wording and specificity remain available in provenance."
+    preserved_information: ["最終出力（ポストプロセス・フレームバッファ統合）による絵作り", "Full structured candidate content remains in the linked raw source."]
+    discarded_information: []
+    source_fidelity: {explicit_source: medium, generalization_strength: medium, agent_extension_strength: medium}
+    notes: "Intermediate AI Studio note; confirm exact quotation and timestamp against original video."
+  - candidate_id: "SKILL-GFX-011"
+    source_file: "raw/F-graphics.md"
+    source_category: "F"
+    original_title: "不規則性の設計（コピペ感・規則性の破壊）"
+    status: canonical
+    canonical_principles: ["skill-gfx-011"]
+    relationship: {type: canonicalized_as, target: "skill-gfx-011"}
+    reason: "Retained as a separately addressable source candidate; raw wording and specificity remain available in provenance."
+    preserved_information: ["不規則性の設計（コピペ感・規則性の破壊）", "Full structured candidate content remains in the linked raw source."]
+    discarded_information: []
+    source_fidelity: {explicit_source: medium, generalization_strength: medium, agent_extension_strength: medium}
+    notes: "Intermediate AI Studio note; confirm exact quotation and timestamp against original video."
+  - candidate_id: "SKILL-GFX-012"
+    source_file: "raw/F-graphics.md"
+    source_category: "F"
+    original_title: "漫画的誇張（感情・可読性優先の嘘表現）の許容"
+    status: canonical
+    canonical_principles: ["skill-gfx-012"]
+    relationship: {type: canonicalized_as, target: "skill-gfx-012"}
+    reason: "Retained as a separately addressable source candidate; raw wording and specificity remain available in provenance."
+    preserved_information: ["漫画的誇張（感情・可読性優先の嘘表現）の許容", "Full structured candidate content remains in the linked raw source."]
+    discarded_information: []
+    source_fidelity: {explicit_source: medium, generalization_strength: medium, agent_extension_strength: medium}
+    notes: "Intermediate AI Studio note; confirm exact quotation and timestamp against original video."
+  - candidate_id: "SKILL-GFX-013"
+    source_file: "raw/F-graphics.md"
+    source_category: "F"
+    original_title: "シルエット優先のキャラクターデザイン（キャラ立ちの極意）"
+    status: canonical
+    canonical_principles: ["skill-gfx-013"]
+    relationship: {type: canonicalized_as, target: "skill-gfx-013"}
+    reason: "Retained as a separately addressable source candidate; raw wording and specificity remain available in provenance."
+    preserved_information: ["シルエット優先のキャラクターデザイン（キャラ立ちの極意）", "Full structured candidate content remains in the linked raw source."]
+    discarded_information: []
+    source_fidelity: {explicit_source: medium, generalization_strength: medium, agent_extension_strength: medium}
+    notes: "Intermediate AI Studio note; confirm exact quotation and timestamp against original video."
+  - candidate_id: "SKILL-GFX-014"
+    source_file: "raw/F-graphics.md"
+    source_category: "F"
+    original_title: "モニター個体差と環境光を考慮した安全コントラスト設計"
+    status: canonical
+    canonical_principles: ["skill-gfx-014"]
+    relationship: {type: canonicalized_as, target: "skill-gfx-014"}
+    reason: "Retained as a separately addressable source candidate; raw wording and specificity remain available in provenance."
+    preserved_information: ["モニター個体差と環境光を考慮した安全コントラスト設計", "Full structured candidate content remains in the linked raw source."]
+    discarded_information: []
+    source_fidelity: {explicit_source: medium, generalization_strength: medium, agent_extension_strength: medium}
+    notes: "Intermediate AI Studio note; confirm exact quotation and timestamp against original video."
+  - candidate_id: "SKILL-MOT-001"
+    source_file: "raw/G-motion.md"
+    source_category: "G"
+    original_title: "ダメージ初動の極端化とヒットストップ連携"
+    status: canonical
+    canonical_principles: ["skill-mot-001"]
+    relationship: {type: canonicalized_as, target: "skill-mot-001"}
+    reason: "Retained as a separately addressable source candidate; raw wording and specificity remain available in provenance."
+    preserved_information: ["ダメージ初動の極端化とヒットストップ連携", "Full structured candidate content remains in the linked raw source."]
+    discarded_information: []
+    source_fidelity: {explicit_source: low, generalization_strength: low, agent_extension_strength: low}
+    notes: "Intermediate AI Studio note; confirm exact quotation and timestamp against original video."
+  - candidate_id: "SKILL-MOT-002"
+    source_file: "raw/G-motion.md"
+    source_category: "G"
+    original_title: "被弾時TOPノード保持とコンボ成立性の担保"
+    status: canonical
+    canonical_principles: ["skill-mot-002"]
+    relationship: {type: canonicalized_as, target: "skill-mot-002"}
+    reason: "Retained as a separately addressable source candidate; raw wording and specificity remain available in provenance."
+    preserved_information: ["被弾時TOPノード保持とコンボ成立性の担保", "Full structured candidate content remains in the linked raw source."]
+    discarded_information: []
+    source_fidelity: {explicit_source: low, generalization_strength: low, agent_extension_strength: low}
+    notes: "Intermediate AI Studio note; confirm exact quotation and timestamp against original video."
+  - candidate_id: "SKILL-MOT-003"
+    source_file: "raw/G-motion.md"
+    source_category: "G"
+    original_title: "多軸被弾リアクション（強中小×上中下）の設計"
+    status: canonical
+    canonical_principles: ["skill-mot-003"]
+    relationship: {type: canonicalized_as, target: "skill-mot-003"}
+    reason: "Retained as a separately addressable source candidate; raw wording and specificity remain available in provenance."
+    preserved_information: ["多軸被弾リアクション（強中小×上中下）の設計", "Full structured candidate content remains in the linked raw source."]
+    discarded_information: []
+    source_fidelity: {explicit_source: low, generalization_strength: low, agent_extension_strength: low}
+    notes: "Intermediate AI Studio note; confirm exact quotation and timestamp against original video."
+  - candidate_id: "SKILL-MOT-004"
+    source_file: "raw/G-motion.md"
+    source_category: "G"
+    original_title: "モーション補間の間引きと初動キレの創出"
+    status: canonical
+    canonical_principles: ["skill-mot-004"]
+    relationship: {type: canonicalized_as, target: "skill-mot-004"}
+    reason: "Retained as a separately addressable source candidate; raw wording and specificity remain available in provenance."
+    preserved_information: ["モーション補間の間引きと初動キレの創出", "Full structured candidate content remains in the linked raw source."]
+    discarded_information: []
+    source_fidelity: {explicit_source: low, generalization_strength: low, agent_extension_strength: low}
+    notes: "Intermediate AI Studio note; confirm exact quotation and timestamp against original video."
+  - candidate_id: "SKILL-MOT-005"
+    source_file: "raw/G-motion.md"
+    source_category: "G"
+    original_title: "フォロースルー軌道の非対称化（行きの軌跡をなぞらない）"
+    status: canonical
+    canonical_principles: ["skill-mot-005"]
+    relationship: {type: canonicalized_as, target: "skill-mot-005"}
+    reason: "Retained as a separately addressable source candidate; raw wording and specificity remain available in provenance."
+    preserved_information: ["フォロースルー軌道の非対称化（行きの軌跡をなぞらない）", "Full structured candidate content remains in the linked raw source."]
+    discarded_information: []
+    source_fidelity: {explicit_source: low, generalization_strength: low, agent_extension_strength: low}
+    notes: "Intermediate AI Studio note; confirm exact quotation and timestamp against original video."
+  - candidate_id: "SKILL-MOT-006"
+    source_file: "raw/G-motion.md"
+    source_category: "G"
+    original_title: "引き視点CGにおけるフェイシャルの過剰誇張"
+    status: canonical
+    canonical_principles: ["skill-mot-006"]
+    relationship: {type: canonicalized_as, target: "skill-mot-006"}
+    reason: "Retained as a separately addressable source candidate; raw wording and specificity remain available in provenance."
+    preserved_information: ["引き視点CGにおけるフェイシャルの過剰誇張", "Full structured candidate content remains in the linked raw source."]
+    discarded_information: []
+    source_fidelity: {explicit_source: low, generalization_strength: low, agent_extension_strength: low}
+    notes: "Intermediate AI Studio note; confirm exact quotation and timestamp against original video."
+  - candidate_id: "SKILL-MOT-007"
+    source_file: "raw/G-motion.md"
+    source_category: "G"
+    original_title: "フリップモーション（左右反転時の非対称演出）"
+    status: canonical
+    canonical_principles: ["skill-mot-007"]
+    relationship: {type: canonicalized_as, target: "skill-mot-007"}
+    reason: "Retained as a separately addressable source candidate; raw wording and specificity remain available in provenance."
+    preserved_information: ["フリップモーション（左右反転時の非対称演出）", "Full structured candidate content remains in the linked raw source."]
+    discarded_information: []
+    source_fidelity: {explicit_source: low, generalization_strength: low, agent_extension_strength: low}
+    notes: "Intermediate AI Studio note; confirm exact quotation and timestamp against original video."
+  - candidate_id: "SKILL-MOT-008"
+    source_file: "raw/G-motion.md"
+    source_category: "G"
+    original_title: "キャンセルフレームとモーションブレンドの調停"
+    status: canonical
+    canonical_principles: ["skill-mot-008"]
+    relationship: {type: canonicalized_as, target: "skill-mot-008"}
+    reason: "Retained as a separately addressable source candidate; raw wording and specificity remain available in provenance."
+    preserved_information: ["キャンセルフレームとモーションブレンドの調停", "Full structured candidate content remains in the linked raw source."]
+    discarded_information: []
+    source_fidelity: {explicit_source: low, generalization_strength: low, agent_extension_strength: low}
+    notes: "Intermediate AI Studio note; confirm exact quotation and timestamp against original video."
+  - candidate_id: "SKILL-MOT-009"
+    source_file: "raw/G-motion.md"
+    source_category: "G"
+    original_title: "グリップ指の斜め握りとボーン負荷の簡素化"
+    status: canonical
+    canonical_principles: ["skill-mot-009"]
+    relationship: {type: canonicalized_as, target: "skill-mot-009"}
+    reason: "Retained as a separately addressable source candidate; raw wording and specificity remain available in provenance."
+    preserved_information: ["グリップ指の斜め握りとボーン負荷の簡素化", "Full structured candidate content remains in the linked raw source."]
+    discarded_information: []
+    source_fidelity: {explicit_source: low, generalization_strength: low, agent_extension_strength: low}
+    notes: "Intermediate AI Studio note; confirm exact quotation and timestamp against original video."
+  - candidate_id: "SKILL-MOT-010"
+    source_file: "raw/G-motion.md"
+    source_category: "G"
+    original_title: "攻撃判定（正中線・発生点）とモーションの同期"
+    status: canonical
+    canonical_principles: ["skill-mot-010"]
+    relationship: {type: canonicalized_as, target: "skill-mot-010"}
+    reason: "Retained as a separately addressable source candidate; raw wording and specificity remain available in provenance."
+    preserved_information: ["攻撃判定（正中線・発生点）とモーションの同期", "Full structured candidate content remains in the linked raw source."]
+    discarded_information: []
+    source_fidelity: {explicit_source: low, generalization_strength: low, agent_extension_strength: low}
+    notes: "Intermediate AI Studio note; confirm exact quotation and timestamp against original video."
+  - candidate_id: "SKILL-MOT-011"
+    source_file: "raw/G-motion.md"
+    source_category: "G"
+    original_title: "スケルトンの幾何限界を超える誇張（180度限界の突破）"
+    status: canonical
+    canonical_principles: ["skill-mot-011"]
+    relationship: {type: canonicalized_as, target: "skill-mot-011"}
+    reason: "Retained as a separately addressable source candidate; raw wording and specificity remain available in provenance."
+    preserved_information: ["スケルトンの幾何限界を超える誇張（180度限界の突破）", "Full structured candidate content remains in the linked raw source."]
+    discarded_information: []
+    source_fidelity: {explicit_source: low, generalization_strength: low, agent_extension_strength: low}
+    notes: "Intermediate AI Studio note; confirm exact quotation and timestamp against original video."
+  - candidate_id: "SKILL-MOT-012"
+    source_file: "raw/G-motion.md"
+    source_category: "G"
+    original_title: "二軸回転による有機的ねじれの付与"
+    status: canonical
+    canonical_principles: ["skill-mot-012"]
+    relationship: {type: canonicalized_as, target: "skill-mot-012"}
+    reason: "Retained as a separately addressable source candidate; raw wording and specificity remain available in provenance."
+    preserved_information: ["二軸回転による有機的ねじれの付与", "Full structured candidate content remains in the linked raw source."]
+    discarded_information: []
+    source_fidelity: {explicit_source: low, generalization_strength: low, agent_extension_strength: low}
+    notes: "Intermediate AI Studio note; confirm exact quotation and timestamp against original video."
+  - candidate_id: "FX-001-ADDITIVE-BLENDING-CONTRAST"
+    source_file: "raw/H-effects.md"
+    source_category: "H"
+    original_title: "色加算だけに頼らず、ベタ・暗色を混在させてメリハリを作る"
+    status: canonical
+    canonical_principles: ["fx-001-additive-blending-contrast"]
+    relationship: {type: canonicalized_as, target: "fx-001-additive-blending-contrast"}
+    reason: "Retained as a separately addressable source candidate; raw wording and specificity remain available in provenance."
+    preserved_information: ["色加算だけに頼らず、ベタ・暗色を混在させてメリハリを作る", "Full structured candidate content remains in the linked raw source."]
+    discarded_information: []
+    source_fidelity: {explicit_source: medium, generalization_strength: low, agent_extension_strength: medium}
+    notes: "Intermediate AI Studio note; confirm exact quotation and timestamp against original video."
+  - candidate_id: "FX-002-CHARACTER-OCCLUSION-CONTROL"
+    source_file: "raw/H-effects.md"
+    source_category: "H"
+    original_title: "エフェクトによるキャラクターの完全遮蔽を防止する"
+    status: canonical
+    canonical_principles: ["fx-002-character-occlusion-control"]
+    relationship: {type: canonicalized_as, target: "fx-002-character-occlusion-control"}
+    reason: "Retained as a separately addressable source candidate; raw wording and specificity remain available in provenance."
+    preserved_information: ["エフェクトによるキャラクターの完全遮蔽を防止する", "Full structured candidate content remains in the linked raw source."]
+    discarded_information: []
+    source_fidelity: {explicit_source: medium, generalization_strength: low, agent_extension_strength: medium}
+    notes: "Intermediate AI Studio note; confirm exact quotation and timestamp against original video."
+  - candidate_id: "FX-003-EXPLOSION-THREE-STAGE-STRUCTURE"
+    source_file: "raw/H-effects.md"
+    source_category: "H"
+    original_title: "爆発は『閃光 → 爆発（火炎） → 残煙』の三段階推移で描く"
+    status: canonical
+    canonical_principles: ["fx-003-explosion-three-stage-structure"]
+    relationship: {type: canonicalized_as, target: "fx-003-explosion-three-stage-structure"}
+    reason: "Retained as a separately addressable source candidate; raw wording and specificity remain available in provenance."
+    preserved_information: ["爆発は『閃光 → 爆発（火炎） → 残煙』の三段階推移で描く", "Full structured candidate content remains in the linked raw source."]
+    discarded_information: []
+    source_fidelity: {explicit_source: medium, generalization_strength: low, agent_extension_strength: medium}
+    notes: "Intermediate AI Studio note; confirm exact quotation and timestamp against original video."
+  - candidate_id: "FX-004-CAMERA-SCREEN-SHAKE-DESIGN"
+    source_file: "raw/H-effects.md"
+    source_category: "H"
+    original_title: "画面振動はカメラ移動と描画画像移動を使い分け、画角と距離で減衰させよ"
+    status: canonical
+    canonical_principles: ["fx-004-camera-screen-shake-design"]
+    relationship: {type: canonicalized_as, target: "fx-004-camera-screen-shake-design"}
+    reason: "Retained as a separately addressable source candidate; raw wording and specificity remain available in provenance."
+    preserved_information: ["画面振動はカメラ移動と描画画像移動を使い分け、画角と距離で減衰させよ", "Full structured candidate content remains in the linked raw source."]
+    discarded_information: []
+    source_fidelity: {explicit_source: medium, generalization_strength: low, agent_extension_strength: medium}
+    notes: "Intermediate AI Studio note; confirm exact quotation and timestamp against original video."
+  - candidate_id: "FX-005-HIT-MARK-SEVEN-REQUIREMENTS"
+    source_file: "raw/H-effects.md"
+    source_category: "H"
+    original_title: "ヒットマークは7大原則（派手さ・メリハリ・位置・要素併用・キャラ非遮蔽・適切寿命・明度差）を満たせ"
+    status: canonical
+    canonical_principles: ["fx-005-hit-mark-seven-requirements"]
+    relationship: {type: canonicalized_as, target: "fx-005-hit-mark-seven-requirements"}
+    reason: "Retained as a separately addressable source candidate; raw wording and specificity remain available in provenance."
+    preserved_information: ["ヒットマークは7大原則（派手さ・メリハリ・位置・要素併用・キャラ非遮蔽・適切寿命・明度差）を満たせ", "Full structured candidate content remains in the linked raw source."]
+    discarded_information: []
+    source_fidelity: {explicit_source: medium, generalization_strength: low, agent_extension_strength: medium}
+    notes: "Intermediate AI Studio note; confirm exact quotation and timestamp against original video."
+  - candidate_id: "FX-006-BILLBOARD-APPROPRIATE-USE"
+    source_file: "raw/H-effects.md"
+    source_category: "H"
+    original_title: "ビルボードの特性を理解し、カメラ回転と軸制約（Y軸固定）に留意せよ"
+    status: canonical
+    canonical_principles: ["fx-006-billboard-appropriate-use"]
+    relationship: {type: canonicalized_as, target: "fx-006-billboard-appropriate-use"}
+    reason: "Retained as a separately addressable source candidate; raw wording and specificity remain available in provenance."
+    preserved_information: ["ビルボードの特性を理解し、カメラ回転と軸制約（Y軸固定）に留意せよ", "Full structured candidate content remains in the linked raw source."]
+    discarded_information: []
+    source_fidelity: {explicit_source: medium, generalization_strength: low, agent_extension_strength: medium}
+    notes: "Intermediate AI Studio note; confirm exact quotation and timestamp against original video."
+  - candidate_id: "FX-007-SLASH-TRAIL-METHODOLOGY"
+    source_file: "raw/H-effects.md"
+    source_category: "H"
+    original_title: "剣撃の風切り（軌跡）は生成メッシュと固定板ポリゴンを速度・用途で使い分けよ"
+    status: canonical
+    canonical_principles: ["fx-007-slash-trail-methodology"]
+    relationship: {type: canonicalized_as, target: "fx-007-slash-trail-methodology"}
+    reason: "Retained as a separately addressable source candidate; raw wording and specificity remain available in provenance."
+    preserved_information: ["剣撃の風切り（軌跡）は生成メッシュと固定板ポリゴンを速度・用途で使い分けよ", "Full structured candidate content remains in the linked raw source."]
+    discarded_information: []
+    source_fidelity: {explicit_source: medium, generalization_strength: low, agent_extension_strength: medium}
+    notes: "Intermediate AI Studio note; confirm exact quotation and timestamp against original video."
+  - candidate_id: "FX-008-EFFECT-SCALE-GRANULARITY"
+    source_file: "raw/H-effects.md"
+    source_category: "H"
+    original_title: "エフェクトのスケール感と粒度をキャラクターと世界観に一致させよ"
+    status: canonical
+    canonical_principles: ["fx-008-effect-scale-granularity"]
+    relationship: {type: canonicalized_as, target: "fx-008-effect-scale-granularity"}
+    reason: "Retained as a separately addressable source candidate; raw wording and specificity remain available in provenance."
+    preserved_information: ["エフェクトのスケール感と粒度をキャラクターと世界観に一致させよ", "Full structured candidate content remains in the linked raw source."]
+    discarded_information: []
+    source_fidelity: {explicit_source: medium, generalization_strength: low, agent_extension_strength: medium}
+    notes: "Intermediate AI Studio note; confirm exact quotation and timestamp against original video."
+  - candidate_id: "FX-009-FLASHING-CONTRAST-BALANCING"
+    source_file: "raw/H-effects.md"
+    source_category: "H"
+    original_title: "フラッシングは明暗の混在とカメラ距離に応じた強度スケーリングを行え"
+    status: canonical
+    canonical_principles: ["fx-009-flashing-contrast-balancing"]
+    relationship: {type: canonicalized_as, target: "fx-009-flashing-contrast-balancing"}
+    reason: "Retained as a separately addressable source candidate; raw wording and specificity remain available in provenance."
+    preserved_information: ["フラッシングは明暗の混在とカメラ距離に応じた強度スケーリングを行え", "Full structured candidate content remains in the linked raw source."]
+    discarded_information: []
+    source_fidelity: {explicit_source: medium, generalization_strength: low, agent_extension_strength: medium}
+    notes: "Intermediate AI Studio note; confirm exact quotation and timestamp against original video."
+  - candidate_id: "FX-010-PARTICLE-BUDGET-CONSERVATION"
+    source_file: "raw/H-effects.md"
+    source_category: "H"
+    original_title: "パーティクルは寿命短縮・集約・タイミング分散・大振り化で徹底節約せよ"
+    status: canonical
+    canonical_principles: ["fx-010-particle-budget-conservation"]
+    relationship: {type: canonicalized_as, target: "fx-010-particle-budget-conservation"}
+    reason: "Retained as a separately addressable source candidate; raw wording and specificity remain available in provenance."
+    preserved_information: ["パーティクルは寿命短縮・集約・タイミング分散・大振り化で徹底節約せよ", "Full structured candidate content remains in the linked raw source."]
+    discarded_information: []
+    source_fidelity: {explicit_source: medium, generalization_strength: low, agent_extension_strength: medium}
+    notes: "Intermediate AI Studio note; confirm exact quotation and timestamp against original video."
+  - candidate_id: "SOUND-001"
+    source_file: "raw/I-sound.md"
+    source_category: "I"
+    original_title: "ゲームの攻防速度・状況に応じたテンポ（BPM）設計"
+    status: canonical
+    canonical_principles: ["sound-001"]
+    relationship: {type: canonicalized_as, target: "sound-001"}
+    reason: "Retained as a separately addressable source candidate; raw wording and specificity remain available in provenance."
+    preserved_information: ["ゲームの攻防速度・状況に応じたテンポ（BPM）設計", "Full structured candidate content remains in the linked raw source."]
+    discarded_information: []
+    source_fidelity: {explicit_source: medium, generalization_strength: medium, agent_extension_strength: medium}
+    notes: "Intermediate AI Studio note; confirm exact quotation and timestamp against original video."
+  - candidate_id: "SOUND-002"
+    source_file: "raw/I-sound.md"
+    source_category: "I"
+    original_title: "プレイヤーとの影響度に基づく効果音プライオリティ階層化"
+    status: canonical
+    canonical_principles: ["sound-002"]
+    relationship: {type: canonicalized_as, target: "sound-002"}
+    reason: "Retained as a separately addressable source candidate; raw wording and specificity remain available in provenance."
+    preserved_information: ["プレイヤーとの影響度に基づく効果音プライオリティ階層化", "Full structured candidate content remains in the linked raw source."]
+    discarded_information: []
+    source_fidelity: {explicit_source: medium, generalization_strength: medium, agent_extension_strength: medium}
+    notes: "Intermediate AI Studio note; confirm exact quotation and timestamp against original video."
+  - candidate_id: "SOUND-003"
+    source_file: "raw/I-sound.md"
+    source_category: "I"
+    original_title: "低スペック家庭用環境を基準としたマルチ環境サウンドチェック"
+    status: canonical
+    canonical_principles: ["sound-003"]
+    relationship: {type: canonicalized_as, target: "sound-003"}
+    reason: "Retained as a separately addressable source candidate; raw wording and specificity remain available in provenance."
+    preserved_information: ["低スペック家庭用環境を基準としたマルチ環境サウンドチェック", "Full structured candidate content remains in the linked raw source."]
+    discarded_information: []
+    source_fidelity: {explicit_source: medium, generalization_strength: medium, agent_extension_strength: medium}
+    notes: "Intermediate AI Studio note; confirm exact quotation and timestamp against original video."
+  - candidate_id: "SOUND-004"
+    source_file: "raw/I-sound.md"
+    source_category: "I"
+    original_title: "グラフィック密度に応じた環境音楽化とメインフレーズ活用"
+    status: canonical
+    canonical_principles: ["sound-004"]
+    relationship: {type: canonicalized_as, target: "sound-004"}
+    reason: "Retained as a separately addressable source candidate; raw wording and specificity remain available in provenance."
+    preserved_information: ["グラフィック密度に応じた環境音楽化とメインフレーズ活用", "Full structured candidate content remains in the linked raw source."]
+    discarded_information: []
+    source_fidelity: {explicit_source: medium, generalization_strength: medium, agent_extension_strength: medium}
+    notes: "Intermediate AI Studio note; confirm exact quotation and timestamp against original video."
+  - candidate_id: "SOUND-005"
+    source_file: "raw/I-sound.md"
+    source_category: "I"
+    original_title: "アクションの手応えを増幅するフィクション音（ウソ）の調合"
+    status: canonical
+    canonical_principles: ["sound-005"]
+    relationship: {type: canonicalized_as, target: "sound-005"}
+    reason: "Retained as a separately addressable source candidate; raw wording and specificity remain available in provenance."
+    preserved_information: ["アクションの手応えを増幅するフィクション音（ウソ）の調合", "Full structured candidate content remains in the linked raw source."]
+    discarded_information: []
+    source_fidelity: {explicit_source: medium, generalization_strength: medium, agent_extension_strength: medium}
+    notes: "Intermediate AI Studio note; confirm exact quotation and timestamp against original video."
+  - candidate_id: "SOUND-006"
+    source_file: "raw/I-sound.md"
+    source_category: "I"
+    original_title: "プレイテンポを妨げないミニマルボイス設計と収録プロセスの確立"
+    status: canonical
+    canonical_principles: ["sound-006"]
+    relationship: {type: canonicalized_as, target: "sound-006"}
+    reason: "Retained as a separately addressable source candidate; raw wording and specificity remain available in provenance."
+    preserved_information: ["プレイテンポを妨げないミニマルボイス設計と収録プロセスの確立", "Full structured candidate content remains in the linked raw source."]
+    discarded_information: []
+    source_fidelity: {explicit_source: medium, generalization_strength: medium, agent_extension_strength: medium}
+    notes: "Intermediate AI Studio note; confirm exact quotation and timestamp against original video."
+  - candidate_id: "SOUND-007"
+    source_file: "raw/I-sound.md"
+    source_category: "I"
+    original_title: "原曲主旋律の同一性を堅持した対戦特化アレンジ設計"
+    status: canonical
+    canonical_principles: ["sound-007"]
+    relationship: {type: canonicalized_as, target: "sound-007"}
+    reason: "Retained as a separately addressable source candidate; raw wording and specificity remain available in provenance."
+    preserved_information: ["原曲主旋律の同一性を堅持した対戦特化アレンジ設計", "Full structured candidate content remains in the linked raw source."]
+    discarded_information: []
+    source_fidelity: {explicit_source: medium, generalization_strength: medium, agent_extension_strength: medium}
+    notes: "Intermediate AI Studio note; confirm exact quotation and timestamp against original video."
+  - candidate_id: "SOUND-008"
+    source_file: "raw/I-sound.md"
+    source_category: "I"
+    original_title: "音楽的見解より「原作ゲーム内での体験（原曲）」を正とする"
+    status: canonical
+    canonical_principles: ["sound-008"]
+    relationship: {type: canonicalized_as, target: "sound-008"}
+    reason: "Retained as a separately addressable source candidate; raw wording and specificity remain available in provenance."
+    preserved_information: ["音楽的見解より「原作ゲーム内での体験（原曲）」を正とする", "Full structured candidate content remains in the linked raw source."]
+    discarded_information: []
+    source_fidelity: {explicit_source: medium, generalization_strength: medium, agent_extension_strength: medium}
+    notes: "Intermediate AI Studio note; confirm exact quotation and timestamp against original video."
+  - candidate_id: "SOUND-009"
+    source_file: "raw/I-sound.md"
+    source_category: "I"
+    original_title: "アタックの即時最大化と残響（ディケイ・リリース）の抑制"
+    status: canonical
+    canonical_principles: ["sound-009"]
+    relationship: {type: canonicalized_as, target: "sound-009"}
+    reason: "Retained as a separately addressable source candidate; raw wording and specificity remain available in provenance."
+    preserved_information: ["アタックの即時最大化と残響（ディケイ・リリース）の抑制", "Full structured candidate content remains in the linked raw source."]
+    discarded_information: []
+    source_fidelity: {explicit_source: medium, generalization_strength: medium, agent_extension_strength: medium}
+    notes: "Intermediate AI Studio note; confirm exact quotation and timestamp against original video."
+  - candidate_id: "SOUND-010"
+    source_file: "raw/I-sound.md"
+    source_category: "I"
+    original_title: "主観的オノマトペを排除した客観的・機能的サウンド指示"
+    status: canonical
+    canonical_principles: ["sound-010"]
+    relationship: {type: canonicalized_as, target: "sound-010"}
+    reason: "Retained as a separately addressable source candidate; raw wording and specificity remain available in provenance."
+    preserved_information: ["主観的オノマトペを排除した客観的・機能的サウンド指示", "Full structured candidate content remains in the linked raw source."]
+    discarded_information: []
+    source_fidelity: {explicit_source: medium, generalization_strength: medium, agent_extension_strength: medium}
+    notes: "Intermediate AI Studio note; confirm exact quotation and timestamp against original video."
+  - candidate_id: "SOUND-011"
+    source_file: "raw/I-sound.md"
+    source_category: "I"
+    original_title: "世界の解像度を上げる環境音（アンビエンス）のレイヤー設計"
+    status: canonical
+    canonical_principles: ["sound-011"]
+    relationship: {type: canonicalized_as, target: "sound-011"}
+    reason: "Retained as a separately addressable source candidate; raw wording and specificity remain available in provenance."
+    preserved_information: ["世界の解像度を上げる環境音（アンビエンス）のレイヤー設計", "Full structured candidate content remains in the linked raw source."]
+    discarded_information: []
+    source_fidelity: {explicit_source: medium, generalization_strength: medium, agent_extension_strength: medium}
+    notes: "Intermediate AI Studio note; confirm exact quotation and timestamp against original video."
+  - candidate_id: "SOUND-012"
+    source_file: "raw/I-sound.md"
+    source_category: "I"
+    original_title: "既存曲リファレンス時の固執回避と変更要素の明確化"
+    status: canonical
+    canonical_principles: ["sound-012"]
+    relationship: {type: canonicalized_as, target: "sound-012"}
+    reason: "Retained as a separately addressable source candidate; raw wording and specificity remain available in provenance."
+    preserved_information: ["既存曲リファレンス時の固執回避と変更要素の明確化", "Full structured candidate content remains in the linked raw source."]
+    discarded_information: []
+    source_fidelity: {explicit_source: medium, generalization_strength: medium, agent_extension_strength: medium}
+    notes: "Intermediate AI Studio note; confirm exact quotation and timestamp against original video."
+  - candidate_id: "SOUND-013"
+    source_file: "raw/I-sound.md"
+    source_category: "I"
+    original_title: "制約下での音響アーキテクチャ理解と創意工夫の最大化"
+    status: canonical
+    canonical_principles: ["sound-013"]
+    relationship: {type: canonicalized_as, target: "sound-013"}
+    reason: "Retained as a separately addressable source candidate; raw wording and specificity remain available in provenance."
+    preserved_information: ["制約下での音響アーキテクチャ理解と創意工夫の最大化", "Full structured candidate content remains in the linked raw source."]
+    discarded_information: []
+    source_fidelity: {explicit_source: medium, generalization_strength: medium, agent_extension_strength: medium}
+    notes: "Intermediate AI Studio note; confirm exact quotation and timestamp against original video."
+  - candidate_id: "SOUND-014"
+    source_file: "raw/I-sound.md"
+    source_category: "I"
+    original_title: "「名作に音の悪いものなし」を信条とするゲーム全体験の牽引"
+    status: canonical
+    canonical_principles: ["sound-014"]
+    relationship: {type: canonicalized_as, target: "sound-014"}
+    reason: "Retained as a separately addressable source candidate; raw wording and specificity remain available in provenance."
+    preserved_information: ["「名作に音の悪いものなし」を信条とするゲーム全体験の牽引", "Full structured candidate content remains in the linked raw source."]
+    discarded_information: []
+    source_fidelity: {explicit_source: medium, generalization_strength: medium, agent_extension_strength: medium}
+    notes: "Intermediate AI Studio note; confirm exact quotation and timestamp against original video."
+  - candidate_id: "UI-001"
+    source_file: "raw/J-ui.md"
+    source_category: "J"
+    original_title: "選択・決定操作の高速化とショートカット設計"
+    status: canonical
+    canonical_principles: ["ui-001"]
+    relationship: {type: canonicalized_as, target: "ui-001"}
+    reason: "Retained as a separately addressable source candidate; raw wording and specificity remain available in provenance."
+    preserved_information: ["選択・決定操作の高速化とショートカット設計", "Full structured candidate content remains in the linked raw source."]
+    discarded_information: []
+    source_fidelity: {explicit_source: low, generalization_strength: low, agent_extension_strength: low}
+    notes: "Intermediate AI Studio note; confirm exact quotation and timestamp against original video."
+  - candidate_id: "UI-002"
+    source_file: "raw/J-ui.md"
+    source_category: "J"
+    original_title: "非プレイ時間の任意スキップ・ポーズの完全保証"
+    status: canonical
+    canonical_principles: ["ui-002"]
+    relationship: {type: canonicalized_as, target: "ui-002"}
+    reason: "Retained as a separately addressable source candidate; raw wording and specificity remain available in provenance."
+    preserved_information: ["非プレイ時間の任意スキップ・ポーズの完全保証", "Full structured candidate content remains in the linked raw source."]
+    discarded_information: []
+    source_fidelity: {explicit_source: low, generalization_strength: low, agent_extension_strength: low}
+    notes: "Intermediate AI Studio note; confirm exact quotation and timestamp against original video."
+  - candidate_id: "UI-003"
+    source_file: "raw/J-ui.md"
+    source_category: "J"
+    original_title: "グラフィカルかつ安全なキーコンフィグの実装"
+    status: canonical
+    canonical_principles: ["ui-003"]
+    relationship: {type: canonicalized_as, target: "ui-003"}
+    reason: "Retained as a separately addressable source candidate; raw wording and specificity remain available in provenance."
+    preserved_information: ["グラフィカルかつ安全なキーコンフィグの実装", "Full structured candidate content remains in the linked raw source."]
+    discarded_information: []
+    source_fidelity: {explicit_source: low, generalization_strength: low, agent_extension_strength: low}
+    notes: "Intermediate AI Studio note; confirm exact quotation and timestamp against original video."
+  - candidate_id: "UI-004"
+    source_file: "raw/J-ui.md"
+    source_category: "J"
+    original_title: "テキスト送り速度の主導権開放とセリフ頭出しスキップ"
+    status: canonical
+    canonical_principles: ["ui-004"]
+    relationship: {type: canonicalized_as, target: "ui-004"}
+    reason: "Retained as a separately addressable source candidate; raw wording and specificity remain available in provenance."
+    preserved_information: ["テキスト送り速度の主導権開放とセリフ頭出しスキップ", "Full structured candidate content remains in the linked raw source."]
+    discarded_information: []
+    source_fidelity: {explicit_source: low, generalization_strength: low, agent_extension_strength: low}
+    notes: "Intermediate AI Studio note; confirm exact quotation and timestamp against original video."
+  - candidate_id: "UI-005"
+    source_file: "raw/J-ui.md"
+    source_category: "J"
+    original_title: "メニュー項目の同語反復を排した客観的ヘルプ文"
+    status: canonical
+    canonical_principles: ["ui-005"]
+    relationship: {type: canonicalized_as, target: "ui-005"}
+    reason: "Retained as a separately addressable source candidate; raw wording and specificity remain available in provenance."
+    preserved_information: ["メニュー項目の同語反復を排した客観的ヘルプ文", "Full structured candidate content remains in the linked raw source."]
+    discarded_information: []
+    source_fidelity: {explicit_source: low, generalization_strength: low, agent_extension_strength: low}
+    notes: "Intermediate AI Studio note; confirm exact quotation and timestamp against original video."
+  - candidate_id: "UI-006"
+    source_file: "raw/J-ui.md"
+    source_category: "J"
+    original_title: "非言語的理解を促すグラフィックUIとボタン連打導線"
+    status: canonical
+    canonical_principles: ["ui-006"]
+    relationship: {type: canonicalized_as, target: "ui-006"}
+    reason: "Retained as a separately addressable source candidate; raw wording and specificity remain available in provenance."
+    preserved_information: ["非言語的理解を促すグラフィックUIとボタン連打導線", "Full structured candidate content remains in the linked raw source."]
+    discarded_information: []
+    source_fidelity: {explicit_source: low, generalization_strength: low, agent_extension_strength: low}
+    notes: "Intermediate AI Studio note; confirm exact quotation and timestamp against original video."
+  - candidate_id: "UI-007"
+    source_file: "raw/J-ui.md"
+    source_category: "J"
+    original_title: "プレイ状況と視認性に連動する動的HUD設計"
+    status: canonical
+    canonical_principles: ["ui-007"]
+    relationship: {type: canonicalized_as, target: "ui-007"}
+    reason: "Retained as a separately addressable source candidate; raw wording and specificity remain available in provenance."
+    preserved_information: ["プレイ状況と視認性に連動する動的HUD設計", "Full structured candidate content remains in the linked raw source."]
+    discarded_information: []
+    source_fidelity: {explicit_source: low, generalization_strength: low, agent_extension_strength: low}
+    notes: "Intermediate AI Studio note; confirm exact quotation and timestamp against original video."
+  - candidate_id: "TECH-FILE-001"
+    source_file: "raw/K-programming-technical.md"
+    source_category: "K"
+    original_title: "ソート順と大分類を優先するアセット・ファイル命名規則"
+    status: canonical
+    canonical_principles: ["tech-file-001"]
+    relationship: {type: canonicalized_as, target: "tech-file-001"}
+    reason: "Retained as a separately addressable source candidate; raw wording and specificity remain available in provenance."
+    preserved_information: ["ソート順と大分類を優先するアセット・ファイル命名規則", "Full structured candidate content remains in the linked raw source."]
+    discarded_information: []
+    source_fidelity: {explicit_source: medium, generalization_strength: medium, agent_extension_strength: medium}
+    notes: "Intermediate AI Studio note; confirm exact quotation and timestamp against original video."
+  - candidate_id: "TECH-PARAM-002"
+    source_file: "raw/K-programming-technical.md"
+    source_category: "K"
+    original_title: "ロジック（骨）とパラメーター（筋肉）の完全分離および即時ホットリロード環境の構築"
+    status: canonical
+    canonical_principles: ["tech-param-002"]
+    relationship: {type: canonicalized_as, target: "tech-param-002"}
+    reason: "Retained as a separately addressable source candidate; raw wording and specificity remain available in provenance."
+    preserved_information: ["ロジック（骨）とパラメーター（筋肉）の完全分離および即時ホットリロード環境の構築", "Full structured candidate content remains in the linked raw source."]
+    discarded_information: []
+    source_fidelity: {explicit_source: medium, generalization_strength: medium, agent_extension_strength: medium}
+    notes: "Intermediate AI Studio note; confirm exact quotation and timestamp against original video."
+  - candidate_id: "TECH-DOC-003"
+    source_file: "raw/K-programming-technical.md"
+    source_category: "K"
+    original_title: "口語文章＋隅付き括弧【】による仕様書・パラメーター1対1結合作法"
+    status: canonical
+    canonical_principles: ["tech-doc-003"]
+    relationship: {type: canonicalized_as, target: "tech-doc-003"}
+    reason: "Retained as a separately addressable source candidate; raw wording and specificity remain available in provenance."
+    preserved_information: ["口語文章＋隅付き括弧【】による仕様書・パラメーター1対1結合作法", "Full structured candidate content remains in the linked raw source."]
+    discarded_information: []
+    source_fidelity: {explicit_source: medium, generalization_strength: medium, agent_extension_strength: medium}
+    notes: "Intermediate AI Studio note; confirm exact quotation and timestamp against original video."
+  - candidate_id: "TECH-TASK-004"
+    source_file: "raw/K-programming-technical.md"
+    source_category: "K"
+    original_title: "チケット駆動による工程の可視化と非同期化（直列化の排除）"
+    status: canonical
+    canonical_principles: ["tech-task-004"]
+    relationship: {type: canonicalized_as, target: "tech-task-004"}
+    reason: "Retained as a separately addressable source candidate; raw wording and specificity remain available in provenance."
+    preserved_information: ["チケット駆動による工程の可視化と非同期化（直列化の排除）", "Full structured candidate content remains in the linked raw source."]
+    discarded_information: []
+    source_fidelity: {explicit_source: medium, generalization_strength: medium, agent_extension_strength: medium}
+    notes: "Intermediate AI Studio note; confirm exact quotation and timestamp against original video."
+  - candidate_id: "TECH-KB-005"
+    source_file: "raw/K-programming-technical.md"
+    source_category: "K"
+    original_title: "手触り（ゲームフィール）を評価するための最小物理・入力プロトタイピング"
+    status: canonical
+    canonical_principles: ["tech-kb-005"]
+    relationship: {type: canonicalized_as, target: "tech-kb-005"}
+    reason: "Retained as a separately addressable source candidate; raw wording and specificity remain available in provenance."
+    preserved_information: ["手触り（ゲームフィール）を評価するための最小物理・入力プロトタイピング", "Full structured candidate content remains in the linked raw source."]
+    discarded_information: []
+    source_fidelity: {explicit_source: medium, generalization_strength: medium, agent_extension_strength: medium}
+    notes: "Intermediate AI Studio note; confirm exact quotation and timestamp against original video."
+  - candidate_id: "TECH-KB-006"
+    source_file: "raw/K-programming-technical.md"
+    source_category: "K"
+    original_title: "ふっとばし・被弾リアクションの多層パラメーター分離設計"
+    status: canonical
+    canonical_principles: ["tech-kb-006"]
+    relationship: {type: canonicalized_as, target: "tech-kb-006"}
+    reason: "Retained as a separately addressable source candidate; raw wording and specificity remain available in provenance."
+    preserved_information: ["ふっとばし・被弾リアクションの多層パラメーター分離設計", "Full structured candidate content remains in the linked raw source."]
+    discarded_information: []
+    source_fidelity: {explicit_source: medium, generalization_strength: medium, agent_extension_strength: medium}
+    notes: "Intermediate AI Studio note; confirm exact quotation and timestamp against original video."
+  - candidate_id: "TECH-VCS-007"
+    source_file: "raw/K-programming-technical.md"
+    source_category: "K"
+    original_title: "多人数分散開発におけるファイル排他制御と「先祖返り」自動検知"
+    status: canonical
+    canonical_principles: ["tech-vcs-007"]
+    relationship: {type: canonicalized_as, target: "tech-vcs-007"}
+    reason: "Retained as a separately addressable source candidate; raw wording and specificity remain available in provenance."
+    preserved_information: ["多人数分散開発におけるファイル排他制御と「先祖返り」自動検知", "Full structured candidate content remains in the linked raw source."]
+    discarded_information: []
+    source_fidelity: {explicit_source: medium, generalization_strength: medium, agent_extension_strength: medium}
+    notes: "Intermediate AI Studio note; confirm exact quotation and timestamp against original video."
+  - candidate_id: "TECH-DEBUG-008"
+    source_file: "raw/K-programming-technical.md"
+    source_category: "K"
+    original_title: "開発効率を極大化する単一コントローラー完結型デバッグモードの構築"
+    status: canonical
+    canonical_principles: ["tech-debug-008"]
+    relationship: {type: canonicalized_as, target: "tech-debug-008"}
+    reason: "Retained as a separately addressable source candidate; raw wording and specificity remain available in provenance."
+    preserved_information: ["開発効率を極大化する単一コントローラー完結型デバッグモードの構築", "Full structured candidate content remains in the linked raw source."]
+    discarded_information: []
+    source_fidelity: {explicit_source: medium, generalization_strength: medium, agent_extension_strength: medium}
+    notes: "Intermediate AI Studio note; confirm exact quotation and timestamp against original video."
+  - candidate_id: "TECH-VIS-009"
+    source_file: "raw/K-programming-technical.md"
+    source_category: "K"
+    original_title: "パーツ別透過・レイヤー個別トグルによるモーション・視覚要素の検証機能"
+    status: canonical
+    canonical_principles: ["tech-vis-009"]
+    relationship: {type: canonicalized_as, target: "tech-vis-009"}
+    reason: "Retained as a separately addressable source candidate; raw wording and specificity remain available in provenance."
+    preserved_information: ["パーツ別透過・レイヤー個別トグルによるモーション・視覚要素の検証機能", "Full structured candidate content remains in the linked raw source."]
+    discarded_information: []
+    source_fidelity: {explicit_source: medium, generalization_strength: medium, agent_extension_strength: medium}
+    notes: "Intermediate AI Studio note; confirm exact quotation and timestamp against original video."
+  - candidate_id: "PR-001"
+    source_file: "raw/L-publicity.md"
+    source_category: "L"
+    original_title: "開発と広報の掛け算原則（両輪駆動）"
+    status: canonical
+    canonical_principles: ["pr-001"]
+    relationship: {type: canonicalized_as, target: "pr-001"}
+    reason: "Retained as a separately addressable source candidate; raw wording and specificity remain available in provenance."
+    preserved_information: ["開発と広報の掛け算原則（両輪駆動）", "Full structured candidate content remains in the linked raw source."]
+    discarded_information: []
+    source_fidelity: {explicit_source: medium, generalization_strength: medium, agent_extension_strength: medium}
+    notes: "Intermediate AI Studio note; confirm exact quotation and timestamp against original video."
+  - candidate_id: "PR-002"
+    source_file: "raw/L-publicity.md"
+    source_category: "L"
+    original_title: "製品像の厳密一致原則（ミスマッチの完全排除）"
+    status: canonical
+    canonical_principles: ["pr-002"]
+    relationship: {type: canonicalized_as, target: "pr-002"}
+    reason: "Retained as a separately addressable source candidate; raw wording and specificity remain available in provenance."
+    preserved_information: ["製品像の厳密一致原則（ミスマッチの完全排除）", "Full structured candidate content remains in the linked raw source."]
+    discarded_information: []
+    source_fidelity: {explicit_source: medium, generalization_strength: medium, agent_extension_strength: medium}
+    notes: "Intermediate AI Studio note; confirm exact quotation and timestamp against original video."
+  - candidate_id: "PR-003"
+    source_file: "raw/L-publicity.md"
+    source_category: "L"
+    original_title: "体験版（デモ版）の二面性評価とハイリスク管理"
+    status: canonical
+    canonical_principles: ["pr-003"]
+    relationship: {type: canonicalized_as, target: "pr-003"}
+    reason: "Retained as a separately addressable source candidate; raw wording and specificity remain available in provenance."
+    preserved_information: ["体験版（デモ版）の二面性評価とハイリスク管理", "Full structured candidate content remains in the linked raw source."]
+    discarded_information: []
+    source_fidelity: {explicit_source: medium, generalization_strength: medium, agent_extension_strength: medium}
+    notes: "Intermediate AI Studio note; confirm exact quotation and timestamp against original video."
+  - candidate_id: "PR-004"
+    source_file: "raw/L-publicity.md"
+    source_category: "L"
+    original_title: "公式情報基盤（ウェブサイト/旗艦拠点）の階層化設計"
+    status: canonical
+    canonical_principles: ["pr-004"]
+    relationship: {type: canonicalized_as, target: "pr-004"}
+    reason: "Retained as a separately addressable source candidate; raw wording and specificity remain available in provenance."
+    preserved_information: ["公式情報基盤（ウェブサイト/旗艦拠点）の階層化設計", "Full structured candidate content remains in the linked raw source."]
+    discarded_information: []
+    source_fidelity: {explicit_source: medium, generalization_strength: medium, agent_extension_strength: medium}
+    notes: "Intermediate AI Studio note; confirm exact quotation and timestamp against original video."
+  - candidate_id: "PR-005"
+    source_file: "raw/L-publicity.md"
+    source_category: "L"
+    original_title: "プロモーション映像の独立エンタメ化と徹底監修"
+    status: canonical
+    canonical_principles: ["pr-005"]
+    relationship: {type: canonicalized_as, target: "pr-005"}
+    reason: "Retained as a separately addressable source candidate; raw wording and specificity remain available in provenance."
+    preserved_information: ["プロモーション映像の独立エンタメ化と徹底監修", "Full structured candidate content remains in the linked raw source."]
+    discarded_information: []
+    source_fidelity: {explicit_source: medium, generalization_strength: medium, agent_extension_strength: medium}
+    notes: "Intermediate AI Studio note; confirm exact quotation and timestamp against original video."
+  - candidate_id: "PR-006"
+    source_file: "raw/L-publicity.md"
+    source_category: "L"
+    original_title: "ゲーム画面即時提示の原則（売りを素早く明確に）"
+    status: canonical
+    canonical_principles: ["pr-006"]
+    relationship: {type: canonicalized_as, target: "pr-006"}
+    reason: "Retained as a separately addressable source candidate; raw wording and specificity remain available in provenance."
+    preserved_information: ["ゲーム画面即時提示の原則（売りを素早く明確に）", "Full structured candidate content remains in the linked raw source."]
+    discarded_information: []
+    source_fidelity: {explicit_source: medium, generalization_strength: medium, agent_extension_strength: medium}
+    notes: "Intermediate AI Studio note; confirm exact quotation and timestamp against original video."
+  - candidate_id: "PR-007"
+    source_file: "raw/L-publicity.md"
+    source_category: "L"
+    original_title: "公開実機デモ（眼前プレイ）による思考整理と説得力最大化"
+    status: canonical
+    canonical_principles: ["pr-007"]
+    relationship: {type: canonicalized_as, target: "pr-007"}
+    reason: "Retained as a separately addressable source candidate; raw wording and specificity remain available in provenance."
+    preserved_information: ["公開実機デモ（眼前プレイ）による思考整理と説得力最大化", "Full structured candidate content remains in the linked raw source."]
+    discarded_information: []
+    source_fidelity: {explicit_source: medium, generalization_strength: medium, agent_extension_strength: medium}
+    notes: "Intermediate AI Studio note; confirm exact quotation and timestamp against original video."
+  - candidate_id: "PR-008"
+    source_file: "raw/L-publicity.md"
+    source_category: "L"
+    original_title: "マーケティング/ターゲティングの相対化原則（未来の非拘束）"
+    status: canonical
+    canonical_principles: ["pr-008"]
+    relationship: {type: canonicalized_as, target: "pr-008"}
+    reason: "Retained as a separately addressable source candidate; raw wording and specificity remain available in provenance."
+    preserved_information: ["マーケティング/ターゲティングの相対化原則（未来の非拘束）", "Full structured candidate content remains in the linked raw source."]
+    discarded_information: []
+    source_fidelity: {explicit_source: medium, generalization_strength: medium, agent_extension_strength: medium}
+    notes: "Intermediate AI Studio note; confirm exact quotation and timestamp against original video."
+  - candidate_id: "PR-009"
+    source_file: "raw/L-publicity.md"
+    source_category: "L"
+    original_title: "高頻度継続更新による情報発信の習慣化（デイリープッシュ）"
+    status: canonical
+    canonical_principles: ["pr-009"]
+    relationship: {type: canonicalized_as, target: "pr-009"}
+    reason: "Retained as a separately addressable source candidate; raw wording and specificity remain available in provenance."
+    preserved_information: ["高頻度継続更新による情報発信の習慣化（デイリープッシュ）", "Full structured candidate content remains in the linked raw source."]
+    discarded_information: []
+    source_fidelity: {explicit_source: medium, generalization_strength: medium, agent_extension_strength: medium}
+    notes: "Intermediate AI Studio note; confirm exact quotation and timestamp against original video."
+  - candidate_id: "concept_reduce_punishment_for_beginners"
+    source_file: "raw/planning-concepts.md"
+    source_category: "CONCEPT"
+    original_title: "初心者向けリスク低減と即死回避の二重安全設計"
+    status: canonical
+    canonical_principles: ["concept-reduce-punishment-for-beginners"]
+    relationship: {type: canonicalized_as, target: "concept-reduce-punishment-for-beginners"}
+    reason: "Retained as a separately addressable source candidate; raw wording and specificity remain available in provenance."
+    preserved_information: ["初心者向けリスク低減と即死回避の二重安全設計", "Full structured candidate content remains in the linked raw source."]
+    discarded_information: []
+    source_fidelity: {explicit_source: low, generalization_strength: medium, agent_extension_strength: medium}
+    notes: "Intermediate AI Studio note; confirm exact quotation and timestamp against original video."
+  - candidate_id: "concept_dual_layer_skill_expression"
+    source_file: "raw/planning-concepts.md"
+    source_category: "CONCEPT"
+    original_title: "初心者クリア保証と上級者マニアックプレイの両立（二層構造設計）"
+    status: canonical
+    canonical_principles: ["concept-dual-layer-skill-expression"]
+    relationship: {type: canonicalized_as, target: "concept-dual-layer-skill-expression"}
+    reason: "Retained as a separately addressable source candidate; raw wording and specificity remain available in provenance."
+    preserved_information: ["初心者クリア保証と上級者マニアックプレイの両立（二層構造設計）", "Full structured candidate content remains in the linked raw source."]
+    discarded_information: []
+    source_fidelity: {explicit_source: low, generalization_strength: medium, agent_extension_strength: medium}
+    notes: "Intermediate AI Studio note; confirm exact quotation and timestamp against original video."
+  - candidate_id: "concept_asymmetric_coop_camera_anchor"
+    source_file: "raw/planning-concepts.md"
+    source_category: "CONCEPT"
+    original_title: "主役・脇役の重み付けによるマルチプレイ追従カメラの破綻防止"
+    status: canonical
+    canonical_principles: ["concept-asymmetric-coop-camera-anchor"]
+    relationship: {type: canonicalized_as, target: "concept-asymmetric-coop-camera-anchor"}
+    reason: "Retained as a separately addressable source candidate; raw wording and specificity remain available in provenance."
+    preserved_information: ["主役・脇役の重み付けによるマルチプレイ追従カメラの破綻防止", "Full structured candidate content remains in the linked raw source."]
+    discarded_information: []
+    source_fidelity: {explicit_source: low, generalization_strength: medium, agent_extension_strength: medium}
+    notes: "Intermediate AI Studio note; confirm exact quotation and timestamp against original video."
+  - candidate_id: "concept_omnibus_format_against_fatigue"
+    source_file: "raw/planning-concepts.md"
+    source_category: "CONCEPT"
+    original_title: "プレイ疲労と長時間拘束に対抗するオムニバス形式の分割設計"
+    status: canonical
+    canonical_principles: ["concept-omnibus-format-against-fatigue"]
+    relationship: {type: canonicalized_as, target: "concept-omnibus-format-against-fatigue"}
+    reason: "Retained as a separately addressable source candidate; raw wording and specificity remain available in provenance."
+    preserved_information: ["プレイ疲労と長時間拘束に対抗するオムニバス形式の分割設計", "Full structured candidate content remains in the linked raw source."]
+    discarded_information: []
+    source_fidelity: {explicit_source: low, generalization_strength: medium, agent_extension_strength: medium}
+    notes: "Intermediate AI Studio note; confirm exact quotation and timestamp against original video."
+  - candidate_id: "concept_anti_combo_adlib_combat"
+    source_file: "raw/planning-concepts.md"
+    source_category: "CONCEPT"
+    original_title: "操作固定コンボの排除とアドリブ性・蓄積ダメージによる状況変化設計"
+    status: canonical
+    canonical_principles: ["concept-anti-combo-adlib-combat"]
+    relationship: {type: canonicalized_as, target: "concept-anti-combo-adlib-combat"}
+    reason: "Retained as a separately addressable source candidate; raw wording and specificity remain available in provenance."
+    preserved_information: ["操作固定コンボの排除とアドリブ性・蓄積ダメージによる状況変化設計", "Full structured candidate content remains in the linked raw source."]
+    discarded_information: []
+    source_fidelity: {explicit_source: low, generalization_strength: medium, agent_extension_strength: medium}
+    notes: "Intermediate AI Studio note; confirm exact quotation and timestamp against original video."
+  - candidate_id: "concept_leverage_known_ip_for_novel_mechanics"
+    source_file: "raw/planning-concepts.md"
+    source_category: "CONCEPT"
+    original_title: "新規性の高い難解ルールへの参入障壁を下げる既存キャラクターの起用"
+    status: canonical
+    canonical_principles: ["concept-leverage-known-ip-for-novel-mechanics"]
+    relationship: {type: canonicalized_as, target: "concept-leverage-known-ip-for-novel-mechanics"}
+    reason: "Retained as a separately addressable source candidate; raw wording and specificity remain available in provenance."
+    preserved_information: ["新規性の高い難解ルールへの参入障壁を下げる既存キャラクターの起用", "Full structured candidate content remains in the linked raw source."]
+    discarded_information: []
+    source_fidelity: {explicit_source: low, generalization_strength: medium, agent_extension_strength: medium}
+    notes: "Intermediate AI Studio note; confirm exact quotation and timestamp against original video."
+  - candidate_id: "concept_broadening_over_peak_competition"
+    source_file: "raw/planning-concepts.md"
+    source_category: "CONCEPT"
+    original_title: "頂点（ストイックな最速）を目指す設計から広がり（ハプニングと多軸評価）への転換"
+    status: canonical
+    canonical_principles: ["concept-broadening-over-peak-competition"]
+    relationship: {type: canonicalized_as, target: "concept-broadening-over-peak-competition"}
+    reason: "Retained as a separately addressable source candidate; raw wording and specificity remain available in provenance."
+    preserved_information: ["頂点（ストイックな最速）を目指す設計から広がり（ハプニングと多軸評価）への転換", "Full structured candidate content remains in the linked raw source."]
+    discarded_information: []
+    source_fidelity: {explicit_source: low, generalization_strength: medium, agent_extension_strength: medium}
+    notes: "Intermediate AI Studio note; confirm exact quotation and timestamp against original video."
+  - candidate_id: "concept_reverse_risk_into_propulsion"
+    source_file: "raw/planning-concepts.md"
+    source_category: "CONCEPT"
+    original_title: "リスクそのものを推進力・攻撃力に変換する反転メカニクス"
+    status: canonical
+    canonical_principles: ["concept-reverse-risk-into-propulsion"]
+    relationship: {type: canonicalized_as, target: "concept-reverse-risk-into-propulsion"}
+    reason: "Retained as a separately addressable source candidate; raw wording and specificity remain available in provenance."
+    preserved_information: ["リスクそのものを推進力・攻撃力に変換する反転メカニクス", "Full structured candidate content remains in the linked raw source."]
+    discarded_information: []
+    source_fidelity: {explicit_source: low, generalization_strength: medium, agent_extension_strength: medium}
+    notes: "Intermediate AI Studio note; confirm exact quotation and timestamp against original video."
+  - candidate_id: "concept_counter_trend_rich_experience"
+    source_file: "raw/planning-concepts.md"
+    source_category: "CONCEPT"
+    original_title: "市場トレンドの逆張りとハード特性特化による骨太体験の構築"
+    status: canonical
+    canonical_principles: ["concept-counter-trend-rich-experience"]
+    relationship: {type: canonicalized_as, target: "concept-counter-trend-rich-experience"}
+    reason: "Retained as a separately addressable source candidate; raw wording and specificity remain available in provenance."
+    preserved_information: ["市場トレンドの逆張りとハード特性特化による骨太体験の構築", "Full structured candidate content remains in the linked raw source."]
+    discarded_information: []
+    source_fidelity: {explicit_source: low, generalization_strength: medium, agent_extension_strength: medium}
+    notes: "Intermediate AI Studio note; confirm exact quotation and timestamp against original video."
+  - candidate_id: "concept_dual_platform_differentiation"
+    source_file: "raw/planning-concepts.md"
+    source_category: "CONCEPT"
+    original_title: "マルチプラットフォームにおける『個（携帯）』と『公（据置）』の差別化"
+    status: canonical
+    canonical_principles: ["concept-dual-platform-differentiation"]
+    relationship: {type: canonicalized_as, target: "concept-dual-platform-differentiation"}
+    reason: "Retained as a separately addressable source candidate; raw wording and specificity remain available in provenance."
+    preserved_information: ["マルチプラットフォームにおける『個（携帯）』と『公（据置）』の差別化", "Full structured candidate content remains in the linked raw source."]
+    discarded_information: []
+    source_fidelity: {explicit_source: low, generalization_strength: medium, agent_extension_strength: medium}
+    notes: "Intermediate AI Studio note; confirm exact quotation and timestamp against original video."
+  - candidate_id: "concept_all_star_asset_pipeline_inheritance"
+    source_file: "raw/planning-concepts.md"
+    source_category: "CONCEPT"
+    original_title: "シリーズ集大成の断行と持続可能なパラメータ資産パイプラインの構築"
+    status: canonical
+    canonical_principles: ["concept-all-star-asset-pipeline-inheritance"]
+    relationship: {type: canonicalized_as, target: "concept-all-star-asset-pipeline-inheritance"}
+    reason: "Retained as a separately addressable source candidate; raw wording and specificity remain available in provenance."
+    preserved_information: ["シリーズ集大成の断行と持続可能なパラメータ資産パイプラインの構築", "Full structured candidate content remains in the linked raw source."]
+    discarded_information: []
+    source_fidelity: {explicit_source: low, generalization_strength: medium, agent_extension_strength: medium}
+    notes: "Intermediate AI Studio note; confirm exact quotation and timestamp against original video."

@@ -1,0 +1,10 @@
+{
+  "cases": [
+    {"id":"beginner-2d-action","context":"first playable; beginner audience; broad accessibility goal","skills":["onboarding-review","controls-review","gameplay-review"],"expected_focus":"safe learning, responsive feedback, low-friction retry","must_not_assume":"remove all challenge"},
+    {"id":"expert-competitive-action","context":"competitive balance pass; expert players; tournament readability","skills":["difficulty-review","gameplay-review","game-feel-review"],"expected_focus":"counterplay, precision, fair readable outcomes","must_not_assume":"make execution easy"},
+    {"id":"experimental-indie","context":"concept prototype; small team; novel mechanic uncertain","skills":["game-concept","prototype-review","core-loop-design"],"expected_focus":"test novelty hypothesis cheaply","must_not_assume":"standardize before learning"},
+    {"id":"mobile-casual","context":"mobile first; short sessions; touch UI; broad audience","skills":["ui-ux-review","onboarding-review","level-flow-review"],"expected_focus":"touch affordances, short task path, resumable learning","must_not_assume":"apply console input conventions"},
+    {"id":"multiplayer-pvp","context":"online competitive game; simultaneous feedback; latency evidence available","skills":["gameplay-review","game-feel-review","audio-review","performance-review"],"expected_focus":"shared state legibility and measured latency","must_not_assume":"judge net feel from code only"},
+    {"id":"story-heavy","context":"narrative-led game; deliberate pacing; text and cutscenes in scope","skills":["game-concept","ui-ux-review","onboarding-review","marketing-presentation-review"],"expected_focus":"player-controlled pacing and narrative/gameplay fit","must_not_assume":"remove every pause or scene"}
+  ]
+}

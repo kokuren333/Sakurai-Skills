@@ -1,0 +1,13 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Canonical principle catalog",
+  "type": "object",
+  "required": ["version", "candidate_count", "canonical_count", "records"],
+  "properties": {
+    "version": {"type": "integer"},
+    "candidate_count": {"type": "integer"},
+    "canonical_count": {"type": "integer"},
+    "records": {"type": "array", "items": {"type": "object", "required": ["id", "title", "source_provenance", "source_claim", "generalized_principle", "agent_interpretation", "summary", "semantic_cluster", "domains", "development_phases", "applies_when", "does_not_apply_when", "triggers", "questions", "actions", "review_criteria", "anti_patterns", "tradeoffs", "exceptions", "examples", "related", "confidence", "fidelity_audit", "status", "canonical_file"], "properties": {"id": {"type": "string", "pattern": "^[a-z0-9-]+$"}, "title": {"type": "string"}, "candidate_id": {"type": "string"}, "source_provenance": {"type": "object"}, "source_claim": {"type": "string"}, "generalized_principle": {"type": "string"}, "agent_interpretation": {"type": "string"}, "summary": {"type": "string"}, "semantic_cluster": {"type": "string"}, "domains": {"type": "array"}, "development_phases": {"type": "array"}, "applies_when": {"type": "array"}, "does_not_apply_when": {"type": "array"}, "triggers": {"type": "array"}, "questions": {"type": "array"}, "actions": {"type": "array"}, "review_criteria": {"type": "array"}, "anti_patterns": {"type": "array"}, "tradeoffs": {"type": "array"}, "exceptions": {"type": "array"}, "examples": {"type": "array"}, "related": {"type": "object"}, "confidence": {"type": "object"}, "fidelity_audit": {"type": "object"}, "status": {"const": "canonical"}, "canonical_file": {"type": "string"}}}}
+  },
+  "additionalProperties": false
+}

@@ -1,20 +1,58 @@
 version: 1
 anti_patterns:
   - id: universal-rule-application
-    description: Applying a design heuristic without checking genre, intended player, phase, constraints, and evidence.
-    countermeasure: State context and exceptions; select only relevant principles.
+    title: Applying a heuristic without project context
+    symptoms: [same recommendation across different audiences, genre assumptions left unstated]
+    likely_principles: [design-for-context]
+    why_problematic: It turns context-sensitive knowledge into a false universal rule.
+    false_positive_cases: [mandatory platform or safety requirement applies across variants]
+    review_questions: [Which player and phase are being considered?, What evidence would change the recommendation?]
   - id: source-agent-conflation
-    description: Presenting generalized or agent-authored interpretation as a direct Sakurai statement.
-    countermeasure: Label SOURCE, GENERALIZED, and AGENT separately; verify quotations against original video.
-  - id: polish-before-learning
-    description: Scaling content or presentation before testing the uncertain core interaction.
-    countermeasure: Identify the uncertainty and choose the cheapest informative experiment.
+    title: Attributing agent-authored thresholds to the source
+    symptoms: [absolute language without attribution, unverified timestamp or quotation]
+    likely_principles: [design-for-context]
+    why_problematic: It misrepresents intermediate notes as verified statements.
+    false_positive_cases: [exact public transcript independently checked]
+    review_questions: [Is this SOURCE, GENERALIZED, or AGENT content?, Has the original video been checked?]
   - id: friction-is-always-bad
-    description: Removing pauses, instruction, or repetition even when they support comprehension, safety, suspense, or meaningful choice.
-    countermeasure: Establish the player-facing purpose before changing pacing.
+    title: Removing all pauses and confirmations
+    symptoms: [removing recovery information, removing safety confirmation, eliminating meaningful pacing]
+    likely_principles: [reduce-unnecessary-friction, make-onboarding-legible]
+    why_problematic: Some friction supports comprehension, safety, suspense, or player choice.
+    false_positive_cases: [repeated wait has no player-facing function]
+    review_questions: [What purpose does the delay serve?, Can players control or revisit it?]
+  - id: polish-before-learning
+    title: Scaling content before validating the uncertain loop
+    symptoms: [large content investment, placeholders hide interaction problems]
+    likely_principles: [prototype-before-polish, rapid-prototyping]
+    why_problematic: Expensive production can harden an untested assumption.
+    false_positive_cases: [visual finish itself is the concept under test]
+    review_questions: [What uncertainty does this work resolve?, What cheaper experiment exists?]
   - id: consensus-as-evidence
-    description: Treating team agreement or a small convenience sample as proof of player value.
-    countermeasure: Separate observed behavior from interpretation and collect relevant evidence.
+    title: Treating agreement as proof of player value
+    symptoms: [decision made only by vote, no player evidence or named owner]
+    likely_principles: [test-with-representative-players, make-work-visible]
+    why_problematic: Team consensus can reflect shared assumptions rather than player behavior.
+    false_positive_cases: [reversible internal preference with no player impact]
+    review_questions: [What was observed?, Who owns the decision and why?]
   - id: creative-rule-overreach
-    description: Applying a creative heuristic to security, backup, rollback, accessibility, compliance, or platform obligations.
-    countermeasure: Keep those requirements explicit and review them on their own terms.
+    title: Applying creative advice to mandatory operational resilience
+    symptoms: [backup or rollback rejected as lack of commitment, accessibility deferred as optional polish]
+    likely_principles: [design-for-context, scope-and-cut-deliberately]
+    why_problematic: Creative direction does not replace security, accessibility, legal, or platform obligations.
+    false_positive_cases: [none for applicable mandatory obligations]
+    review_questions: [Is this creative choice or operational requirement?, Which standard or user need applies?]
+  - id: code-proves-game-feel
+    title: Claiming feel or usability from code inspection alone
+    symptoms: [feel conclusion without playable build, latency assumption from code pattern alone]
+    likely_principles: [communicate-through-feedback, test-with-representative-players]
+    why_problematic: Runtime feel depends on timing, hardware, audiovisual feedback, and player response.
+    false_positive_cases: [directly measured and reproduced runtime issue]
+    review_questions: [Which evidence type supports the finding?, What build observation is still needed?]
+  - id: unmeasured-optimization
+    title: Optimizing without a representative profile
+    symptoms: [micro-optimization based on intuition, quality tradeoff without measured bottleneck]
+    likely_principles: [rapid-prototyping]
+    why_problematic: Complexity can grow while the actual bottleneck remains unchanged.
+    false_positive_cases: [known hard target budget with reproducible overrun]
+    review_questions: [Which metric and device show the bottleneck?, Was the same path re-profiled?]

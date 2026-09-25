@@ -1,23 +1,93 @@
 version: 1
-heuristics:
-  - id: UX-FRICTION
+rules:
+  - id: UX-FRICTION-001
+    title: Repeated or nonessential player-facing work
     principle: reduce-unnecessary-friction
-    detect: [repeated_confirmations, unskippable_nonessential_wait, unexplained_manual_repetition]
-    default: review
-    note: Check for comprehension, suspense, safety, or accessibility purpose before recommending removal.
-  - id: FEEDBACK-LEGIBILITY
+    mode: review
+    detect: [repeated_confirmations, unexplained_manual_repetition, unskippable_nonessential_wait]
+    severity_default: warning
+    false_positive_cases: [safety_confirmation, meaningful_deliberation, suspenseful_pacing, accessibility accommodation]
+  - id: DEV-CONSTRAINT-LEAK-001
+    title: Internal implementation limitation exposed as avoidable UX burden
+    principle: protect-player-from-dev-constraints
+    mode: review
+    detect: [manual_workaround_for_implementation_limit, unexplained_wait, duplicate_player_entry]
+    severity_default: warning
+    false_positive_cases: [platform_requirement, network_state_disclosure, honest_product_limitation]
+  - id: UNCLEAR-FEEDBACK-001
+    title: Action outcome may not be communicated
     principle: communicate-through-feedback
-    detect: [action_result_unclear, overlapping_high_priority_signals, feedback_misaligned_with_event]
-    default: review
-  - id: PRESENTATION-OCCLUSION
+    mode: review
+    detect: [missing_success_feedback, ambiguous_failure_feedback, event_feedback_misalignment]
+    severity_default: warning
+    false_positive_cases: [deliberate_hidden_information, silence_as_intended_feedback]
+  - id: VISUAL-OCCLUSION-001
+    title: Important gameplay subject obscured
     principle: readability-before-decoration
-    detect: [player_or_target_obscured, important_state_hidden_by_effects, low_contrast_gameplay_signal]
-    default: review
-  - id: SPEC-TESTABILITY
+    mode: review
+    detect: [player_or_target_obscured, low_contrast_gameplay_signal, critical_state_hidden_by_effects]
+    severity_default: warning
+    false_positive_cases: [intentional_occlusion_with_clear_alternative_signal]
+  - id: SPEC-AMBIGUITY-001
+    title: Behavior or acceptance condition is underspecified
     principle: specify-for-shared-understanding
-    detect: [ambiguous_acceptance_behavior, missing_owner_or_dependency, parameter_without_units_or_range]
-    default: review
-  - id: PROMO-CLAIM
+    mode: review
+    detect: [ambiguous_acceptance_behavior, parameter_without_units, missing_owner_or_dependency]
+    severity_default: warning
+    false_positive_cases: [early_exploration_where_uncertainty_is_explicit]
+  - id: PLAYER-VALUE-001
+    title: Feature rationale has no stated player outcome
+    principle: player-first
+    mode: heuristic
+    detect: [feature_without_player_outcome, scope_item_without_user_task]
+    severity_default: info
+    false_positive_cases: [technical_spike, compliance_work, internal_tooling]
+  - id: ONBOARDING-COMPLEXITY-001
+    title: First-use instructions may exceed the immediate task
+    principle: make-onboarding-legible
+    mode: review
+    detect: [large_instruction_block_before_interaction, multiple_unpracticed_rules]
+    severity_default: info
+    false_positive_cases: [genre_literacy_expected, player_requested_reference]
+  - id: CONTROL-RESPONSE-RISK-001
+    title: Input path has unexamined response behavior
+    principle: communicate-through-feedback
+    mode: verify
+    detect: [input_buffer_unspecified, action_cancel_state_unspecified, input_feedback_not_in_build]
+    severity_default: info
+    false_positive_cases: [document_review_without_build_access]
+  - id: PRIORITY-CONFLICT-001
+    title: Simultaneous feedback signals compete for attention
+    principle: coordinate-audio-visual-priority
+    mode: review
+    detect: [overlapping_high_priority_signals, audio_masking, hud_effect_overlap]
+    severity_default: warning
+    false_positive_cases: [intentional_chaos_with_accessible_mode]
+  - id: SCOPE-CREEP-001
+    title: New scope lacks a recorded value or dependency rationale
+    principle: scope-and-cut-deliberately
+    mode: review
+    detect: [unowned_feature, new_dependency_without_review, feature_added_without_core_concept_link]
+    severity_default: info
+    false_positive_cases: [approved_discovery_work, mandatory_platform_change]
+  - id: UNVALIDATED-POLISH-001
+    title: Presentation change lacks a player-facing hypothesis or comparison
+    principle: prototype-before-polish
+    mode: review
+    detect: [visual_polish_without_target, tuning_without_before_after, polish_before_core_loop_evidence]
+    severity_default: info
+    false_positive_cases: [presentation_is_the_core_prototype_hypothesis]
+  - id: PROMO-MISMATCH-001
+    title: Public claim or footage does not match verified product state
     principle: promote-the-real-product
+    mode: verify
     detect: [feature_claim_without_release_evidence, footage_not_matching_current_build]
-    default: verify
+    severity_default: warning
+    false_positive_cases: [clearly_labeled_concept_footage, explicitly_marked_planned_feature]
+  - id: PERF-ASSUMPTION-001
+    title: Optimization recommendation lacks a representative profile
+    principle: rapid-prototyping
+    mode: verify
+    detect: [optimization_without_profile, micro_optimization_without_measurement]
+    severity_default: info
+    false_positive_cases: [known_platform_limit, reproducible_critical_frame_budget]

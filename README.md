@@ -1,38 +1,79 @@
 # Sakurai-Skills
 
-A context-aware set of agent workflows for game development, derived from the 14 user-supplied intermediate knowledge files. It is intended for Codex, Claude Code, Gemini CLI, and other agents that can read Markdown.
+Task-oriented agent Skills for game design, implementation planning, review, production, and presentation. The repository converts user-provided intermediate notes from Masahiro Sakurai's public game-development video series into a provenance-aware knowledge base and practical review workflows.
 
-This repository does **not** imitate or speak as Masahiro Sakurai. Inputs are structured secondary notes, not verified transcripts. Source claims, generalized design principles, and agent procedures are labeled separately; verify quotations and timestamps against the original public videos before citing them.
+This project does not impersonate Sakurai or claim to speak on his behalf. The supplied files are AI Studio structured notes, not verified transcripts. All SOURCE fields are secondary summaries until checked against an original video.
 
-## Layers
+## Philosophy and provenance layers
 
-- `sources/raw/`: byte-preserved inputs, including the user-provided completion brief.
-- `sources/candidate-index.yaml`: extracted candidate IDs with an explicit unnormalized status.
-- `principles/`: 18 cross-category operational syntheses with source links and caveats.
-- `skills/`: task workflows with progressive disclosure.
-- `workflows/`, `checklists/`, `rules/`: reusable development routines and heuristics.
-- `schemas/`, `scripts/validate.ps1`, `tests/`: repository integrity and context examples.
+Every recommendation must keep three layers distinct:
 
-The principles are an initial curated synthesis, not a one-to-one transcription of every candidate rule in the source material. The candidate index is an inventory aid, not a deduplication or coverage audit.
+- **SOURCE**: what the supplied intermediate note labels as explicit/source material. It is not quote-verified.
+- **GENERALIZED**: a design abstraction carried by the note.
+- **AGENT**: workflow guidance, technical application, or interpretation for an AI agent.
+
+Use principles as contextual decision aids. Choose them based on player, genre, phase, platform, constraints, evidence, and requested scope. Preserve tensions rather than forcing one maxim to win in every situation.
+
+## Candidate-to-principle pipeline
+
+Fourteen original input files are preserved under `sources/raw/` and indexed with hashes in `sources/index.yaml`. The 13 knowledge documents contain **177 structured candidate IDs**. An earlier index showed 129 because its identifier pattern omitted several ID formats and three source categories; the index has been corrected from the raw files.
+
+Every candidate has a disposition and canonical target in `sources/candidate-mapping.yaml`; detailed extracted records are in `principles/catalog.json`, and readable records are under `principles/derived/`. The mapping retains source IDs and titles, states what was kept/discarded, and records fidelity confidence. Seventeen cross-cutting principles remain as higher-level synthesis records. The index therefore contains 194 records in total. Coverage totals and category counts are in `reports/candidate-coverage.md`.
+
+## Architecture
+
+| Path | Purpose |
+|---|---|
+| `sources/raw/`, `sources/index.yaml` | Preserved inputs and provenance |
+| `sources/candidate-index.yaml` | Candidate inventory |
+| `sources/candidate-mapping.yaml` | Per-candidate disposition and mapping |
+| `principles/catalog.json` | Machine-readable canonical records, layer-separated |
+| `principles/` | Human-readable principle records and cross-cutting summaries |
+| `rules/principle-graph.yaml` | Semantic clusters, typed links, and context-resolved tensions |
+| `rules/lint-rules.yaml` | Review heuristics, never automatic verdicts |
+| `rules/anti-patterns.yaml` | Symptoms, likely principles, false positives, and questions |
+| `skills/` | 24 task-oriented agent Skills, including router and integrated review |
+| `workflows/`, `checklists/` | Ordered development routines and phase/domain prompts |
+| `schemas/`, `scripts/` | Data contracts, catalog/report generation, and validation |
+| `tests/`, `reports/` | Context regression fixtures, sample project, and coverage/fidelity audits |
+
+Raw video categories are provenance labels. Semantic clusters such as gameplay, UI, audio, team, and technical implementation route knowledge to the relevant task Skill.
 
 ## Skills
 
-| Skill | Use |
-|---|---|
-| `sakurai-game-dev` | Route a request to relevant task workflows |
-| `sakurai-review` | Contextual whole-game or scoped review |
-| `game-concept` | Concept and core-loop definition |
-| `gameplay-review` | Mechanics, agency, readability, balance |
-| `prototype-review` | Early prototype learning and next experiment |
-| `ui-ux-review` | Interface friction, clarity, onboarding |
-| `game-feel-review` | Controls, response, feedback, sensory coordination |
-| `production-review` | Scope, specs, team coordination, risks |
-| `presentation-review` | Graphics, motion, effects, audio, publicity |
+`sakurai-game-dev` is the router and `sakurai-review` is the integrated review. Domain Skills cover:
 
-## Use
+- concept and core-loop design
+- gameplay, controls, difficulty, and level flow
+- prototype and onboarding review
+- UI/UX and game feel
+- graphics readability, animation, camera/effects, and audio
+- specification, production, team direction, and scope
+- polish, performance, and marketing/presentation
 
-Copy `skills/` into the agent's configured skills location, or keep this repository available as context and invoke the relevant `SKILL.md`. Start with `skills/sakurai-game-dev/SKILL.md`; it selects a narrow workflow and references relevant principles. These are decision aids, not automatic design mandates.
+See each directory's `SKILL.md` for use conditions, inputs, evidence limits, procedure, relevant knowledge, and output.
 
-## Provenance and limits
+## Example use
 
-See `sources/index.yaml` for filenames, sizes, and SHA-256 digests. Original pasted files are preserved in `sources/raw/`. The inputs are AI Studio-produced summaries and structured notes without source URLs, timestamps, or transcripts sufficient to verify exact wording. The canonical principle set is curated and not exhaustive: not every candidate ID has its own canonical record. Validation checks local references and structure, not source truth, schema conformance, or actual gameplay behavior. Review findings need build, design, and player evidence.
+1. Make the game repository and this repository available to the agent.
+2. Start with `skills/sakurai-game-dev/SKILL.md` and state the review scope.
+3. The router selects a small number of task Skills and matching catalog records.
+4. For a whole-game pass, use `skills/sakurai-review/SKILL.md`.
+5. Expect findings to name evidence, source layer, context, tradeoffs, strengths, and a useful verification or experiment.
+
+Example: “Review the jump in this beginner mobile platformer. Inspect controller code and the supplied playtest notes; tell me what requires build verification.” The agent should not claim jump feel from code alone.
+
+## Installation and agent integration
+
+Copy `skills/` to the agent's configured Skills directory, or expose this repository as read-only project context. Keep `principles/catalog.json`, the graph, and source links reachable when using the Skills. The Markdown format is portable across Codex, Claude Code, Gemini CLI, and similar agents; exact discovery paths vary by host agent.
+
+## Validation and contributing
+
+Run `scripts/build-candidate-catalog.ps1` after changing structured raw sources, then `scripts/build-reports.ps1`, `tests/run-tests.ps1`, and `scripts/validate.ps1`. Do not hand-edit generated candidate records without updating their raw-source mapping and rerunning generation. When editing a Skill or canonical record, preserve provenance layers, update graph and coverage relationships, add regression evidence where behavior changes, and ensure the worktree and validation are clean.
+
+## Limitations
+
+- Original video URLs and transcripts were not part of the supplied inputs. Exact quotation, episode timestamps, and source fidelity require video-level verification.
+- Some candidate fields are richer than others; missing explicit-source detail is marked low confidence rather than reconstructed as a quote.
+- Context/E2E fixtures exercise router expectations and evidence discipline using fictional inputs. They do not test game behavior or prove the recommendations improve a commercial product.
+- YAML cross-reference checks use repository-specific structural validation; the validator checks JSON schemas parse and catalog contract fields, but is not a full general-purpose JSON Schema/YAML engine.

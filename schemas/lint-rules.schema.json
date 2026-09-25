@@ -1,0 +1,8 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Lint heuristic set",
+  "type": "object",
+  "required": ["version", "rules"],
+  "properties": {"version": {"type": "integer"}, "rules": {"type": "array", "items": {"type": "object", "required": ["id", "title", "principle", "mode", "detect", "severity_default", "false_positive_cases"], "properties": {"id": {"type": "string", "pattern": "^[A-Z][A-Z0-9-]+$"}, "title": {"type": "string"}, "principle": {"type": "string"}, "mode": {"enum": ["heuristic", "review", "verify"]}, "detect": {"type": "array"}, "severity_default": {"enum": ["info", "warning", "error"]}, "false_positive_cases": {"type": "array"}}}}},
+  "additionalProperties": false
+}

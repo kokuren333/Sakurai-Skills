@@ -1,0 +1,32 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Principle graph",
+  "type": "object",
+  "required": ["version", "nodes", "edges", "clusters", "tensions"],
+  "properties": {
+    "version": { "type": "integer" },
+    "nodes": {
+      "type": "array",
+      "items": { "type": "object", "required": ["id", "title", "file"] }
+    },
+    "edges": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["from", "to", "type"],
+        "properties": {
+          "type": { "enum": ["parent_of", "child_of", "supports", "conflicts_with", "complements", "prerequisite_for", "context_variant_of", "operationalizes"] }
+        }
+      }
+    },
+    "clusters": {
+      "type": "array",
+      "items": { "type": "object", "required": ["id", "members"] }
+    },
+    "tensions": {
+      "type": "array",
+      "items": { "type": "object", "required": ["tension_id", "principles", "why_tension_exists", "prefer_a_when", "prefer_b_when", "combine_when", "failure_mode_if_a_overapplied", "failure_mode_if_b_overapplied"] }
+    }
+  },
+  "additionalProperties": false
+}

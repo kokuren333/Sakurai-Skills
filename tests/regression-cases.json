@@ -1,0 +1,10 @@
+{
+  "cases": [
+    {"id":"plan-b-is-not-disaster-recovery","principle":"skill-a11-no-plan-b","context":"creative pitch direction","applies":true,"expect":"may support one committed product direction"},
+    {"id":"plan-b-is-not-disaster-recovery","principle":"skill-a11-no-plan-b","context":"backup, rollback, disaster recovery, or security fallback","applies":false,"expect":"must not prohibit operational contingency planning"},
+    {"id":"speed-changes-by-phase","principle":"skill-a06-high-heat-drafting","context":"early concept prototype","applies":true,"expect":"favor fast learning and rough drafts"},
+    {"id":"speed-changes-by-phase","principle":"skill-a06-high-heat-drafting","context":"production data migration","applies":false,"expect":"require validation, backup, staged rollout, and rollback"},
+    {"id":"director-does-not-override-accessibility","principle":"skill-a08-director-individuality","context":"creative direction","applies":true,"expect":"support an accountable distinctive decision after input"},
+    {"id":"director-does-not-override-accessibility","principle":"skill-a08-director-individuality","context":"accessibility requirement","applies":false,"expect":"must not justify ignoring applicable user needs or obligations"}
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Candidate disposition mapping",
+  "type": "object",
+  "required": ["version", "candidate_count", "candidates"],
+  "properties": {
+    "version": {"type": "integer"},
+    "candidate_count": {"type": "integer", "minimum": 0},
+    "candidates": {"type": "array", "items": {"type": "object", "required": ["candidate_id", "source_file", "source_category", "original_title", "status", "canonical_principles", "relationship", "reason", "preserved_information", "discarded_information", "source_fidelity", "notes"], "properties": {"candidate_id": {"type": "string"}, "source_file": {"type": "string"}, "source_category": {"type": "string"}, "original_title": {"type": "string"}, "status": {"enum": ["canonical", "merged", "child", "context_variant", "workflow_only", "checklist_only", "agent_interpretation_only", "duplicate", "rejected", "unresolved"]}, "canonical_principles": {"type": "array", "items": {"type": "string"}}, "relationship": {"type": "object", "required": ["type", "target"], "properties": {"type": {"type": "string"}, "target": {"type": "string"}}}, "reason": {"type": "string"}, "preserved_information": {"type": "array", "items": {"type": "string"}}, "discarded_information": {"type": "array", "items": {"type": "string"}}, "source_fidelity": {"type": "object", "required": ["explicit_source", "generalization_strength", "agent_extension_strength"], "properties": {"explicit_source": {"enum": ["high", "medium", "low"]}, "generalization_strength": {"enum": ["high", "medium", "low"]}, "agent_extension_strength": {"enum": ["high", "medium", "low"]}}}, "notes": {"type": "string"}}}}
+  },
+  "additionalProperties": false
+}

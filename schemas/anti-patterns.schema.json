@@ -1,0 +1,8 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Anti-pattern catalog",
+  "type": "object",
+  "required": ["version", "anti_patterns"],
+  "properties": {"version": {"type": "integer"}, "anti_patterns": {"type": "array", "items": {"type": "object", "required": ["id", "title", "symptoms", "likely_principles", "why_problematic", "false_positive_cases", "review_questions"], "properties": {"id": {"type": "string", "pattern": "^[a-z0-9-]+$"}, "title": {"type": "string"}, "symptoms": {"type": "array"}, "likely_principles": {"type": "array"}, "why_problematic": {"type": "string"}, "false_positive_cases": {"type": "array"}, "review_questions": {"type": "array"}}}}},
+  "additionalProperties": false
+}

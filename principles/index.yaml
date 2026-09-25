@@ -1,87 +1,584 @@
 version: 1
 records:
-  - id: player-first
-    title: "Player-first decisions"
-    file: player-first.md
-    source_file: A-work-attitude.md
-
-  - id: protect-player-from-dev-constraints
-    title: "Keep development constraints out of the experience"
-    file: protect-player-from-dev-constraints.md
-    source_file: A-work-attitude.md
-
-  - id: preserve-core-concept
-    title: "Preserve the core concept"
-    file: preserve-core-concept.md
-    source_file: A-work-attitude.md
-
-  - id: rapid-prototyping
-    title: "Prototype uncertain interactions early"
-    file: rapid-prototyping.md
-    source_file: K-programming-technical.md
-
-  - id: player-agency-and-tradeoffs
-    title: "Make meaningful choices carry legible tradeoffs"
-    file: player-agency-and-tradeoffs.md
-    source_file: B-game-essence.md
-
-  - id: reduce-unnecessary-friction
-    title: "Remove friction that does not serve the experience"
-    file: reduce-unnecessary-friction.md
-    source_file: J-ui.md
-
   - id: communicate-through-feedback
     title: "Make action results readable through feedback"
-    file: communicate-through-feedback.md
-    source_file: D-specification.md
-
-  - id: readability-before-decoration
-    title: "Protect gameplay readability"
-    file: readability-before-decoration.md
-    source_file: F-graphics.md
-
-  - id: prototype-before-polish
-    title: "Validate the loop before investing in polish"
-    file: prototype-before-polish.md
-    source_file: C-planning-design.md
-
-  - id: specify-for-shared-understanding
-    title: "Write specifications for implementation and review"
-    file: specify-for-shared-understanding.md
-    source_file: D-specification.md
-
-  - id: make-work-visible
-    title: "Make progress and problems visible early"
-    file: make-work-visible.md
-    source_file: E-team-management.md
-
-  - id: test-with-representative-players
-    title: "Use evidence from intended players"
-    file: test-with-representative-players.md
-    source_file: C-planning-design.md
-
-  - id: design-for-context
-    title: "Apply principles in project context"
-    file: design-for-context.md
-    source_file: 00-repository-completion-brief.md
-
-  - id: scope-and-cut-deliberately
-    title: "Manage scope deliberately"
-    file: scope-and-cut-deliberately.md
-    source_file: E-team-management.md
-
-  - id: make-onboarding-legible
-    title: "Teach through understandable early experiences"
-    file: make-onboarding-legible.md
-    source_file: C-planning-design.md
-
+    file: principles/communicate-through-feedback.md
   - id: coordinate-audio-visual-priority
     title: "Coordinate sensory channels by gameplay priority"
-    file: coordinate-audio-visual-priority.md
-    source_file: I-sound.md
-
+    file: principles/coordinate-audio-visual-priority.md
+  - id: concept-all-star-asset-pipeline-inheritance
+    title: "シリーズ集大成の断行と持続可能なパラメータ資産パイプラインの構築"
+    file: principles/derived/concept-all-star-asset-pipeline-inheritance.md
+  - id: concept-anti-combo-adlib-combat
+    title: "操作固定コンボの排除とアドリブ性・蓄積ダメージによる状況変化設計"
+    file: principles/derived/concept-anti-combo-adlib-combat.md
+  - id: concept-asymmetric-coop-camera-anchor
+    title: "主役・脇役の重み付けによるマルチプレイ追従カメラの破綻防止"
+    file: principles/derived/concept-asymmetric-coop-camera-anchor.md
+  - id: concept-broadening-over-peak-competition
+    title: "頂点（ストイックな最速）を目指す設計から広がり（ハプニングと多軸評価）への転換"
+    file: principles/derived/concept-broadening-over-peak-competition.md
+  - id: concept-counter-trend-rich-experience
+    title: "市場トレンドの逆張りとハード特性特化による骨太体験の構築"
+    file: principles/derived/concept-counter-trend-rich-experience.md
+  - id: concept-dual-layer-skill-expression
+    title: "初心者クリア保証と上級者マニアックプレイの両立（二層構造設計）"
+    file: principles/derived/concept-dual-layer-skill-expression.md
+  - id: concept-dual-platform-differentiation
+    title: "マルチプラットフォームにおける『個（携帯）』と『公（据置）』の差別化"
+    file: principles/derived/concept-dual-platform-differentiation.md
+  - id: concept-leverage-known-ip-for-novel-mechanics
+    title: "新規性の高い難解ルールへの参入障壁を下げる既存キャラクターの起用"
+    file: principles/derived/concept-leverage-known-ip-for-novel-mechanics.md
+  - id: concept-omnibus-format-against-fatigue
+    title: "プレイ疲労と長時間拘束に対抗するオムニバス形式の分割設計"
+    file: principles/derived/concept-omnibus-format-against-fatigue.md
+  - id: concept-reduce-punishment-for-beginners
+    title: "初心者向けリスク低減と即死回避の二重安全設計"
+    file: principles/derived/concept-reduce-punishment-for-beginners.md
+  - id: concept-reverse-risk-into-propulsion
+    title: "リスクそのものを推進力・攻撃力に変換する反転メカニクス"
+    file: principles/derived/concept-reverse-risk-into-propulsion.md
+  - id: fx-001-additive-blending-contrast
+    title: "色加算だけに頼らず、ベタ・暗色を混在させてメリハリを作る"
+    file: principles/derived/fx-001-additive-blending-contrast.md
+  - id: fx-002-character-occlusion-control
+    title: "エフェクトによるキャラクターの完全遮蔽を防止する"
+    file: principles/derived/fx-002-character-occlusion-control.md
+  - id: fx-003-explosion-three-stage-structure
+    title: "爆発は『閃光 → 爆発（火炎） → 残煙』の三段階推移で描く"
+    file: principles/derived/fx-003-explosion-three-stage-structure.md
+  - id: fx-004-camera-screen-shake-design
+    title: "画面振動はカメラ移動と描画画像移動を使い分け、画角と距離で減衰させよ"
+    file: principles/derived/fx-004-camera-screen-shake-design.md
+  - id: fx-005-hit-mark-seven-requirements
+    title: "ヒットマークは7大原則（派手さ・メリハリ・位置・要素併用・キャラ非遮蔽・適切寿命・明度差）を満たせ"
+    file: principles/derived/fx-005-hit-mark-seven-requirements.md
+  - id: fx-006-billboard-appropriate-use
+    title: "ビルボードの特性を理解し、カメラ回転と軸制約（Y軸固定）に留意せよ"
+    file: principles/derived/fx-006-billboard-appropriate-use.md
+  - id: fx-007-slash-trail-methodology
+    title: "剣撃の風切り（軌跡）は生成メッシュと固定板ポリゴンを速度・用途で使い分けよ"
+    file: principles/derived/fx-007-slash-trail-methodology.md
+  - id: fx-008-effect-scale-granularity
+    title: "エフェクトのスケール感と粒度をキャラクターと世界観に一致させよ"
+    file: principles/derived/fx-008-effect-scale-granularity.md
+  - id: fx-009-flashing-contrast-balancing
+    title: "フラッシングは明暗の混在とカメラ距離に応じた強度スケーリングを行え"
+    file: principles/derived/fx-009-flashing-contrast-balancing.md
+  - id: fx-010-particle-budget-conservation
+    title: "パーティクルは寿命短縮・集約・タイミング分散・大振り化で徹底節約せよ"
+    file: principles/derived/fx-010-particle-budget-conservation.md
+  - id: gameplay-accessibility-013-failsafe-over-perfection
+    title: "進行不能を防ぐ救済策の優先配備（クリアできないよりマシ）"
+    file: principles/derived/gameplay-accessibility-013-failsafe-over-perfection.md
+  - id: gameplay-balance-004-fiend-cauldron-risk-setting
+    title: "プレイヤー主導の難易度・リスクリターン選択（悪魔の釜方式）"
+    file: principles/derived/gameplay-balance-004-fiend-cauldron-risk-setting.md
+  - id: gameplay-balance-010-gameplay-vs-accessibility
+    title: "ゲーム性向上と一般性（アクセシビリティ）のトレードオフ認識"
+    file: principles/derived/gameplay-balance-010-gameplay-vs-accessibility.md
+  - id: gameplay-balance-011-difficulty-hill-and-valley
+    title: "進行曲線における『山あり谷あり』の波状設計"
+    file: principles/derived/gameplay-balance-011-difficulty-hill-and-valley.md
+  - id: gameplay-balance-012-amplify-strengths-and-weaknesses
+    title: "バランス調整における『長所伸長・短所拡大（尖らせる）』の原則"
+    file: principles/derived/gameplay-balance-012-amplify-strengths-and-weaknesses.md
+  - id: gameplay-core-001-risk-and-return
+    title: "リスクとリターンの対構造設計"
+    file: principles/derived/gameplay-core-001-risk-and-return.md
+  - id: gameplay-core-002-stress-and-release
+    title: "ストレス付与と急激な解消のサイクル"
+    file: principles/derived/gameplay-core-002-stress-and-release.md
+  - id: gameplay-loop-007-obstacle-progression-cycle
+    title: "障害・排除・成長・進展の基本サイクルの構築"
+    file: principles/derived/gameplay-loop-007-obstacle-progression-cycle.md
+  - id: gameplay-mechanics-005-allow-clever-exploits
+    title: "プレイヤーの意図的な『ズル（一方的有利）』の許容"
+    file: principles/derived/gameplay-mechanics-005-allow-clever-exploits.md
+  - id: gameplay-noncore-003-seven-attractions
+    title: "ゲーム性（かけひき）以外の面白さの認識と尊重"
+    file: principles/derived/gameplay-noncore-003-seven-attractions.md
+  - id: gameplay-physics-006-contrasting-elements
+    title: "快感を際立たせる相反要素（制約・対比）の導入"
+    file: principles/derived/gameplay-physics-006-contrasting-elements.md
+  - id: gameplay-reward-008-design-rewards-first
+    title: "ご褒美・消費サイクルの最優先設計"
+    file: principles/derived/gameplay-reward-008-design-rewards-first.md
+  - id: gameplay-testing-014-developer-bias-handicap
+    title: "開発者の『慣れ』を排除するハンデ検証法"
+    file: principles/derived/gameplay-testing-014-developer-bias-handicap.md
+  - id: gameplay-ux-009-rapid-retry-design
+    title: "リトライまでの操作不能時間の極小化"
+    file: principles/derived/gameplay-ux-009-rapid-retry-design.md
+  - id: pr-001
+    title: "開発と広報の掛け算原則（両輪駆動）"
+    file: principles/derived/pr-001.md
+  - id: pr-002
+    title: "製品像の厳密一致原則（ミスマッチの完全排除）"
+    file: principles/derived/pr-002.md
+  - id: pr-003
+    title: "体験版（デモ版）の二面性評価とハイリスク管理"
+    file: principles/derived/pr-003.md
+  - id: pr-004
+    title: "公式情報基盤（ウェブサイト/旗艦拠点）の階層化設計"
+    file: principles/derived/pr-004.md
+  - id: pr-005
+    title: "プロモーション映像の独立エンタメ化と徹底監修"
+    file: principles/derived/pr-005.md
+  - id: pr-006
+    title: "ゲーム画面即時提示の原則（売りを素早く明確に）"
+    file: principles/derived/pr-006.md
+  - id: pr-007
+    title: "公開実機デモ（眼前プレイ）による思考整理と説得力最大化"
+    file: principles/derived/pr-007.md
+  - id: pr-008
+    title: "マーケティング/ターゲティングの相対化原則（未来の非拘束）"
+    file: principles/derived/pr-008.md
+  - id: pr-009
+    title: "高頻度継続更新による情報発信の習慣化（デイリープッシュ）"
+    file: principles/derived/pr-009.md
+  - id: skill-a01-player-first
+    title: "遊びの仕事は遊びじゃない（プレイヤー第一の動機付け）"
+    file: principles/derived/skill-a01-player-first.md
+  - id: skill-a02-presentation-speed
+    title: "プレゼンはスピード（情報の高密度・高速伝達）"
+    file: principles/derived/skill-a02-presentation-speed.md
+  - id: skill-a03-player-perspective-defense
+    title: "お客さんに説明できるの？（開発都合の不親切排除）"
+    file: principles/derived/skill-a03-player-perspective-defense.md
+  - id: skill-a04-agile-spec-adaptation
+    title: "仕様を変えること（集合知による迅速な最適解選択）"
+    file: principles/derived/skill-a04-agile-spec-adaptation.md
+  - id: skill-a05-high-density-spec-format
+    title: "企画書の書き方（1ページ1項目・図解主導フォーマット）"
+    file: principles/derived/skill-a05-high-density-spec-format.md
+  - id: skill-a06-high-heat-drafting
+    title: "企画は強火でザッと仕上げる（初速最大化と鮮度維持）"
+    file: principles/derived/skill-a06-high-heat-drafting.md
+  - id: skill-a07-work-persists-labor-fades
+    title: "苦労は忘れる 作品は残る（長期品質への妥協なきコミット）"
+    file: principles/derived/skill-a07-work-persists-labor-fades.md
+  - id: skill-a08-director-individuality
+    title: "ディレクターは”個”（特異な観点と自立的作家性）"
+    file: principles/derived/skill-a08-director-individuality.md
+  - id: skill-a09-just-do-it-immediately
+    title: "とにかくやれ!!（初動遅延の打破と圧倒的手数）"
+    file: principles/derived/skill-a09-just-do-it-immediately.md
+  - id: skill-a10-effortless-continuity
+    title: "なぜコラムを続けられたのか（習慣化と脱・気負い）"
+    file: principles/derived/skill-a10-effortless-continuity.md
+  - id: skill-a11-no-plan-b
+    title: "プランBに頼るな（必殺の一本勝負）"
+    file: principles/derived/skill-a11-no-plan-b.md
+  - id: skill-a12-target-the-trunk
+    title: "価値観の幹と枝先（若年層・普遍的コアの攻略）"
+    file: principles/derived/skill-a12-target-the-trunk.md
+  - id: skill-a13-broad-input-output
+    title: "インプットを太く、アウトプットも太く（クリエイターの代謝向上）"
+    file: principles/derived/skill-a13-broad-input-output.md
+  - id: skill-a14-internal-pressure-compression
+    title: "内圧をカンカンに高める（アイデアの密閉熟成と一気放出）"
+    file: principles/derived/skill-a14-internal-pressure-compression.md
+  - id: skill-a15-avoid-pointless-voting
+    title: "無意味な多数決（合議の凡庸化と責任者の独断）"
+    file: principles/derived/skill-a15-avoid-pointless-voting.md
+  - id: skill-a16-harness-negative-suggestion
+    title: "暗示の力（逃走本能を活用した締切突破）"
+    file: principles/derived/skill-a16-harness-negative-suggestion.md
+  - id: skill-a17-unwavering-core-concept
+    title: "コンセプトは貫くもの（灯台の灯火と迷走防止）"
+    file: principles/derived/skill-a17-unwavering-core-concept.md
+  - id: skill-a18-competition-and-abundance
+    title: "競争と豊穣（時間の奪い合いと他者への敬意）"
+    file: principles/derived/skill-a18-competition-and-abundance.md
+  - id: skill-a19-words-shape-reality
+    title: "言ったことはそうなっていく（自己言及の規律と姿勢の構築）"
+    file: principles/derived/skill-a19-words-shape-reality.md
+  - id: skill-a20-objectivity-against-echo-chambers
+    title: "エコーチェンバー（閉じた世界の偏見打破と客観視）"
+    file: principles/derived/skill-a20-objectivity-against-echo-chambers.md
+  - id: skill-a21-divergent-association-for-ideas
+    title: "アイデアが出ないとき（連想を止めない手数勝負）"
+    file: principles/derived/skill-a21-divergent-association-for-ideas.md
+  - id: skill-a22-never-fight-in-industry
+    title: "絶対にケンカするな（業界の狭さと敬意の保持）"
+    file: principles/derived/skill-a22-never-fight-in-industry.md
+  - id: skill-a23-leaders-serve-teams
+    title: "上は下なり、下は上なり（指示とお願いの逆転構造）"
+    file: principles/derived/skill-a23-leaders-serve-teams.md
+  - id: skill-gfx-001
+    title: "環境光・光の反射による絵作り（素材ではなく光を描く）"
+    file: principles/derived/skill-gfx-001.md
+  - id: skill-gfx-002
+    title: "接触判定領域の明示的強調と非判定領域の抑止"
+    file: principles/derived/skill-gfx-002.md
+  - id: skill-gfx-003
+    title: "大事と小事の見分け（画面占有率と注視頻度によるリソース配分）"
+    file: principles/derived/skill-gfx-003.md
+  - id: skill-gfx-004
+    title: "スケール感の整合性管理（ミニチュア化の防止）"
+    file: principles/derived/skill-gfx-004.md
+  - id: skill-gfx-005
+    title: "視覚的レタッチによる具体的ディレクション"
+    file: principles/derived/skill-gfx-005.md
+  - id: skill-gfx-006
+    title: "奇数ドット幅による正中線確保とドット絵の質感表現"
+    file: principles/derived/skill-gfx-006.md
+  - id: skill-gfx-007
+    title: "異種世界観キャラクターのタッチ統合（リファインの5原則）"
+    file: principles/derived/skill-gfx-007.md
+  - id: skill-gfx-008
+    title: "存在感の創出（絵とゲーム性の相互作用）"
+    file: principles/derived/skill-gfx-008.md
+  - id: skill-gfx-009
+    title: "モーションブラーの適切な制御（可読性とダイナミズムの両立）"
+    file: principles/derived/skill-gfx-009.md
+  - id: skill-gfx-010
+    title: "最終出力（ポストプロセス・フレームバッファ統合）による絵作り"
+    file: principles/derived/skill-gfx-010.md
+  - id: skill-gfx-011
+    title: "不規則性の設計（コピペ感・規則性の破壊）"
+    file: principles/derived/skill-gfx-011.md
+  - id: skill-gfx-012
+    title: "漫画的誇張（感情・可読性優先の嘘表現）の許容"
+    file: principles/derived/skill-gfx-012.md
+  - id: skill-gfx-013
+    title: "シルエット優先のキャラクターデザイン（キャラ立ちの極意）"
+    file: principles/derived/skill-gfx-013.md
+  - id: skill-gfx-014
+    title: "モニター個体差と環境光を考慮した安全コントラスト設計"
+    file: principles/derived/skill-gfx-014.md
+  - id: skill-mot-001
+    title: "ダメージ初動の極端化とヒットストップ連携"
+    file: principles/derived/skill-mot-001.md
+  - id: skill-mot-002
+    title: "被弾時TOPノード保持とコンボ成立性の担保"
+    file: principles/derived/skill-mot-002.md
+  - id: skill-mot-003
+    title: "多軸被弾リアクション（強中小×上中下）の設計"
+    file: principles/derived/skill-mot-003.md
+  - id: skill-mot-004
+    title: "モーション補間の間引きと初動キレの創出"
+    file: principles/derived/skill-mot-004.md
+  - id: skill-mot-005
+    title: "フォロースルー軌道の非対称化（行きの軌跡をなぞらない）"
+    file: principles/derived/skill-mot-005.md
+  - id: skill-mot-006
+    title: "引き視点CGにおけるフェイシャルの過剰誇張"
+    file: principles/derived/skill-mot-006.md
+  - id: skill-mot-007
+    title: "フリップモーション（左右反転時の非対称演出）"
+    file: principles/derived/skill-mot-007.md
+  - id: skill-mot-008
+    title: "キャンセルフレームとモーションブレンドの調停"
+    file: principles/derived/skill-mot-008.md
+  - id: skill-mot-009
+    title: "グリップ指の斜め握りとボーン負荷の簡素化"
+    file: principles/derived/skill-mot-009.md
+  - id: skill-mot-010
+    title: "攻撃判定（正中線・発生点）とモーションの同期"
+    file: principles/derived/skill-mot-010.md
+  - id: skill-mot-011
+    title: "スケルトンの幾何限界を超える誇張（180度限界の突破）"
+    file: principles/derived/skill-mot-011.md
+  - id: skill-mot-012
+    title: "二軸回転による有機的ねじれの付与"
+    file: principles/derived/skill-mot-012.md
+  - id: skill-plan-001
+    title: "フレーム単位の物理・入力時間基準設計"
+    file: principles/derived/skill-plan-001.md
+  - id: skill-plan-002
+    title: "ファーストプレイ3分以内のゲームプレイ直接導入"
+    file: principles/derived/skill-plan-002.md
+  - id: skill-plan-003
+    title: "可視化された短期目標とごほうびの配置"
+    file: principles/derived/skill-plan-003.md
+  - id: skill-plan-004
+    title: "スクリーンウィンドウ限界を考慮したレイアウト占有率設計"
+    file: principles/derived/skill-plan-004.md
+  - id: skill-plan-005
+    title: "1入力多目的化によるコアメカニクスの再構築"
+    file: principles/derived/skill-plan-005.md
+  - id: skill-plan-006
+    title: "良質なおつかいクエストの5条件設計"
+    file: principles/derived/skill-plan-006.md
+  - id: skill-plan-007
+    title: "実践同期型インライン・チュートリアル"
+    file: principles/derived/skill-plan-007.md
+  - id: skill-plan-008
+    title: "プレイヤー行動への多層的賞賛・フィードバック設計"
+    file: principles/derived/skill-plan-008.md
+  - id: skill-plan-009
+    title: "入力無反応（ノーリアクション）の完全排除"
+    file: principles/derived/skill-plan-009.md
+  - id: skill-plan-010
+    title: "ゲームシナリオのゲームプレイ従属性（特異性の克服）"
+    file: principles/derived/skill-plan-010.md
+  - id: skill-plan-011
+    title: "観戦エンゲージメントのための肩入れ動機付け"
+    file: principles/derived/skill-plan-011.md
+  - id: skill-plan-012
+    title: "3D酔い（映像不一致）の工学的低減設計"
+    file: principles/derived/skill-plan-012.md
+  - id: skill-plan-013
+    title: "階層アウトラインによる仕様とアイデアの構造化"
+    file: principles/derived/skill-plan-013.md
+  - id: skill-plan-014
+    title: "対戦ゲームにおける非キャラ性能型見返り体系の構築"
+    file: principles/derived/skill-plan-014.md
+  - id: skill-plan-015
+    title: "企画プレゼンにおける「〜のような」既存作形容の自粛"
+    file: principles/derived/skill-plan-015.md
+  - id: skill-plan-016
+    title: "続編開発におけるシステム基盤継承と上乗せ投資の原則"
+    file: principles/derived/skill-plan-016.md
+  - id: skill-plan-017
+    title: "デファクトスタンダード（標準的操作・仕様）の積極的利用"
+    file: principles/derived/skill-plan-017.md
+  - id: skill-plan-018
+    title: "カスタマイズ画面における「結果の事前想像」支援設計"
+    file: principles/derived/skill-plan-018.md
+  - id: skill-plan-019
+    title: "オマージュ作品における「独自魅力の多重積載」義務"
+    file: principles/derived/skill-plan-019.md
+  - id: skill-plan-020
+    title: "共感尺度への変換によるスコア・リザルトの価値再定義"
+    file: principles/derived/skill-plan-020.md
+  - id: skill-plan-021
+    title: "極端なパラメータ尖鋭化と固有仕様によるキャラ立ち"
+    file: principles/derived/skill-plan-021.md
+  - id: skill-plan-022
+    title: "色覚多様性対応と白黒明度コントラスト検証"
+    file: principles/derived/skill-plan-022.md
+  - id: skill-plan-023
+    title: "人間らしい認知限界を模倣したCP（AI）思考ルーチン設計"
+    file: principles/derived/skill-plan-023.md
+  - id: skill-plan-024
+    title: "ゲーム内ムービーのスキップ保証とタイパ（時間対効果）最適化"
+    file: principles/derived/skill-plan-024.md
+  - id: skill-plan-025
+    title: "初心者導入における「手加減」の礼儀と敷居低減"
+    file: principles/derived/skill-plan-025.md
+  - id: sound-001
+    title: "ゲームの攻防速度・状況に応じたテンポ（BPM）設計"
+    file: principles/derived/sound-001.md
+  - id: sound-002
+    title: "プレイヤーとの影響度に基づく効果音プライオリティ階層化"
+    file: principles/derived/sound-002.md
+  - id: sound-003
+    title: "低スペック家庭用環境を基準としたマルチ環境サウンドチェック"
+    file: principles/derived/sound-003.md
+  - id: sound-004
+    title: "グラフィック密度に応じた環境音楽化とメインフレーズ活用"
+    file: principles/derived/sound-004.md
+  - id: sound-005
+    title: "アクションの手応えを増幅するフィクション音（ウソ）の調合"
+    file: principles/derived/sound-005.md
+  - id: sound-006
+    title: "プレイテンポを妨げないミニマルボイス設計と収録プロセスの確立"
+    file: principles/derived/sound-006.md
+  - id: sound-007
+    title: "原曲主旋律の同一性を堅持した対戦特化アレンジ設計"
+    file: principles/derived/sound-007.md
+  - id: sound-008
+    title: "音楽的見解より「原作ゲーム内での体験（原曲）」を正とする"
+    file: principles/derived/sound-008.md
+  - id: sound-009
+    title: "アタックの即時最大化と残響（ディケイ・リリース）の抑制"
+    file: principles/derived/sound-009.md
+  - id: sound-010
+    title: "主観的オノマトペを排除した客観的・機能的サウンド指示"
+    file: principles/derived/sound-010.md
+  - id: sound-011
+    title: "世界の解像度を上げる環境音（アンビエンス）のレイヤー設計"
+    file: principles/derived/sound-011.md
+  - id: sound-012
+    title: "既存曲リファレンス時の固執回避と変更要素の明確化"
+    file: principles/derived/sound-012.md
+  - id: sound-013
+    title: "制約下での音響アーキテクチャ理解と創意工夫の最大化"
+    file: principles/derived/sound-013.md
+  - id: sound-014
+    title: "「名作に音の悪いものなし」を信条とするゲーム全体験の牽引"
+    file: principles/derived/sound-014.md
+  - id: spec-001
+    title: "ヒットストップとイベント停止による手応えの付与"
+    file: principles/derived/spec-001.md
+  - id: spec-002
+    title: "物理ボタンへの『重さ・手触り』の錯視的付与"
+    file: principles/derived/spec-002.md
+  - id: spec-003
+    title: "非対称なジャンプ加速度と初速による操作性の最適化"
+    file: principles/derived/spec-003.md
+  - id: spec-004
+    title: "多層的ヒットストップ制御（微振動・判定保護・非対称性）"
+    file: principles/derived/spec-004.md
+  - id: spec-005
+    title: "注視点の動的オフセット（カメラ注視点をキャラに完全追従させない）"
+    file: principles/derived/spec-005.md
+  - id: spec-006
+    title: "遅さの徹底排除（待ち時間・硬直の最小化）"
+    file: principles/derived/spec-006.md
+  - id: spec-007
+    title: "空間スケールと速度単位の統一"
+    file: principles/derived/spec-007.md
+  - id: spec-008
+    title: "状況適応型のガケぎわ（エッジ）挙動設計"
+    file: principles/derived/spec-008.md
+  - id: spec-009
+    title: "メイン画面への情報統合（ミニマップ注視問題の回避）"
+    file: principles/derived/spec-009.md
+  - id: spec-010
+    title: "処理速度向上に伴う仕様・ゲームバランス変動の警戒"
+    file: principles/derived/spec-010.md
+  - id: spec-011
+    title: "『はじき入力』による感情と速度の実体化"
+    file: principles/derived/spec-011.md
+  - id: spec-012
+    title: "能動的実践型チュートリアル（How to Playの短縮と体得）"
+    file: principles/derived/spec-012.md
+  - id: spec-013
+    title: "彩りと逆転を生むランダム性の制御"
+    file: principles/derived/spec-013.md
+  - id: spec-014
+    title: "実力差を埋める動的ハンディキャップ（ハンデブースト）"
+    file: principles/derived/spec-014.md
+  - id: spec-015
+    title: "『平均と平凡は同じ』：尖った個性の維持と対称性の打破"
+    file: principles/derived/spec-015.md
+  - id: spec-016
+    title: "発売後アップデートへの健全な距離感と初頭完成度の追求"
+    file: principles/derived/spec-016.md
+  - id: spec-017
+    title: "素早い画面遷移と演出ワイプの最適化"
+    file: principles/derived/spec-017.md
+  - id: spec-018
+    title: "回転軸・重心のズラしによる『生きた手応え』の創出"
+    file: principles/derived/spec-018.md
+  - id: tech-debug-008
+    title: "開発効率を極大化する単一コントローラー完結型デバッグモードの構築"
+    file: principles/derived/tech-debug-008.md
+  - id: tech-doc-003
+    title: "口語文章＋隅付き括弧【】による仕様書・パラメーター1対1結合作法"
+    file: principles/derived/tech-doc-003.md
+  - id: tech-file-001
+    title: "ソート順と大分類を優先するアセット・ファイル命名規則"
+    file: principles/derived/tech-file-001.md
+  - id: tech-kb-005
+    title: "手触り（ゲームフィール）を評価するための最小物理・入力プロトタイピング"
+    file: principles/derived/tech-kb-005.md
+  - id: tech-kb-006
+    title: "ふっとばし・被弾リアクションの多層パラメーター分離設計"
+    file: principles/derived/tech-kb-006.md
+  - id: tech-param-002
+    title: "ロジック（骨）とパラメーター（筋肉）の完全分離および即時ホットリロード環境の構築"
+    file: principles/derived/tech-param-002.md
+  - id: tech-task-004
+    title: "チケット駆動による工程の可視化と非同期化（直列化の排除）"
+    file: principles/derived/tech-task-004.md
+  - id: tech-vcs-007
+    title: "多人数分散開発におけるファイル排他制御と「先祖返り」自動検知"
+    file: principles/derived/tech-vcs-007.md
+  - id: tech-vis-009
+    title: "パーツ別透過・レイヤー個別トグルによるモーション・視覚要素の検証機能"
+    file: principles/derived/tech-vis-009.md
+  - id: tm-001
+    title: "日報と『きょうの一枚』による日常的・視覚的な情報共有"
+    file: principles/derived/tm-001.md
+  - id: tm-002
+    title: "不満・違和感の即時表明と『ダメ出し＋改善案』のセット提示"
+    file: principles/derived/tm-002.md
+  - id: tm-003
+    title: "10人チームは7人分：組織拡大に伴う管理コストの織り込みと視座の引き上げ"
+    file: principles/derived/tm-003.md
+  - id: tm-004
+    title: "関係職種全員同席による監修と意図の全体共有"
+    file: principles/derived/tm-004.md
+  - id: tm-005
+    title: "天文学的組み合わせを前提としたチケット駆動・ランク別デバッグ体制"
+    file: principles/derived/tm-005.md
+  - id: tm-006
+    title: "監修依頼の即日返答とディレクターの『ノー監修集中タイム』確保"
+    file: principles/derived/tm-006.md
+  - id: tm-007
+    title: "議論を持ち帰らずその場で即決・即答する決断主義"
+    file: principles/derived/tm-007.md
+  - id: tm-008
+    title: "対戦バランス調整における専任モニター制と個性の維持"
+    file: principles/derived/tm-008.md
+  - id: tm-009
+    title: "ディレクターとプロデューサーの責務分離（品質と経営の牽制関係）"
+    file: principles/derived/tm-009.md
+  - id: tm-010
+    title: "ディレクターの本質は『切る仕事』：無駄の早期切除と軌道修正"
+    file: principles/derived/tm-010.md
+  - id: tm-011
+    title: "ターゲット層（子ども等）による先入観ゼロのモニター観察"
+    file: principles/derived/tm-011.md
+  - id: ui-001
+    title: "選択・決定操作の高速化とショートカット設計"
+    file: principles/derived/ui-001.md
+  - id: ui-002
+    title: "非プレイ時間の任意スキップ・ポーズの完全保証"
+    file: principles/derived/ui-002.md
+  - id: ui-003
+    title: "グラフィカルかつ安全なキーコンフィグの実装"
+    file: principles/derived/ui-003.md
+  - id: ui-004
+    title: "テキスト送り速度の主導権開放とセリフ頭出しスキップ"
+    file: principles/derived/ui-004.md
+  - id: ui-005
+    title: "メニュー項目の同語反復を排した客観的ヘルプ文"
+    file: principles/derived/ui-005.md
+  - id: ui-006
+    title: "非言語的理解を促すグラフィックUIとボタン連打導線"
+    file: principles/derived/ui-006.md
+  - id: ui-007
+    title: "プレイ状況と視認性に連動する動的HUD設計"
+    file: principles/derived/ui-007.md
+  - id: design-for-context
+    title: "Apply principles in project context"
+    file: principles/design-for-context.md
+  - id: make-onboarding-legible
+    title: "Teach through understandable early experiences"
+    file: principles/make-onboarding-legible.md
+  - id: make-work-visible
+    title: "Make progress and problems visible early"
+    file: principles/make-work-visible.md
+  - id: player-agency-and-tradeoffs
+    title: "Make meaningful choices carry legible tradeoffs"
+    file: principles/player-agency-and-tradeoffs.md
+  - id: player-first
+    title: "Player-first decisions"
+    file: principles/player-first.md
+  - id: preserve-core-concept
+    title: "Preserve the core concept"
+    file: principles/preserve-core-concept.md
   - id: promote-the-real-product
     title: "Communicate the shipped experience accurately"
-    file: promote-the-real-product.md
-    source_file: L-publicity.md
-
+    file: principles/promote-the-real-product.md
+  - id: protect-player-from-dev-constraints
+    title: "Keep development constraints out of the experience"
+    file: principles/protect-player-from-dev-constraints.md
+  - id: prototype-before-polish
+    title: "Validate the loop before investing in polish"
+    file: principles/prototype-before-polish.md
+  - id: rapid-prototyping
+    title: "Prototype uncertain interactions early"
+    file: principles/rapid-prototyping.md
+  - id: readability-before-decoration
+    title: "Protect gameplay readability"
+    file: principles/readability-before-decoration.md
+  - id: reduce-unnecessary-friction
+    title: "Remove friction that does not serve the experience"
+    file: principles/reduce-unnecessary-friction.md
+  - id: scope-and-cut-deliberately
+    title: "Manage scope deliberately"
+    file: principles/scope-and-cut-deliberately.md
+  - id: specify-for-shared-understanding
+    title: "Write specifications for implementation and review"
+    file: principles/specify-for-shared-understanding.md
+  - id: test-with-representative-players
+    title: "Use evidence from intended players"
+    file: principles/test-with-representative-players.md
