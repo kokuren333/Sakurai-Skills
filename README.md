@@ -4,9 +4,9 @@
 
 Task-oriented agent Skills for game design, implementation planning, review, production, and presentation. The repository converts user-provided intermediate notes from Masahiro Sakurai's public game-development video series into a provenance-aware knowledge base and practical review workflows.
 
-This project does not impersonate Sakurai or claim to speak on his behalf. Its reference material is Masahiro Sakurai's [YouTube channel](https://www.youtube.com/@sora_sakurai_jp), specifically all non-chat/"雑談" summary videos in the [summary-video playlist](https://www.youtube.com/playlist?list=PLi8SA3sbzYVQb8vloj23961McKcnihGVx). Gemini was asked to refer to those videos before the supplied structured notes were prepared for this repository.
+This project does not impersonate Sakurai or claim to speak on his behalf. Its reference material is Masahiro Sakurai's [YouTube channel](https://www.youtube.com/@sora_sakurai_jp), specifically all non-chat/"雑談" summary videos in the [summary-video playlist](https://www.youtube.com/playlist?list=PLi8SA3sbzYVQb8vloj23961McKcnihGVx). Gemini referred to those videos when preparing the structured notes used by this repository.
 
-The repository's supplied files are AI Studio structured notes, not verified transcripts or direct video captures. The README documents the full intended playlist scope; it does not claim that each note has been independently checked against its video. All SOURCE fields remain secondary summaries until verified against the original video.
+The repository contains AI Studio structured notes, not verified transcripts or direct video captures. Each SOURCE field is a secondary summary and has not been independently checked against its video.
 
 ## Philosophy and provenance layers
 
@@ -20,7 +20,7 @@ Use principles as contextual decision aids. Choose them based on player, genre, 
 
 ## Candidate-to-principle pipeline
 
-Fourteen original input files are preserved under `sources/raw/` and indexed with hashes in `sources/index.yaml`. The 13 knowledge documents contain **177 structured candidate IDs**. An earlier index showed 129 because its identifier pattern omitted several ID formats and three source categories; the index has been corrected from the raw files.
+Fourteen source files are preserved under `sources/raw/` and indexed with hashes in `sources/index.yaml`. The 13 knowledge documents contain **177 structured candidate IDs**.
 
 Every candidate has a disposition and canonical target in `sources/candidate-mapping.yaml`; detailed extracted records are in `principles/catalog.json`, and readable records are under `principles/derived/`. The mapping retains source IDs and titles, states what was kept/discarded, and records fidelity confidence. Seventeen cross-cutting principles remain as higher-level synthesis records. The index therefore contains 194 records in total. Coverage totals and category counts are in `reports/candidate-coverage.md`.
 
@@ -43,33 +43,30 @@ Every candidate has a disposition and canonical target in `sources/candidate-map
 
 Raw video categories are provenance labels. Semantic clusters such as gameplay, UI, audio, team, and technical implementation route knowledge to the relevant task Skill.
 
-## Skills
+## Quick start
 
-`sakurai-game-dev` is the router and `sakurai-review` is the integrated review. Domain Skills cover:
+1. Make both the game project and this repository available to your agent. Keep this repository accessible so the Skills can open their linked principles and checklists.
+2. Start the request with `skills/sakurai-game-dev/SKILL.md`. It routes a focused task to the relevant domain Skill and knowledge records.
+3. For a broad whole-game review, ask the agent to use `skills/sakurai-review/SKILL.md`.
+4. Tell the agent what to inspect and what it cannot access. Ask it to separate confirmed evidence from assumptions and items that need a build or playtest.
 
-- concept and core-loop design
-- gameplay, controls, difficulty, and level flow
-- prototype and onboarding review
-- UI/UX and game feel
-- graphics readability, animation, camera/effects, and audio
-- specification, production, team direction, and scope
-- polish, performance, and marketing/presentation
+Include these details in your request when they matter:
 
-See each directory's `SKILL.md` for use conditions, inputs, evidence limits, procedure, relevant knowledge, and output.
+- **Task:** the decision, feature, or problem to review.
+- **Game context:** genre, target players, platform, and development phase.
+- **Evidence:** relevant files, screenshots, playtest notes, or build access.
+- **Constraints:** deadlines, team size, performance targets, accessibility needs, or scope.
+- **Deliverable:** desired format and level of detail.
 
-## Example use
+Copy and adapt this prompt:
 
-1. Make the game repository and this repository available to the agent.
-2. Start with `skills/sakurai-game-dev/SKILL.md` and state the review scope.
-3. The router selects a small number of task Skills and matching catalog records.
-4. For a whole-game pass, use `skills/sakurai-review/SKILL.md`.
-5. Expect findings to name evidence, source layer, context, tradeoffs, strengths, and a useful verification or experiment.
+> Use `skills/sakurai-game-dev/SKILL.md` to review **[feature or question]** in **[game/project]**. It is a **[genre]** for **[target players]** on **[platform]**, currently in **[development phase]**. Inspect **[files, build, screenshots, or playtest notes]**. The constraints are **[constraints]**. Return prioritized findings with evidence, context, tradeoffs, strengths, and a verification step for anything that cannot be confirmed from the supplied material.
 
-Example: “Review the jump in this beginner mobile platformer. Inspect controller code and the supplied playtest notes; tell me what requires build verification.” The agent should not claim jump feel from code alone.
+Example: “Use the router Skill to review the jump in my beginner mobile platformer. Inspect the controller code and playtest notes. Identify likely issues, but mark anything about timing or feel that needs a build test.”
 
-## Installation and agent integration
+The Skills cover concept and core-loop design; gameplay, controls, difficulty, and level flow; prototype and onboarding; UI/UX and game feel; graphics readability, animation, camera/effects, and audio; specification, production, team direction, and scope; polish, performance, and marketing/presentation. Each Skill's `SKILL.md` explains when to use it, what evidence to gather, its review steps, and its output format.
 
-Copy `skills/` to the agent's configured Skills directory, or expose this repository as read-only project context. Keep `principles/catalog.json`, the graph, and source links reachable when using the Skills. The Markdown format is portable across Codex, Claude Code, Gemini CLI, and similar agents; exact discovery paths vary by host agent.
+To install for an agent, copy `skills/` into that agent's Skills directory, or make this repository available as read-only context. Keep the full repository available when possible: task Skills link to principles, checklists, workflows, and source notes. Discovery locations vary by agent; if automatic discovery is unavailable, ask the agent to read the router Skill path above explicitly.
 
 ## Validation and contributing
 
