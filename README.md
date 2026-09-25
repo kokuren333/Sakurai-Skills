@@ -1,8 +1,12 @@
 # Sakurai-Skills
 
+**Language:** English | [日本語](README.ja.md)
+
 Task-oriented agent Skills for game design, implementation planning, review, production, and presentation. The repository converts user-provided intermediate notes from Masahiro Sakurai's public game-development video series into a provenance-aware knowledge base and practical review workflows.
 
-This project does not impersonate Sakurai or claim to speak on his behalf. The supplied files are AI Studio structured notes, not verified transcripts. All SOURCE fields are secondary summaries until checked against an original video.
+This project does not impersonate Sakurai or claim to speak on his behalf. Its reference material is Masahiro Sakurai's [YouTube channel](https://www.youtube.com/@sora_sakurai_jp), specifically all non-chat/"雑談" summary videos in the [summary-video playlist](https://www.youtube.com/playlist?list=PLi8SA3sbzYVQb8vloj23961McKcnihGVx). Gemini was asked to refer to those videos before the supplied structured notes were prepared for this repository.
+
+The repository's supplied files are AI Studio structured notes, not verified transcripts or direct video captures. The README documents the full intended playlist scope; it does not claim that each note has been independently checked against its video. All SOURCE fields remain secondary summaries until verified against the original video.
 
 ## Philosophy and provenance layers
 
@@ -73,7 +77,7 @@ Run `scripts/build-candidate-catalog.ps1` after changing structured raw sources,
 
 ## Limitations
 
-- Original video URLs and transcripts were not part of the supplied inputs. Exact quotation, episode timestamps, and source fidelity require video-level verification.
+- The channel and playlist are linked above, but per-claim video URLs, episode timestamps, and transcripts were not included with the supplied notes. Exact quotation and source fidelity require video-level verification.
 - Some candidate fields are richer than others; missing explicit-source detail is marked low confidence rather than reconstructed as a quote.
 - Context/E2E fixtures exercise router expectations and evidence discipline using fictional inputs. They do not test game behavior or prove the recommendations improve a commercial product.
 - YAML cross-reference checks use repository-specific structural validation; the validator checks JSON schemas parse and catalog contract fields, but is not a full general-purpose JSON Schema/YAML engine.
