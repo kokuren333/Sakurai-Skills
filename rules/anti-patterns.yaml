@@ -1,0 +1,20 @@
+version: 1
+anti_patterns:
+  - id: universal-rule-application
+    description: Applying a design heuristic without checking genre, intended player, phase, constraints, and evidence.
+    countermeasure: State context and exceptions; select only relevant principles.
+  - id: source-agent-conflation
+    description: Presenting generalized or agent-authored interpretation as a direct Sakurai statement.
+    countermeasure: Label SOURCE, GENERALIZED, and AGENT separately; verify quotations against original video.
+  - id: polish-before-learning
+    description: Scaling content or presentation before testing the uncertain core interaction.
+    countermeasure: Identify the uncertainty and choose the cheapest informative experiment.
+  - id: friction-is-always-bad
+    description: Removing pauses, instruction, or repetition even when they support comprehension, safety, suspense, or meaningful choice.
+    countermeasure: Establish the player-facing purpose before changing pacing.
+  - id: consensus-as-evidence
+    description: Treating team agreement or a small convenience sample as proof of player value.
+    countermeasure: Separate observed behavior from interpretation and collect relevant evidence.
+  - id: creative-rule-overreach
+    description: Applying a creative heuristic to security, backup, rollback, accessibility, compliance, or platform obligations.
+    countermeasure: Keep those requirements explicit and review them on their own terms.

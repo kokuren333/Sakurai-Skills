@@ -1,0 +1,14 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://example.invalid/sakurai-skills/principle.schema.json",
+  "title": "Canonical principle record front matter",
+  "type": "object",
+  "required": ["id", "title", "source_file"],
+  "properties": {
+    "id": {"type": "string", "pattern": "^[a-z0-9-]+$"},
+    "title": {"type": "string", "minLength": 1},
+    "source_file": {"type": "string", "minLength": 1},
+    "source_category": {"type": "string"}
+  },
+  "additionalProperties": false
+}

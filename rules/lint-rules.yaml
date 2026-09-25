@@ -1,0 +1,23 @@
+version: 1
+heuristics:
+  - id: UX-FRICTION
+    principle: reduce-unnecessary-friction
+    detect: [repeated_confirmations, unskippable_nonessential_wait, unexplained_manual_repetition]
+    default: review
+    note: Check for comprehension, suspense, safety, or accessibility purpose before recommending removal.
+  - id: FEEDBACK-LEGIBILITY
+    principle: communicate-through-feedback
+    detect: [action_result_unclear, overlapping_high_priority_signals, feedback_misaligned_with_event]
+    default: review
+  - id: PRESENTATION-OCCLUSION
+    principle: readability-before-decoration
+    detect: [player_or_target_obscured, important_state_hidden_by_effects, low_contrast_gameplay_signal]
+    default: review
+  - id: SPEC-TESTABILITY
+    principle: specify-for-shared-understanding
+    detect: [ambiguous_acceptance_behavior, missing_owner_or_dependency, parameter_without_units_or_range]
+    default: review
+  - id: PROMO-CLAIM
+    principle: promote-the-real-product
+    detect: [feature_claim_without_release_evidence, footage_not_matching_current_build]
+    default: verify

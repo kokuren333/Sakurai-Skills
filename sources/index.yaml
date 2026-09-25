@@ -1,0 +1,73 @@
+version: 1
+provenance_note: User-provided pasted text preserved; repository brief is instruction, not evidence of Sakurai statements.
+sources:
+  - id: SRC-01
+    title: "Repository completion brief"
+    file: raw/00-repository-completion-brief.md
+    bytes: 21320
+    sha256: b9151f5718a563c99de7a3ba72cff3ad88b5c81f4fed07f6c06c48d043be1db0
+  - id: SRC-02
+    title: "A: Work attitude"
+    file: raw/A-work-attitude.md
+    bytes: 121889
+    sha256: bba973021c859b848961e5bdf8fddd56c349c67a7502b801751a158cbaf4100e
+  - id: SRC-03
+    title: "B: Game essence"
+    file: raw/B-game-essence.md
+    bytes: 70216
+    sha256: 89b3e0f78af70b7dc7b90b12d36fcfd40c38ca5c017b730fbd9363e396e489d7
+  - id: SRC-04
+    title: "C: Planning and design"
+    file: raw/C-planning-design.md
+    bytes: 124153
+    sha256: 23233a630e381c1533f8100f6f80ed412d55febd6e2d8d54dbc2342c86d0ac7a
+  - id: SRC-05
+    title: "D: Specification"
+    file: raw/D-specification.md
+    bytes: 60496
+    sha256: e996bfb0b56a68640a39933d3a6deb4b993b139e8e551be40febb6faa5c7b0ce
+  - id: SRC-06
+    title: "E: Team management"
+    file: raw/E-team-management.md
+    bytes: 63056
+    sha256: bb8eb1b0e904fc952a69289d75850e35b8e44201946b1ba19959b556360f84ac
+  - id: SRC-07
+    title: "F: Graphics"
+    file: raw/F-graphics.md
+    bytes: 78190
+    sha256: 8157d6cc715d6aa3ecd3f1543c53f496191f88e6ec0fb013dcfbc004c01eb97e
+  - id: SRC-08
+    title: "G: Motion"
+    file: raw/G-motion.md
+    bytes: 71866
+    sha256: 454879c3d36dd81bc40a1e35acc5005161ba42f2dce9bb2c8ed2ec84b4e77f19
+  - id: SRC-09
+    title: "H: Effects"
+    file: raw/H-effects.md
+    bytes: 73875
+    sha256: 29db13a0235bab4f30ca4a659b54a12c2734e0cff1f62bc9690bd52d96d04c9d
+  - id: SRC-10
+    title: "I: Sound"
+    file: raw/I-sound.md
+    bytes: 70424
+    sha256: 024d6f2f7869b7d348ed42042fbb7c11e47032fbdf0b31ada529bb418f4eee7f
+  - id: SRC-11
+    title: "J: UI"
+    file: raw/J-ui.md
+    bytes: 47831
+    sha256: e5072e79933c9676361c28f4ad33e92e601126da89ba0bd392177e3d85f45c28
+  - id: SRC-12
+    title: "K: Programming and technical"
+    file: raw/K-programming-technical.md
+    bytes: 59755
+    sha256: bff1f8a6a522fc20bd3ccad307aea89f94ac66bd946522094de62829b8a8a9c5
+  - id: SRC-13
+    title: "L: Publicity"
+    file: raw/L-publicity.md
+    bytes: 51821
+    sha256: dd2c422d9104522a549eb11d573b86255c3b837a67b15265e92111d14dd92ab9
+  - id: SRC-14
+    title: "Planning concepts"
+    file: raw/planning-concepts.md
+    bytes: 75043
+    sha256: 9fa4802b8864f9fe5b910b17bc2eff3fb5e2ad38b48a43c102914b0ee8da53e4

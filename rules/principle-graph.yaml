@@ -1,0 +1,21 @@
+version: 1
+clusters:
+  player_centered_design:
+    children: [player-first, protect-player-from-dev-constraints, reduce-unnecessary-friction, make-onboarding-legible]
+  creative_direction:
+    children: [preserve-core-concept, design-for-context, scope-and-cut-deliberately]
+  evidence_led_iteration:
+    children: [rapid-prototyping, prototype-before-polish, test-with-representative-players]
+  readable_feedback:
+    children: [communicate-through-feedback, readability-before-decoration, coordinate-audio-visual-priority]
+  production_clarity:
+    children: [specify-for-shared-understanding, make-work-visible, scope-and-cut-deliberately]
+tensions:
+  - principles: [preserve-core-concept, test-with-representative-players]
+    context: Keep direction stable while evidence supports it; revise when relevant evidence challenges the premise.
+  - principles: [reduce-unnecessary-friction, make-onboarding-legible]
+    context: Remove needless delays while preserving time needed for comprehension, suspense, or meaningful choice.
+  - principles: [prototype-before-polish, readability-before-decoration]
+    context: Prototype cheaply; invest in presentation when it is part of the core hypothesis.
+  - principles: [rapid-prototyping, specify-for-shared-understanding]
+    context: Prototype uncertain behavior first; specify stable behavior and interfaces before parallel implementation.

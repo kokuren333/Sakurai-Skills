@@ -1,0 +1,15 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://example.invalid/sakurai-skills/source.schema.json",
+  "title": "Source inventory entry",
+  "type": "object",
+  "required": ["id", "title", "file"],
+  "properties": {
+    "id": {"type": "string"},
+    "title": {"type": "string"},
+    "file": {"type": "string"},
+    "bytes": {"type": "integer", "minimum": 0},
+    "sha256": {"type": "string", "pattern": "^[a-f0-9]{64}$"}
+  },
+  "additionalProperties": false
+}

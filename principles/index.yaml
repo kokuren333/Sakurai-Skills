@@ -1,0 +1,87 @@
+version: 1
+records:
+  - id: player-first
+    title: "Player-first decisions"
+    file: player-first.md
+    source_file: A-work-attitude.md
+
+  - id: protect-player-from-dev-constraints
+    title: "Keep development constraints out of the experience"
+    file: protect-player-from-dev-constraints.md
+    source_file: A-work-attitude.md
+
+  - id: preserve-core-concept
+    title: "Preserve the core concept"
+    file: preserve-core-concept.md
+    source_file: A-work-attitude.md
+
+  - id: rapid-prototyping
+    title: "Prototype uncertain interactions early"
+    file: rapid-prototyping.md
+    source_file: K-programming-technical.md
+
+  - id: player-agency-and-tradeoffs
+    title: "Make meaningful choices carry legible tradeoffs"
+    file: player-agency-and-tradeoffs.md
+    source_file: B-game-essence.md
+
+  - id: reduce-unnecessary-friction
+    title: "Remove friction that does not serve the experience"
+    file: reduce-unnecessary-friction.md
+    source_file: J-ui.md
+
+  - id: communicate-through-feedback
+    title: "Make action results readable through feedback"
+    file: communicate-through-feedback.md
+    source_file: D-specification.md
+
+  - id: readability-before-decoration
+    title: "Protect gameplay readability"
+    file: readability-before-decoration.md
+    source_file: F-graphics.md
+
+  - id: prototype-before-polish
+    title: "Validate the loop before investing in polish"
+    file: prototype-before-polish.md
+    source_file: C-planning-design.md
+
+  - id: specify-for-shared-understanding
+    title: "Write specifications for implementation and review"
+    file: specify-for-shared-understanding.md
+    source_file: D-specification.md
+
+  - id: make-work-visible
+    title: "Make progress and problems visible early"
+    file: make-work-visible.md
+    source_file: E-team-management.md
+
+  - id: test-with-representative-players
+    title: "Use evidence from intended players"
+    file: test-with-representative-players.md
+    source_file: C-planning-design.md
+
+  - id: design-for-context
+    title: "Apply principles in project context"
+    file: design-for-context.md
+    source_file: 00-repository-completion-brief.md
+
+  - id: scope-and-cut-deliberately
+    title: "Manage scope deliberately"
+    file: scope-and-cut-deliberately.md
+    source_file: E-team-management.md
+
+  - id: make-onboarding-legible
+    title: "Teach through understandable early experiences"
+    file: make-onboarding-legible.md
+    source_file: C-planning-design.md
+
+  - id: coordinate-audio-visual-priority
+    title: "Coordinate sensory channels by gameplay priority"
+    file: coordinate-audio-visual-priority.md
+    source_file: I-sound.md
+
+  - id: promote-the-real-product
+    title: "Communicate the shipped experience accurately"
+    file: promote-the-real-product.md
+    source_file: L-publicity.md
+

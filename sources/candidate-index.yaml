@@ -1,0 +1,390 @@
+version: 1
+note: Candidate identifiers are preserved as found in intermediate notes; identifiers are not canonical Skill IDs. Canonical coverage is incomplete.
+candidates:
+  - id: "SKILL-PLAN-001"
+    source_file: raw/C-planning-design.md
+    canonical_status: not_individually_normalized
+  - id: "SKILL-PLAN-002"
+    source_file: raw/C-planning-design.md
+    canonical_status: not_individually_normalized
+  - id: "SKILL-PLAN-003"
+    source_file: raw/C-planning-design.md
+    canonical_status: not_individually_normalized
+  - id: "SKILL-PLAN-004"
+    source_file: raw/C-planning-design.md
+    canonical_status: not_individually_normalized
+  - id: "SKILL-PLAN-005"
+    source_file: raw/C-planning-design.md
+    canonical_status: not_individually_normalized
+  - id: "SKILL-PLAN-006"
+    source_file: raw/C-planning-design.md
+    canonical_status: not_individually_normalized
+  - id: "SKILL-PLAN-007"
+    source_file: raw/C-planning-design.md
+    canonical_status: not_individually_normalized
+  - id: "SKILL-PLAN-008"
+    source_file: raw/C-planning-design.md
+    canonical_status: not_individually_normalized
+  - id: "SKILL-PLAN-009"
+    source_file: raw/C-planning-design.md
+    canonical_status: not_individually_normalized
+  - id: "SKILL-PLAN-010"
+    source_file: raw/C-planning-design.md
+    canonical_status: not_individually_normalized
+  - id: "SKILL-PLAN-011"
+    source_file: raw/C-planning-design.md
+    canonical_status: not_individually_normalized
+  - id: "SKILL-PLAN-012"
+    source_file: raw/C-planning-design.md
+    canonical_status: not_individually_normalized
+  - id: "SKILL-PLAN-013"
+    source_file: raw/C-planning-design.md
+    canonical_status: not_individually_normalized
+  - id: "SKILL-PLAN-014"
+    source_file: raw/C-planning-design.md
+    canonical_status: not_individually_normalized
+  - id: "SKILL-PLAN-015"
+    source_file: raw/C-planning-design.md
+    canonical_status: not_individually_normalized
+  - id: "SKILL-PLAN-016"
+    source_file: raw/C-planning-design.md
+    canonical_status: not_individually_normalized
+  - id: "SKILL-PLAN-017"
+    source_file: raw/C-planning-design.md
+    canonical_status: not_individually_normalized
+  - id: "SKILL-PLAN-018"
+    source_file: raw/C-planning-design.md
+    canonical_status: not_individually_normalized
+  - id: "SKILL-PLAN-019"
+    source_file: raw/C-planning-design.md
+    canonical_status: not_individually_normalized
+  - id: "SKILL-PLAN-020"
+    source_file: raw/C-planning-design.md
+    canonical_status: not_individually_normalized
+  - id: "SKILL-PLAN-021"
+    source_file: raw/C-planning-design.md
+    canonical_status: not_individually_normalized
+  - id: "SKILL-PLAN-022"
+    source_file: raw/C-planning-design.md
+    canonical_status: not_individually_normalized
+  - id: "SKILL-PLAN-023"
+    source_file: raw/C-planning-design.md
+    canonical_status: not_individually_normalized
+  - id: "SKILL-PLAN-024"
+    source_file: raw/C-planning-design.md
+    canonical_status: not_individually_normalized
+  - id: "SKILL-PLAN-025"
+    source_file: raw/C-planning-design.md
+    canonical_status: not_individually_normalized
+  - id: "SPEC-001"
+    source_file: raw/D-specification.md
+    canonical_status: not_individually_normalized
+  - id: "SPEC-002"
+    source_file: raw/D-specification.md
+    canonical_status: not_individually_normalized
+  - id: "SPEC-003"
+    source_file: raw/D-specification.md
+    canonical_status: not_individually_normalized
+  - id: "SPEC-004"
+    source_file: raw/D-specification.md
+    canonical_status: not_individually_normalized
+  - id: "SPEC-005"
+    source_file: raw/D-specification.md
+    canonical_status: not_individually_normalized
+  - id: "SPEC-006"
+    source_file: raw/D-specification.md
+    canonical_status: not_individually_normalized
+  - id: "SPEC-007"
+    source_file: raw/D-specification.md
+    canonical_status: not_individually_normalized
+  - id: "SPEC-008"
+    source_file: raw/D-specification.md
+    canonical_status: not_individually_normalized
+  - id: "SPEC-009"
+    source_file: raw/D-specification.md
+    canonical_status: not_individually_normalized
+  - id: "SPEC-010"
+    source_file: raw/D-specification.md
+    canonical_status: not_individually_normalized
+  - id: "SPEC-011"
+    source_file: raw/D-specification.md
+    canonical_status: not_individually_normalized
+  - id: "SPEC-012"
+    source_file: raw/D-specification.md
+    canonical_status: not_individually_normalized
+  - id: "SPEC-013"
+    source_file: raw/D-specification.md
+    canonical_status: not_individually_normalized
+  - id: "SPEC-014"
+    source_file: raw/D-specification.md
+    canonical_status: not_individually_normalized
+  - id: "SPEC-015"
+    source_file: raw/D-specification.md
+    canonical_status: not_individually_normalized
+  - id: "SPEC-016"
+    source_file: raw/D-specification.md
+    canonical_status: not_individually_normalized
+  - id: "SPEC-017"
+    source_file: raw/D-specification.md
+    canonical_status: not_individually_normalized
+  - id: "SPEC-018"
+    source_file: raw/D-specification.md
+    canonical_status: not_individually_normalized
+  - id: "TM-001"
+    source_file: raw/E-team-management.md
+    canonical_status: not_individually_normalized
+  - id: "TM-002"
+    source_file: raw/E-team-management.md
+    canonical_status: not_individually_normalized
+  - id: "TM-003"
+    source_file: raw/E-team-management.md
+    canonical_status: not_individually_normalized
+  - id: "TM-004"
+    source_file: raw/E-team-management.md
+    canonical_status: not_individually_normalized
+  - id: "TM-005"
+    source_file: raw/E-team-management.md
+    canonical_status: not_individually_normalized
+  - id: "TM-006"
+    source_file: raw/E-team-management.md
+    canonical_status: not_individually_normalized
+  - id: "TM-007"
+    source_file: raw/E-team-management.md
+    canonical_status: not_individually_normalized
+  - id: "TM-008"
+    source_file: raw/E-team-management.md
+    canonical_status: not_individually_normalized
+  - id: "TM-009"
+    source_file: raw/E-team-management.md
+    canonical_status: not_individually_normalized
+  - id: "TM-010"
+    source_file: raw/E-team-management.md
+    canonical_status: not_individually_normalized
+  - id: "TM-011"
+    source_file: raw/E-team-management.md
+    canonical_status: not_individually_normalized
+  - id: "SKILL-GFX-001"
+    source_file: raw/F-graphics.md
+    canonical_status: not_individually_normalized
+  - id: "SKILL-GFX-002"
+    source_file: raw/F-graphics.md
+    canonical_status: not_individually_normalized
+  - id: "SKILL-GFX-003"
+    source_file: raw/F-graphics.md
+    canonical_status: not_individually_normalized
+  - id: "SKILL-GFX-004"
+    source_file: raw/F-graphics.md
+    canonical_status: not_individually_normalized
+  - id: "SKILL-GFX-005"
+    source_file: raw/F-graphics.md
+    canonical_status: not_individually_normalized
+  - id: "SKILL-GFX-006"
+    source_file: raw/F-graphics.md
+    canonical_status: not_individually_normalized
+  - id: "SKILL-GFX-007"
+    source_file: raw/F-graphics.md
+    canonical_status: not_individually_normalized
+  - id: "SKILL-GFX-008"
+    source_file: raw/F-graphics.md
+    canonical_status: not_individually_normalized
+  - id: "SKILL-GFX-009"
+    source_file: raw/F-graphics.md
+    canonical_status: not_individually_normalized
+  - id: "SKILL-GFX-010"
+    source_file: raw/F-graphics.md
+    canonical_status: not_individually_normalized
+  - id: "SKILL-GFX-011"
+    source_file: raw/F-graphics.md
+    canonical_status: not_individually_normalized
+  - id: "SKILL-GFX-012"
+    source_file: raw/F-graphics.md
+    canonical_status: not_individually_normalized
+  - id: "SKILL-GFX-013"
+    source_file: raw/F-graphics.md
+    canonical_status: not_individually_normalized
+  - id: "SKILL-GFX-014"
+    source_file: raw/F-graphics.md
+    canonical_status: not_individually_normalized
+  - id: "SKILL-MOT-001"
+    source_file: raw/G-motion.md
+    canonical_status: not_individually_normalized
+  - id: "SKILL-MOT-002"
+    source_file: raw/G-motion.md
+    canonical_status: not_individually_normalized
+  - id: "SKILL-MOT-003"
+    source_file: raw/G-motion.md
+    canonical_status: not_individually_normalized
+  - id: "SKILL-MOT-004"
+    source_file: raw/G-motion.md
+    canonical_status: not_individually_normalized
+  - id: "SKILL-MOT-005"
+    source_file: raw/G-motion.md
+    canonical_status: not_individually_normalized
+  - id: "SKILL-MOT-006"
+    source_file: raw/G-motion.md
+    canonical_status: not_individually_normalized
+  - id: "SKILL-MOT-007"
+    source_file: raw/G-motion.md
+    canonical_status: not_individually_normalized
+  - id: "SKILL-MOT-008"
+    source_file: raw/G-motion.md
+    canonical_status: not_individually_normalized
+  - id: "SKILL-MOT-009"
+    source_file: raw/G-motion.md
+    canonical_status: not_individually_normalized
+  - id: "SKILL-MOT-010"
+    source_file: raw/G-motion.md
+    canonical_status: not_individually_normalized
+  - id: "SKILL-MOT-011"
+    source_file: raw/G-motion.md
+    canonical_status: not_individually_normalized
+  - id: "SKILL-MOT-012"
+    source_file: raw/G-motion.md
+    canonical_status: not_individually_normalized
+  - id: "FX-001"
+    source_file: raw/H-effects.md
+    canonical_status: not_individually_normalized
+  - id: "FX-002"
+    source_file: raw/H-effects.md
+    canonical_status: not_individually_normalized
+  - id: "FX-003"
+    source_file: raw/H-effects.md
+    canonical_status: not_individually_normalized
+  - id: "FX-004"
+    source_file: raw/H-effects.md
+    canonical_status: not_individually_normalized
+  - id: "FX-005"
+    source_file: raw/H-effects.md
+    canonical_status: not_individually_normalized
+  - id: "FX-006"
+    source_file: raw/H-effects.md
+    canonical_status: not_individually_normalized
+  - id: "FX-007"
+    source_file: raw/H-effects.md
+    canonical_status: not_individually_normalized
+  - id: "FX-008"
+    source_file: raw/H-effects.md
+    canonical_status: not_individually_normalized
+  - id: "FX-009"
+    source_file: raw/H-effects.md
+    canonical_status: not_individually_normalized
+  - id: "FX-010"
+    source_file: raw/H-effects.md
+    canonical_status: not_individually_normalized
+  - id: "SOUND-001"
+    source_file: raw/I-sound.md
+    canonical_status: not_individually_normalized
+  - id: "SOUND-002"
+    source_file: raw/I-sound.md
+    canonical_status: not_individually_normalized
+  - id: "SOUND-003"
+    source_file: raw/I-sound.md
+    canonical_status: not_individually_normalized
+  - id: "SOUND-004"
+    source_file: raw/I-sound.md
+    canonical_status: not_individually_normalized
+  - id: "SOUND-005"
+    source_file: raw/I-sound.md
+    canonical_status: not_individually_normalized
+  - id: "SOUND-006"
+    source_file: raw/I-sound.md
+    canonical_status: not_individually_normalized
+  - id: "SOUND-007"
+    source_file: raw/I-sound.md
+    canonical_status: not_individually_normalized
+  - id: "SOUND-008"
+    source_file: raw/I-sound.md
+    canonical_status: not_individually_normalized
+  - id: "SOUND-009"
+    source_file: raw/I-sound.md
+    canonical_status: not_individually_normalized
+  - id: "SOUND-010"
+    source_file: raw/I-sound.md
+    canonical_status: not_individually_normalized
+  - id: "SOUND-011"
+    source_file: raw/I-sound.md
+    canonical_status: not_individually_normalized
+  - id: "SOUND-012"
+    source_file: raw/I-sound.md
+    canonical_status: not_individually_normalized
+  - id: "SOUND-013"
+    source_file: raw/I-sound.md
+    canonical_status: not_individually_normalized
+  - id: "SOUND-014"
+    source_file: raw/I-sound.md
+    canonical_status: not_individually_normalized
+  - id: "UI-001"
+    source_file: raw/J-ui.md
+    canonical_status: not_individually_normalized
+  - id: "UI-002"
+    source_file: raw/J-ui.md
+    canonical_status: not_individually_normalized
+  - id: "UI-003"
+    source_file: raw/J-ui.md
+    canonical_status: not_individually_normalized
+  - id: "UI-004"
+    source_file: raw/J-ui.md
+    canonical_status: not_individually_normalized
+  - id: "UI-005"
+    source_file: raw/J-ui.md
+    canonical_status: not_individually_normalized
+  - id: "UI-006"
+    source_file: raw/J-ui.md
+    canonical_status: not_individually_normalized
+  - id: "UI-007"
+    source_file: raw/J-ui.md
+    canonical_status: not_individually_normalized
+  - id: "DEBUG-008"
+    source_file: raw/K-programming-technical.md
+    canonical_status: not_individually_normalized
+  - id: "DOC-003"
+    source_file: raw/K-programming-technical.md
+    canonical_status: not_individually_normalized
+  - id: "FILE-001"
+    source_file: raw/K-programming-technical.md
+    canonical_status: not_individually_normalized
+  - id: "KB-005"
+    source_file: raw/K-programming-technical.md
+    canonical_status: not_individually_normalized
+  - id: "KB-006"
+    source_file: raw/K-programming-technical.md
+    canonical_status: not_individually_normalized
+  - id: "PARAM-002"
+    source_file: raw/K-programming-technical.md
+    canonical_status: not_individually_normalized
+  - id: "TASK-004"
+    source_file: raw/K-programming-technical.md
+    canonical_status: not_individually_normalized
+  - id: "VCS-007"
+    source_file: raw/K-programming-technical.md
+    canonical_status: not_individually_normalized
+  - id: "VIS-009"
+    source_file: raw/K-programming-technical.md
+    canonical_status: not_individually_normalized
+  - id: "PR-001"
+    source_file: raw/L-publicity.md
+    canonical_status: not_individually_normalized
+  - id: "PR-002"
+    source_file: raw/L-publicity.md
+    canonical_status: not_individually_normalized
+  - id: "PR-003"
+    source_file: raw/L-publicity.md
+    canonical_status: not_individually_normalized
+  - id: "PR-004"
+    source_file: raw/L-publicity.md
+    canonical_status: not_individually_normalized
+  - id: "PR-005"
+    source_file: raw/L-publicity.md
+    canonical_status: not_individually_normalized
+  - id: "PR-006"
+    source_file: raw/L-publicity.md
+    canonical_status: not_individually_normalized
+  - id: "PR-007"
+    source_file: raw/L-publicity.md
+    canonical_status: not_individually_normalized
+  - id: "PR-008"
+    source_file: raw/L-publicity.md
+    canonical_status: not_individually_normalized
+  - id: "PR-009"
+    source_file: raw/L-publicity.md
+    canonical_status: not_individually_normalized
